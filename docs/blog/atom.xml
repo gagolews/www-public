@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-01-31T08:13:34.733570+00:00</updated>
+  <updated>2022-02-04T07:59:44.273039+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -173,5 +173,27 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <link href="https://www.gagolewski.com/_news/20211008-homepage-rewrite.html" rel="alternate"/>
     <summary>My website is now generated with Sphinx.</summary>
     <published>2021-10-08T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220204-fsta-plenary.html</id>
+    <title>Invited Lecture at FSTA 2022</title>
+    <updated>2022-02-04T00:00:00+11:00</updated>
+    <content type="html">&lt;p&gt;I’m giving (online…) an invited lecture at &lt;a class="reference external" href="http://www.fsta.sk/index.html"&gt;FSTA 2022&lt;/a&gt;
+today entitled &lt;em&gt;Clustering and aggregation&lt;/em&gt;,
+where we will examine a few scenarios where aggregation methods
+can aid in the construction, analysis, and evaluation of tools related to data
+clustering, including linkage criteria, partition similarity measures,
+and cluster validity indices. We’ll also indicate some noteworthy challenges
+for both theoretical and practical future research endeavours.&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220204-fsta-plenary.html" rel="alternate"/>
+    <summary>I’m giving (online…) an invited lecture at FSTA 2022
+today entitled Clustering and aggregation,
+where we will examine a few scenarios where aggregation methods
+can aid in the construction, analysis, and evaluation of tools related to data
+clustering, including linkage criteria, partition similarity measures,
+and cluster validity indices. We’ll also indicate some noteworthy challenges
+for both theoretical and practical future research endeavours.</summary>
+    <published>2022-02-04T00:00:00+11:00</published>
   </entry>
 </feed>

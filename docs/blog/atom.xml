@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-02-04T07:59:44.273039+00:00</updated>
+  <updated>2022-02-26T04:02:26.031189+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -195,5 +195,45 @@ clustering, including linkage criteria, partition similarity measures,
 and cluster validity indices. We’ll also indicate some noteworthy challenges
 for both theoretical and practical future research endeavours.</summary>
     <published>2022-02-04T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220219-award-ministry.html</id>
+    <title>Ministry of Education and Science Award</title>
+    <updated>2022-02-19T00:00:00+11:00</updated>
+    <content type="html">&lt;p&gt;Together with a number of excellent colleagues,
+I have &lt;a class="reference external" href="https://www.gov.pl/web/edukacja-i-nauka/nagrody-ministra-edukacji-i-nauki--serdecznie-gratulujemy"&gt;received&lt;/a&gt;
+the Ministry of Education and Science, Poland,
+award for significant achievements
+in teaching, for the design and implementation of a new innovative
+course of study – Master of Data Science –
+at the Faculty of Mathematics and Information Science,
+Warsaw University of Technology.&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220219-award-ministry.html" rel="alternate"/>
+    <summary>Together with a number of excellent colleagues,
+I have received
+the Ministry of Education and Science, Poland,
+award for significant achievements
+in teaching, for the design and implementation of a new innovative
+course of study – Master of Data Science –
+at the Faculty of Mathematics and Information Science,
+Warsaw University of Technology.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-02-19T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html</id>
+    <title>Validating Citation Models by Proxy Indices</title>
+    <updated>2022-02-26T00:00:00+11:00</updated>
+    <content type="html">&lt;p&gt;Accepted for publication in
+&lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper by Ania Cena, Basia Żogała-Siudem,
+Grzesiek Siudem, and yours truly.&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html" rel="alternate"/>
+    <summary>Accepted for publication in
+Journal of Informetrics: a new paper by Ania Cena, Basia Żogała-Siudem,
+Grzesiek Siudem, and yours truly.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-02-26T00:00:00+11:00</published>
   </entry>
 </feed>

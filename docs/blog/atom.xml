@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-03-03T00:10:11.499731+00:00</updated>
+  <updated>2022-03-15T00:15:27.536690+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -235,5 +235,18 @@ Journal of Informetrics: a new paper by Ania Cena, Basia Żogała-Siudem,
 Grzesiek Siudem, and yours truly.</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-02-26T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html</id>
+    <title>Validating Citation Models by Proxy Indices</title>
+    <updated>2022-03-15T00:00:00+11:00</updated>
+    <content type="html">&lt;p&gt;A new paper to appear in &lt;em&gt;Scientometrics&lt;/em&gt; (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena).&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html" rel="alternate"/>
+    <summary>A new paper to appear in Scientometrics (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-03-15T00:00:00+11:00</published>
   </entry>
 </feed>

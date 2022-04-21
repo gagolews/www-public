@@ -1,11 +1,11 @@
 /* --------------------------------------------------------------------------
-   Copyleft (C) 2021, Marek Gagolewski <https://www.gagolewski.com>
+   Copyleft (C) 2021-2022, Marek Gagolewski <https://www.gagolewski.com>
    -------------------------------------------------------------------------- */
 
 img.marek-photo {
     clear: both;
     margin: 16px;
-    border-radius: 167px;
+    border-radius: 0;
 }
 
 .proof-type-exercise {

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-04-13T05:01:12.941451+00:00</updated>
+  <updated>2022-04-21T02:01:00.981833+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -136,12 +136,12 @@ Now available from CRAN.</summary>
     <updated>2021-09-27T00:00:00+10:00</updated>
     <content type="html">&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
 package has been accepted for publication in
-&lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;
+&lt;em&gt;Journal of Statistical Software&lt;/em&gt; (&lt;a class="reference external" href="https://stringi.gagolewski.com/_static/vignette/stringi.pdf"&gt;preprint&lt;/a&gt;).&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" rel="alternate"/>
     <summary>A paper on my stringi
 package has been accepted for publication in
-Journal of Statistical Software.</summary>
+Journal of Statistical Software (preprint).</summary>
     <category term="new-paper" label="new-paper"/>
     <category term="stringi" label="stringi"/>
     <published>2021-09-27T00:00:00+10:00</published>
@@ -227,12 +227,14 @@ Warsaw University of Technology.</summary>
     <updated>2022-02-26T00:00:00+11:00</updated>
     <content type="html">&lt;p&gt;Accepted for publication in
 &lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper by Ania Cena, Basia Żogała-Siudem,
-Grzesiek Siudem, and yours truly.&lt;/p&gt;
+Grzesiek Siudem, and yours truly
+(doi:&lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101267"&gt;10.1016/j.joi.2022.101267&lt;/a&gt;).&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html" rel="alternate"/>
     <summary>Accepted for publication in
 Journal of Informetrics: a new paper by Ania Cena, Basia Żogała-Siudem,
-Grzesiek Siudem, and yours truly.</summary>
+Grzesiek Siudem, and yours truly
+(doi:10.1016/j.joi.2022.101267).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-02-26T00:00:00+11:00</published>
   </entry>
@@ -240,12 +242,14 @@ Grzesiek Siudem, and yours truly.</summary>
     <id>https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html</id>
     <title>Ockham’s Index of Scientific Impact</title>
     <updated>2022-03-15T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;A new paper to appear in &lt;em&gt;Scientometrics&lt;/em&gt; (co-authored by Basia Żogała-Siudem,
-Grzesiek Siudem, and Ania Cena).&lt;/p&gt;
+    <content type="html">&lt;p&gt;A new paper of mine  (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena) will appear in &lt;em&gt;Scientometrics&lt;/em&gt;
+(doi:&lt;a class="reference external" href="https://doi.org/10.1007/s11192-022-04345-2"&gt;10.1007/s11192-022-04345-2&lt;/a&gt;)&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html" rel="alternate"/>
-    <summary>A new paper to appear in Scientometrics (co-authored by Basia Żogała-Siudem,
-Grzesiek Siudem, and Ania Cena).</summary>
+    <summary>A new paper of mine  (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
+(doi:10.1007/s11192-022-04345-2)</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-03-15T00:00:00+11:00</published>
   </entry>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-04-21T02:01:00.981833+00:00</updated>
+  <updated>2022-05-04T06:47:07.828422+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -265,5 +265,20 @@ Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
 publicly available today.</summary>
     <category term="new-book" label="new-book"/>
     <published>2022-04-12T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html</id>
+    <title>Time to Vote: Temporal Clustering of User Activity on Stack Overflow</title>
+    <updated>2022-05-04T00:00:00+10:00</updated>
+    <content type="html">&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
+will appear in the
+&lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;.&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html" rel="alternate"/>
+    <summary>A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
+will appear in the
+Journal of the Association for Information Science and Technology.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-05-04T00:00:00+10:00</published>
   </entry>
 </feed>

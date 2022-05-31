@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-05-06T04:45:09.413917+00:00</updated>
+  <updated>2022-05-31T08:02:43.733779+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -272,12 +272,14 @@ publicly available today.</summary>
     <updated>2022-05-04T00:00:00+10:00</updated>
     <content type="html">&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
 will appear in the
-&lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;.&lt;/p&gt;
+&lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;
+(doi:&lt;a class="reference external" href="https://doi.org/10.1002/asi.24658"&gt;10.1002/asi.24658&lt;/a&gt;).&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html" rel="alternate"/>
     <summary>A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
 will appear in the
-Journal of the Association for Information Science and Technology.</summary>
+Journal of the Association for Information Science and Technology
+(doi:10.1002/asi.24658).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-05-04T00:00:00+10:00</published>
   </entry>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-07-02T02:21:02.789588+00:00</updated>
+  <updated>2022-07-02T04:33:27.415033+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -136,12 +136,16 @@ Now available from CRAN.</summary>
     <updated>2021-09-27T00:00:00+10:00</updated>
     <content type="html">&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
 package has been accepted for publication in
-&lt;em&gt;Journal of Statistical Software&lt;/em&gt; (&lt;a class="reference external" href="https://stringi.gagolewski.com/_static/vignette/stringi.pdf"&gt;preprint&lt;/a&gt;).&lt;/p&gt;
+&lt;em&gt;Journal of Statistical Software&lt;/em&gt;
+(&lt;a class="reference external" href="https://stringi.gagolewski.com/_static/vignette/stringi.pdf"&gt;preprint available here&lt;/a&gt;;
+&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;).&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" rel="alternate"/>
     <summary>A paper on my stringi
 package has been accepted for publication in
-Journal of Statistical Software (preprint).</summary>
+Journal of Statistical Software
+(preprint available here;
+doi:10.18637/jss.v103.i02).</summary>
     <category term="new-paper" label="new-paper"/>
     <category term="stringi" label="stringi"/>
     <published>2021-09-27T00:00:00+10:00</published>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-06-11T08:47:19.363401+00:00</updated>
+  <updated>2022-07-02T02:21:02.789588+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -282,5 +282,20 @@ Journal of the Association for Information Science and Technology
 (doi:10.1002/asi.24658).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-05-04T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html</id>
+    <title>Reduction of Variables and Constraints in Fitting Antibuoyant Fuzzy Measures to Data Using Linear Programming</title>
+    <updated>2022-07-02T00:00:00+10:00</updated>
+    <content type="html">&lt;p&gt;Gleb Beliakov, Simon James, and I will have another paper published in
+&lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
+(doi:&lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2022.06.025"&gt;10.1016/j.fss.2022.06.025&lt;/a&gt;).&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html" rel="alternate"/>
+    <summary>Gleb Beliakov, Simon James, and I will have another paper published in
+Fuzzy Sets and Systems
+(doi:10.1016/j.fss.2022.06.025).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-07-02T00:00:00+10:00</published>
   </entry>
 </feed>

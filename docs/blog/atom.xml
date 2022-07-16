@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-07-13T00:12:34.681003+00:00</updated>
+  <updated>2022-07-16T06:28:13.410691+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -256,19 +256,6 @@ Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
     <published>2022-03-15T00:00:00+11:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20220412-datawranglingpy.html</id>
-    <title>Minimalist Data Wrangling with Python</title>
-    <updated>2022-04-12T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;I’ve made a first draft of my new textbook on data wrangling with Python
-&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;publicly available today&lt;/a&gt;.&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220412-datawranglingpy.html" rel="alternate"/>
-    <summary>I’ve made a first draft of my new textbook on data wrangling with Python
-publicly available today.</summary>
-    <category term="new-book" label="new-book"/>
-    <published>2022-04-12T00:00:00+10:00</published>
-  </entry>
-  <entry>
     <id>https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html</id>
     <title>Time to Vote: Temporal Clustering of User Activity on Stack Overflow</title>
     <updated>2022-05-04T00:00:00+10:00</updated>
@@ -299,5 +286,28 @@ Fuzzy Sets and Systems
 (doi:10.1016/j.fss.2022.06.025).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-07-02T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220716-datawranglingpy.html</id>
+    <title>Minimalist Data Wrangling with Python</title>
+    <updated>2022-07-16T00:00:00+10:00</updated>
+    <content type="html">&lt;p&gt;I’ve completed the
+&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;textbook&lt;/a&gt;
+on data wrangling with Python.
+This work is, and will remain, available for everyone’s enjoyment,
+because I believe that education should be free for all.
+Just like open-source software, more open-access textbooks
+are urgently needed. Free == independent == high quality.&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220716-datawranglingpy.html" rel="alternate"/>
+    <summary>I’ve completed the
+textbook
+on data wrangling with Python.
+This work is, and will remain, available for everyone’s enjoyment,
+because I believe that education should be free for all.
+Just like open-source software, more open-access textbooks
+are urgently needed. Free == independent == high quality.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2022-07-16T00:00:00+10:00</published>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-07-19T02:30:57.339467+00:00</updated>
+  <updated>2022-07-21T04:21:52.688998+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
@@ -170,7 +170,7 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <id>https://www.gagolewski.com/_news/20211008-homepage-rewrite.html</id>
     <title>Homepage Rewrite</title>
     <updated>2021-10-08T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://www.sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20211008-homepage-rewrite.html" rel="alternate"/>
     <summary>My website is now generated with Sphinx.</summary>

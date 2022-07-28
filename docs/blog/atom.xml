@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-07-21T04:21:52.688998+00:00</updated>
+  <updated>2022-07-28T01:04:27.386721+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
   <entry>
     <id>https://www.gagolewski.com/_news/20210527-paper-genieclust.html</id>
     <title>Paper on the genieclust Python+R package</title>
     <updated>2021-05-27T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;&lt;em&gt;&lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;genieclust&lt;/a&gt;: Fast and robust hierarchical clustering&lt;/em&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;genieclust&lt;/a&gt;: Fast and robust hierarchical clustering&lt;/em&gt;
 was accepted for publication in &lt;em&gt;SoftwareX&lt;/em&gt;
 (doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.softx.2021.100722"&gt;10.1016/j.softx.2021.100722&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210527-paper-genieclust.html" rel="alternate"/>
     <summary>genieclust: Fast and robust hierarchical clustering
@@ -26,11 +28,13 @@ was accepted for publication in SoftwareX
     <id>https://www.gagolewski.com/_news/20210604-software-realtest.html</id>
     <title>realtest: When Expectations Meet Reality: Realistic Unit Testing in R</title>
     <updated>2021-06-04T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
 is a framework for unit testing for realistic minimalists, where we distinguish
 between expected, acceptable, current, fallback, ideal, or regressive behaviour.
 It can also be used for monitoring other software projects for changes.
 Now available on &lt;a class="reference external" href="https://CRAN.R-project.org/package=realtest"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210604-software-realtest.html" rel="alternate"/>
     <summary>realtest
@@ -46,8 +50,10 @@ Now available on CRAN.</summary>
     <id>https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html</id>
     <title>realtest 0.2.1 on CRAN</title>
     <updated>2021-06-17T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
 is now available.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html" rel="alternate"/>
     <summary>An update to realtest
@@ -60,12 +66,14 @@ is now available.</summary>
     <id>https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html</id>
     <title>stringi 1.7.2</title>
     <updated>2021-07-14T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;Another major update of
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Another major update of
 &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
 brings a rewritten version of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stri_sprintf&lt;/span&gt;&lt;/code&gt;,
 support for custom rule-based transliteration,
 extraction of named regex capture groups,
 and many other enhancements.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html" rel="alternate"/>
     <summary>Another major update of
@@ -82,7 +90,8 @@ and many other enhancements.</summary>
     <id>https://www.gagolewski.com/_news/20210729-software-stringx.html</id>
     <title>stringx: Drop-in replacements for base R string functions powered by stringi</title>
     <updated>2021-07-29T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;English is the native language for only 5% of the World population.
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;English is the native language for only 5% of the World population.
 Also, only 17% of us can understand this text. Moreover, the Latin alphabet
 is the main one for merely 36% of the total. The early computer era, now a
 very long time ago, was dominated by the US. Due to the proliferation of
@@ -96,6 +105,7 @@ and introduces some new, useful features. Thanks to
 &lt;a class="reference external" href="http://site.icu-project.org"&gt;ICU&lt;/a&gt; (International Components for Unicode) and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;,
 they are fast, reliable, and portable across different platforms.
 Now available from &lt;a class="reference external" href="https://CRAN.R-project.org/package=stringx"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210729-software-stringx.html" rel="alternate"/>
     <summary>English is the native language for only 5% of the World population.
@@ -121,8 +131,10 @@ Now available from CRAN.</summary>
     <id>https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html</id>
     <title>T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection</title>
     <updated>2021-08-26T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;A new paper by Maciek Bartoszuk and me is to appear in &lt;em&gt;Knowledge-Based Systems&lt;/em&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A new paper by Maciek Bartoszuk and me is to appear in &lt;em&gt;Knowledge-Based Systems&lt;/em&gt;
 (doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.knosys.2021.107427"&gt;10.1016/j.knosys.2021.107427&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html" rel="alternate"/>
     <summary>A new paper by Maciek Bartoszuk and me is to appear in Knowledge-Based Systems
@@ -134,10 +146,12 @@ Now available from CRAN.</summary>
     <id>https://www.gagolewski.com/_news/20210927-paper-stringi.html</id>
     <title>Paper on stringi</title>
     <updated>2021-09-27T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
 package has been accepted for publication in
 &lt;em&gt;Journal of Statistical Software&lt;/em&gt;
 (&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" rel="alternate"/>
     <summary>A paper on my stringi
@@ -152,10 +166,12 @@ Journal of Statistical Software
     <id>https://www.gagolewski.com/_news/20211006-paper-cvi.html</id>
     <title>Are Cluster Validity Measures (In)valid?</title>
     <updated>2021-10-06T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;To appear in
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;To appear in
 &lt;em&gt;Information Sciences&lt;/em&gt; — a paper
 coauthored by Maciek Bartoszuk and Ania Cena
 (doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2021.10.004"&gt;10.1016/j.ins.2021.10.004&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20211006-paper-cvi.html" rel="alternate"/>
     <summary>To appear in
@@ -170,7 +186,9 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <id>https://www.gagolewski.com/_news/20211008-homepage-rewrite.html</id>
     <title>Homepage Rewrite</title>
     <updated>2021-10-08T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://www.sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://www.sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20211008-homepage-rewrite.html" rel="alternate"/>
     <summary>My website is now generated with Sphinx.</summary>
@@ -180,13 +198,15 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <id>https://www.gagolewski.com/_news/20220204-fsta-plenary.html</id>
     <title>Invited Lecture at FSTA 2022</title>
     <updated>2022-02-04T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;I’m giving (online…) an invited lecture at &lt;a class="reference external" href="http://www.fsta.sk/index.html"&gt;FSTA 2022&lt;/a&gt;
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I’m giving (online…) an invited lecture at &lt;a class="reference external" href="http://www.fsta.sk/index.html"&gt;FSTA 2022&lt;/a&gt;
 today entitled &lt;em&gt;Clustering and aggregation&lt;/em&gt;,
 where we will examine a few scenarios where aggregation methods
 can aid in the construction, analysis, and evaluation of tools related to data
 clustering, including linkage criteria, partition similarity measures,
 and cluster validity indices. We’ll also indicate some noteworthy challenges
 for both theoretical and practical future research endeavours.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220204-fsta-plenary.html" rel="alternate"/>
     <summary>I’m giving (online…) an invited lecture at FSTA 2022
@@ -202,7 +222,8 @@ for both theoretical and practical future research endeavours.</summary>
     <id>https://www.gagolewski.com/_news/20220219-award-ministry.html</id>
     <title>Ministry of Education and Science Award</title>
     <updated>2022-02-19T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;Together with a number of excellent colleagues,
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Together with a number of excellent colleagues,
 I have &lt;a class="reference external" href="https://www.gov.pl/web/edukacja-i-nauka/nagrody-ministra-edukacji-i-nauki--serdecznie-gratulujemy"&gt;received&lt;/a&gt;
 the Ministry of Education and Science, Poland,
 award for significant achievements
@@ -210,6 +231,7 @@ in teaching, for the design and implementation of a new innovative
 course of study – Master of Data Science –
 at the Faculty of Mathematics and Information Science,
 Warsaw University of Technology.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220219-award-ministry.html" rel="alternate"/>
     <summary>Together with a number of excellent colleagues,
@@ -227,10 +249,12 @@ Warsaw University of Technology.</summary>
     <id>https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html</id>
     <title>Validating Citation Models by Proxy Indices</title>
     <updated>2022-02-26T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;Accepted for publication in
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Accepted for publication in
 &lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper by Ania Cena, Basia Żogała-Siudem,
 Grzesiek Siudem, and yours truly
 (doi:&lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101267"&gt;10.1016/j.joi.2022.101267&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html" rel="alternate"/>
     <summary>Accepted for publication in
@@ -244,9 +268,11 @@ Grzesiek Siudem, and yours truly
     <id>https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html</id>
     <title>Ockham’s Index of Scientific Impact</title>
     <updated>2022-03-15T00:00:00+11:00</updated>
-    <content type="html">&lt;p&gt;A new paper of mine  (co-authored by Basia Żogała-Siudem,
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A new paper of mine  (co-authored by Basia Żogała-Siudem,
 Grzesiek Siudem, and Ania Cena) will appear in &lt;em&gt;Scientometrics&lt;/em&gt;
 (doi:&lt;a class="reference external" href="https://doi.org/10.1007/s11192-022-04345-2"&gt;10.1007/s11192-022-04345-2&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html" rel="alternate"/>
     <summary>A new paper of mine  (co-authored by Basia Żogała-Siudem,
@@ -259,10 +285,12 @@ Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
     <id>https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html</id>
     <title>Time to Vote: Temporal Clustering of User Activity on Stack Overflow</title>
     <updated>2022-05-04T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
 will appear in the
 &lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;
 (doi:&lt;a class="reference external" href="https://doi.org/10.1002/asi.24658"&gt;10.1002/asi.24658&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html" rel="alternate"/>
     <summary>A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
@@ -276,9 +304,11 @@ Journal of the Association for Information Science and Technology
     <id>https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html</id>
     <title>Reduction of Variables and Constraints in Fitting Antibuoyant Fuzzy Measures to Data Using Linear Programming</title>
     <updated>2022-07-02T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;Gleb Beliakov, Simon James, and I will have another paper published in
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Gleb Beliakov, Simon James, and I will have another paper published in
 &lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
 (doi:&lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2022.06.025"&gt;10.1016/j.fss.2022.06.025&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html" rel="alternate"/>
     <summary>Gleb Beliakov, Simon James, and I will have another paper published in
@@ -291,13 +321,15 @@ Fuzzy Sets and Systems
     <id>https://www.gagolewski.com/_news/20220716-datawranglingpy.html</id>
     <title>Minimalist Data Wrangling with Python</title>
     <updated>2022-07-16T00:00:00+10:00</updated>
-    <content type="html">&lt;p&gt;I’ve completed the
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I’ve completed the
 &lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;textbook&lt;/a&gt;
 on data wrangling with Python.
 This work is, and will remain, available for everyone’s enjoyment,
 because I believe that education should be free for all.
 Just like open-source software, more open-access textbooks
 are urgently needed. Free == independent == high quality.&lt;/p&gt;
+&lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220716-datawranglingpy.html" rel="alternate"/>
     <summary>I’ve completed the

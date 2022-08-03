@@ -141,3 +141,8 @@ strong.command, .rst-content code, .rst-content div[class^="highlight"] pre, .rs
 }
 
 /* -------------------------------------------------------------------------- */
+
+
+ol.arabic li {
+    padding-bottom: 8pt;
+}

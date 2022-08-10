@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-08-09T08:24:21.583576+00:00</updated>
+  <updated>2022-08-10T10:11:14.488889+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
@@ -341,5 +341,22 @@ Just like open-source software, more open-access textbooks
 are urgently needed. Free == independent == high quality.</summary>
     <category term="new-book" label="new-book"/>
     <published>2022-07-16T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html</id>
+    <title>Power Laws, the Price Model, and the Pareto type-2 Distribution</title>
+    <updated>2022-08-10T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
+will appear in &lt;em&gt;Physica A: Statistical Mechanics and its Applications&lt;/em&gt;
+(&lt;a class="reference external" href="https://arxiv.org/abs/2201.11456"&gt;preprint&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html" rel="alternate"/>
+    <summary>A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
+will appear in Physica A: Statistical Mechanics and its Applications
+(preprint).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-08-10T00:00:00+10:00</published>
   </entry>
 </feed>

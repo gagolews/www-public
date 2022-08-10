@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+
+<html class="writer-html5" lang="en" >
+<!-- Copyright (C) 2021, Marek Gagolewski <https://www.gagolewski.com> -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Power Laws, the Price Model, and the Pareto type-2 Distribution &mdash; Marek Gagolewski — Home Page</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../blog/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html"> Marek Gagolewski
+          
+
+          
+          </a>
+
+          <!--
+          <div class="version">
+          by <a style="color: inherit" href="https://www.gagolewski.com">Marek Gagolewski</a>
+          </div>
+          -->
+
+<!--
+          
+            
+            
+          
+-->
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search phrase..." />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research.html">Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publications.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching.html">Teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cv.html">CV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../personal.html">Personal</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://datawranglingpy.gagolewski.com/">Data Wrangling in Python</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://stringi.gagolewski.com/">stringi</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://genieclust.gagolewski.com/">genieclust</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/clustering_benchmarks_v1">Clustering Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/teaching_data">Teaching Data</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews">GitHub</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Marek Gagolewski</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Power Laws, the Price Model, and the Pareto type-2 Distribution</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             <section class="tex2jax_ignore mathjax_ignore" id="power-laws-the-price-model-and-the-pareto-type-2-distribution">
+<h1>Power Laws, the Price Model, and the Pareto type-2 Distribution<a class="headerlink" href="#power-laws-the-price-model-and-the-pareto-type-2-distribution" title="Permalink to this heading"></a></h1>
+<p>A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
+will appear in <em>Physica A: Statistical Mechanics and its Applications</em>
+(<a class="reference external" href="https://arxiv.org/abs/2201.11456">preprint</a>).</p>
+<!-- TODO: (DOI: [...](https://doi.org/...)). -->
+<blockquote>
+<div><p><strong>Abstract.</strong>
+We consider a version of D. Price’s model for the growth
+of a bibliographic network, where in each iteration, a constant number
+of citations is randomly allocated according to a weighted combination
+of the accidental (uniformly distributed) and the preferential
+(rich-get-richer) rule. Instead of relying on the typical master
+equation approach, we formulate and solve this problem in terms of
+the rank-size distribution. We show that, asymptotically, such a process
+leads to a Pareto-type 2 distribution with a new, appealingly
+interpretable parametrisation. We prove that the solution to the Price
+model expressed in terms of the rank-size distribution coincides with
+the expected values of order statistics in an independent Paretian
+sample. An empirical analysis of a large repository of academic papers
+yields a good fit not only in the tail of the distribution (as it is
+usually the case in the power law-like framework), but also across
+a significantly larger fraction of the data domain.</p>
+</div></blockquote>
+</section>
+
+<div class="section">
+    
+
+<div class="section">
+  <span style="float: left">
+     Previous:
+    
+    <a href="20220716-datawranglingpy.html">
+       Minimalist Data Wrangling with Python
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2022, Marek Gagolewski.
+      <span class="lastupdated">
+        Last updated on 2022-08-10T20:11:13+1000.
+      </span>
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a>
+    and a customised <a href="https://github.com/rtfd/sphinx_rtd_theme">rtd</a> theme.
+    </p>
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

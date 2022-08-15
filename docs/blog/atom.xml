@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-08-12T02:24:08.181290+00:00</updated>
+  <updated>2022-08-15T08:57:06.422246+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
@@ -318,29 +318,63 @@ Fuzzy Sets and Systems
     <published>2022-07-02T00:00:00+10:00</published>
   </entry>
   <entry>
+    <id>https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html</id>
+    <title>stringi 1.7.8 on CRAN</title>
+    <updated>2022-07-11T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+is now available on &lt;a class="reference external" href="https://cran.r-project.org/web/packages/stringi/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html" rel="alternate"/>
+    <summary>A maintenance release of stringi
+is now available on CRAN.</summary>
+    <category term="software" label="software"/>
+    <category term="stringi" label="stringi"/>
+    <published>2022-07-11T00:00:00+10:00</published>
+  </entry>
+  <entry>
     <id>https://www.gagolewski.com/_news/20220716-datawranglingpy.html</id>
     <title>Minimalist Data Wrangling with Python</title>
     <updated>2022-07-16T00:00:00+10:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I’ve completed the
+&lt;p&gt;I’ve completed a
 &lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;textbook&lt;/a&gt;
 on data wrangling with Python.
 This work is, and will remain, available for everyone’s enjoyment,
 because I believe that education should be free for all.
 Just like open-source software, more open-access textbooks
-are urgently needed. Free == independent == high quality.&lt;/p&gt;
+are urgently needed. Free == independent == higher quality.&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220716-datawranglingpy.html" rel="alternate"/>
-    <summary>I’ve completed the
+    <summary>I’ve completed a
 textbook
 on data wrangling with Python.
 This work is, and will remain, available for everyone’s enjoyment,
 because I believe that education should be free for all.
 Just like open-source software, more open-access textbooks
-are urgently needed. Free == independent == high quality.</summary>
+are urgently needed. Free == independent == higher quality.</summary>
     <category term="new-book" label="new-book"/>
     <published>2022-07-16T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html</id>
+    <title>genieclust 1.7.8 on PyPI and CRAN</title>
+    <updated>2022-08-08T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
+has been published &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
+and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html" rel="alternate"/>
+    <summary>A new release of genieclust
+has been published PyPI
+and CRAN.</summary>
+    <category term="software" label="software"/>
+    <category term="genieclust" label="genieclust"/>
+    <published>2022-08-08T00:00:00+10:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html</id>

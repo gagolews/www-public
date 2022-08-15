@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>realtest 0.2.1 on CRAN &mdash; Marek Gagolewski — Home Page</title>
+  <title>stringi 1.7.8 on CRAN &mdash; Marek Gagolewski — Home Page</title>
   
 
   
@@ -27,7 +27,7 @@
   
 
   
-    <link rel="canonical" href="https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html" />
+    <link rel="canonical" href="https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html" />
 
   
   <!--[if lt IE 9]>
@@ -177,7 +177,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li><em>realtest</em> 0.2.1 on CRAN</li>
+      <li><em>stringi</em> 1.7.8 on CRAN</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -185,21 +185,21 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             <section class="tex2jax_ignore mathjax_ignore" id="realtest-0-2-1-on-cran">
-<h1><em>realtest</em> 0.2.1 on CRAN<a class="headerlink" href="#realtest-0-2-1-on-cran" title="Permalink to this heading"></a></h1>
-<p>An update to <a class="reference external" href="https://realtest.gagolewski.com"><em>realtest</em></a>
-is now available.</p>
-<p>Changes since v0.1.2:</p>
+             <section class="tex2jax_ignore mathjax_ignore" id="stringi-1-7-8-on-cran">
+<h1><em>stringi</em> 1.7.8 on CRAN<a class="headerlink" href="#stringi-1-7-8-on-cran" title="Permalink to this heading"></a></h1>
+<p>A maintenance release of <a class="reference external" href="https://stringi.gagolewski.com"><em>stringi</em></a>
+is now available on <a class="reference external" href="https://cran.r-project.org/web/packages/stringi/">CRAN</a>.</p>
+<p>Changes since v1.7.6:</p>
 <ul class="simple">
-<li><p>[NEW FEATURE] <code class="docutils literal notranslate"><span class="pre">sides_comparer</span></code> is now solely responsible for
-defining the semantics of side effect prototypes, therefore
-<code class="docutils literal notranslate"><span class="pre">P</span></code> performs only few non-invasive sanity checks of its arguments.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY] Example comparer <code class="docutils literal notranslate"><span class="pre">identical_or_TRUE</span></code>
-is no longer available.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY] <code class="docutils literal notranslate"><span class="pre">maps_identical_or_TRUE</span></code> has been renamed
-<code class="docutils literal notranslate"><span class="pre">sides_similar</span></code> and now allows for ignoring the side effects
-indicated by the user.</p></li>
-<li><p>[BUGFIX] <code class="docutils literal notranslate"><span class="pre">summary.realtest_results</span></code> no longer tries to subset symbols.</p></li>
+<li><p>[DOCUMENTATION] Paper on <em>stringi</em> has been
+<a class="reference external" href="https://doi.org/10.18637/jss.v103.i02">published</a> in
+the <em>Journal of Statistical Software</em>.</p></li>
+<li><p>[BUGFIX] #473, #397: Fixed buffer overflow in <code class="docutils literal notranslate"><span class="pre">stri_dup</span></code>.
+<code class="docutils literal notranslate"><span class="pre">stri_dup</span></code>, <code class="docutils literal notranslate"><span class="pre">stri_paste</span></code>, … fail more graciously on attempts to
+generate strings of length &gt;= 2^31 each.</p></li>
+<li><p>[BUILD TIME] #480: Using <code class="docutils literal notranslate"><span class="pre">Rf_isNull</span></code> instead of <code class="docutils literal notranslate"><span class="pre">isNull</span></code>.</p></li>
+<li><p>[DOCUMENTATION] #462: That the <code class="docutils literal notranslate"><span class="pre">numeric=TRUE</span></code> collator
+does not handle negative numbers correctly is now mentioned in the manual.</p></li>
 </ul>
 </section>
 
@@ -210,16 +210,16 @@ indicated by the user.</p></li>
   <span style="float: left">
      Previous:
     
-    <a href="20210604-software-realtest.html">
-       realtest: When Expectations Meet Reality: Realistic Unit Testing in R
+    <a href="20220702-paper-fss-antibuoyant.html">
+       Reduction of Variables and Constraints in Fitting Antibuoyant Fuzzy Measures to Data Using Linear Programming
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
      Next: 
-    <a href="20210714-software-stringi-1-7-2.html">
-      stringi 1.7.2 
+    <a href="20220716-datawranglingpy.html">
+      Minimalist Data Wrangling with Python 
     </a>
     
   </span>

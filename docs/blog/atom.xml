@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-08-15T08:57:06.422246+00:00</updated>
+  <updated>2022-08-16T00:45:25.498593+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
   <entry>
     <id>https://www.gagolewski.com/_news/20210527-paper-genieclust.html</id>
     <title>Paper on the genieclust Python+R package</title>
@@ -20,8 +20,8 @@ was accepted for publication in &lt;em&gt;SoftwareX&lt;/em&gt;
     <summary>genieclust: Fast and robust hierarchical clustering
 was accepted for publication in SoftwareX
 (doi:10.1016/j.softx.2021.100722).</summary>
-    <category term="new-paper" label="new-paper"/>
     <category term="genieclust" label="genieclust"/>
+    <category term="new-paper" label="new-paper"/>
     <published>2021-05-27T00:00:00+10:00</published>
   </entry>
   <entry>
@@ -42,8 +42,8 @@ is a framework for unit testing for realistic minimalists, where we distinguish
 between expected, acceptable, current, fallback, ideal, or regressive behaviour.
 It can also be used for monitoring other software projects for changes.
 Now available on CRAN.</summary>
-    <category term="software" label="software"/>
     <category term="realtest" label="realtest"/>
+    <category term="software" label="software"/>
     <published>2021-06-04T00:00:00+10:00</published>
   </entry>
   <entry>
@@ -58,8 +58,8 @@ is now available.&lt;/p&gt;
     <link href="https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html" rel="alternate"/>
     <summary>An update to realtest
 is now available.</summary>
-    <category term="software" label="software"/>
     <category term="realtest" label="realtest"/>
+    <category term="software" label="software"/>
     <published>2021-06-17T00:00:00+10:00</published>
   </entry>
   <entry>
@@ -123,8 +123,8 @@ ICU (International Components for Unicode) and stringi,
 they are fast, reliable, and portable across different platforms.
 Now available from CRAN.</summary>
     <category term="software" label="software"/>
-    <category term="stringx" label="stringx"/>
     <category term="stringi" label="stringi"/>
+    <category term="stringx" label="stringx"/>
     <published>2021-07-29T00:00:00+10:00</published>
   </entry>
   <entry>
@@ -178,8 +178,8 @@ coauthored by Maciek Bartoszuk and Ania Cena
 Information Sciences — a paper
 coauthored by Maciek Bartoszuk and Ania Cena
 (doi:10.1016/j.ins.2021.10.004).</summary>
-    <category term="new-paper" label="new-paper"/>
     <category term="clustering" label="clustering"/>
+    <category term="new-paper" label="new-paper"/>
     <published>2021-10-06T00:00:00+11:00</published>
   </entry>
   <entry>
@@ -364,16 +364,16 @@ are urgently needed. Free == independent == higher quality.</summary>
     <updated>2022-08-08T00:00:00+10:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
-has been published &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
+has been published on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
 and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html" rel="alternate"/>
     <summary>A new release of genieclust
-has been published PyPI
+has been published on PyPI
 and CRAN.</summary>
-    <category term="software" label="software"/>
     <category term="genieclust" label="genieclust"/>
+    <category term="software" label="software"/>
     <published>2022-08-08T00:00:00+10:00</published>
   </entry>
   <entry>

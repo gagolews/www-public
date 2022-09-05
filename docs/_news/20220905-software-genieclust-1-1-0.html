@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Paper on stringi &mdash; Marek Gagolewski — Home Page</title>
+  <title>genieclust 1.1.0 on PyPI and CRAN &mdash; Marek Gagolewski — Home Page</title>
   
 
   
@@ -30,7 +30,7 @@
   
 
   
-    <link rel="canonical" href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" />
+    <link rel="canonical" href="https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html" />
 
   
   <!--[if lt IE 9]>
@@ -198,7 +198,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Paper on stringi</li>
+      <li><em>genieclust</em> 1.1.0 on PyPI and CRAN</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -217,26 +217,44 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             <section class="tex2jax_ignore mathjax_ignore" id="paper-on-stringi">
-<h1>Paper on <a class="reference external" href="https://stringi.gagolewski.com">stringi</a><a class="headerlink" href="#paper-on-stringi" title="Permalink to this heading"></a></h1>
-<p>A paper on my <a class="reference external" href="https://stringi.gagolewski.com"><em>stringi</em></a>
-package has been accepted for publication in
-<em>Journal of Statistical Software</em>
-(<a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02">doi:10.18637/jss.v103.i02</a>.</p>
-<blockquote>
-<div><p><strong>Abstract.</strong>
-Effective processing of character strings is required at various
-stages of data analysis pipelines: from data cleansing and preparation,
-through information extraction, to report generation. Pattern searching,
-string collation and sorting, normalisation, transliteration,
-and formatting are ubiquitous in text mining, natural language
-processing, and bioinformatics. This paper discusses and demonstrates
-how and why stringi, a mature R package for fast and
-portable handling of string data based on the ICU library
-(International Components for Unicode), should be included in each
-statistician’s or data scientist’s repertoire to complement their
-numerical computing and data wrangling skills.</p>
-</div></blockquote>
+             <section class="tex2jax_ignore mathjax_ignore" id="genieclust-1-1-0-on-pypi-and-cran">
+<h1><em>genieclust</em> 1.1.0 on PyPI and CRAN<a class="headerlink" href="#genieclust-1-1-0-on-pypi-and-cran" title="Permalink to this heading"></a></h1>
+<p>A new release of the <a class="reference external" href="https://genieclust.gagolewski.com"><em>genieclust</em></a>
+package is available on <a class="reference external" href="https://pypi.org/project/genieclust/">PyPI</a>
+and <a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/">CRAN</a>.</p>
+<p>Changes since v1.0.1:</p>
+<ul>
+<li><p>[GENERAL] The cluster validity measures are discussed in more detail at
+<a class="reference external" href="https://clustering-benchmarks.gagolewski.com">https://clustering-benchmarks.gagolewski.com</a>.</p></li>
+<li><p>[Python and R] New function:
+<code class="docutils literal notranslate"><span class="pre">compare_partitions.adjusted_asymmetric_accuracy</span></code>.</p></li>
+<li><p>[Python and R] Implementations of the so-called internal cluster
+validity measures discussed in
+DOI: <a class="reference external" href="https://doi.org/10.1016/j.ins.2021.10.004">10.1016/j.ins.2021.10.004</a>;
+see our (GitHub-only) <a class="reference external" href="https://github.com/gagolews/optim_cvi">CVI</a> package
+for R. In particular, the generalised Dunn indices are based on the code
+originally authored by Maciej Bartoszuk. Thanks.</p>
+<p>Functions added (to the <code class="docutils literal notranslate"><span class="pre">cluster_validity</span></code> module in the Python version):
+<code class="docutils literal notranslate"><span class="pre">calinski_harabasz_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">dunnowa_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">generalised_dunn_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">negated_ball_hall_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">negated_davies_bouldin_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">negated_wcss_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">silhouette_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">silhouette_w_index</span></code>,
+<code class="docutils literal notranslate"><span class="pre">wcnn_index</span></code>.</p>
+</li>
+<li><p>[BACKWARD INCOMPATIBILITY] <code class="docutils literal notranslate"><span class="pre">compare_partitions.normalized_confusion_matrix</span></code>
+now solves the maximal assignment problem instead of applying
+a primitive partial pivoting.</p></li>
+<li><p>[Python and R] New function: <code class="docutils literal notranslate"><span class="pre">compare_partitions.normalizing_permutation</span></code></p></li>
+<li><p>[R] New function: <code class="docutils literal notranslate"><span class="pre">normalized_confusion_matrix</span></code>.</p></li>
+<li><p>[Python and R] New parameter to <code class="docutils literal notranslate"><span class="pre">compare_partitions.pair_sets_index</span></code>:
+<code class="docutils literal notranslate"><span class="pre">simplified</span></code>.</p></li>
+<li><p>[Python] New parameters to <code class="docutils literal notranslate"><span class="pre">plots.plot_scatter</span></code>:
+<code class="docutils literal notranslate"><span class="pre">axis</span></code>, <code class="docutils literal notranslate"><span class="pre">title</span></code>, <code class="docutils literal notranslate"><span class="pre">xlabel</span></code>, <code class="docutils literal notranslate"><span class="pre">ylabel</span></code>, <code class="docutils literal notranslate"><span class="pre">xlim</span></code>, <code class="docutils literal notranslate"><span class="pre">ylim</span></code>.</p></li>
+</ul>
 </section>
 
 <div class="section">
@@ -246,17 +264,13 @@ numerical computing and data wrangling skills.</p>
   <span style="float: left">
      Previous:
     
-    <a href="20210826-paper-tnorm-similar.html">
-       T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection
+    <a href="20220825-datawranglingpy-amazon.html">
+       Minimalist Data Wrangling with Python – Paperback Available
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
-     Next: 
-    <a href="20211006-paper-cvi.html">
-      Are Cluster Validity Measures (In)valid? 
-    </a>
     
   </span>
 </div>

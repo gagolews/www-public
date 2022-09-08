@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Paper on stringi &mdash; Marek Gagolewski — Home Page</title>
+  <title>Submitted: Adjusted Asymmetric Accuracy &mdash; Marek Gagolewski — Home Page</title>
   
 
   
@@ -30,7 +30,7 @@
   
 
   
-    <link rel="canonical" href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" />
+    <link rel="canonical" href="https://www.gagolewski.com/_news/20220908-submitted-aaa.html" />
 
   
   <!--[if lt IE 9]>
@@ -198,7 +198,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Paper on stringi</li>
+      <li>Submitted: Adjusted Asymmetric Accuracy</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -217,25 +217,32 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             <section class="tex2jax_ignore mathjax_ignore" id="paper-on-stringi">
-<h1>Paper on <a class="reference external" href="https://stringi.gagolewski.com">stringi</a><a class="headerlink" href="#paper-on-stringi" title="Permalink to this heading"></a></h1>
-<p>A paper on my <a class="reference external" href="https://stringi.gagolewski.com"><em>stringi</em></a>
-package has been accepted for publication in
-<em>Journal of Statistical Software</em>
-(<a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02">doi:10.18637/jss.v103.i02</a>.</p>
+             <section class="tex2jax_ignore mathjax_ignore" id="submitted-adjusted-asymmetric-accuracy">
+<h1>Submitted: Adjusted Asymmetric Accuracy<a class="headerlink" href="#submitted-adjusted-asymmetric-accuracy" title="Permalink to this heading"></a></h1>
+<p>An early version of my most recent paper
+<em>Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure</em>
+is now available on <a class="reference external" href="https://arxiv.org/abs/2209.02935">arXiv</a>.</p>
 <blockquote>
 <div><p><strong>Abstract.</strong>
-Effective processing of character strings is required at various
-stages of data analysis pipelines: from data cleansing and preparation,
-through information extraction, to report generation. Pattern searching,
-string collation and sorting, normalisation, transliteration,
-and formatting are ubiquitous in text mining, natural language
-processing, and bioinformatics. This paper discusses and demonstrates
-how and why stringi, a mature R package for fast and
-portable handling of string data based on the ICU library
-(International Components for Unicode), should be included in each
-statistician’s or data scientist’s repertoire to complement their
-numerical computing and data wrangling skills.</p>
+There is no, nor will there ever be, single best clustering algorithm, but we
+would still like to be able to pinpoint those which are well-performing on
+certain task types and filter out the systematically disappointing ones.
+Clustering algorithms are traditionally evaluated using either internal or
+external validity measures. Internal measures quantify different aspects of the
+obtained partitions, e.g., the average degree of cluster compactness or point
+separability. Yet, their validity is questionable because the clusterings they
+promote can sometimes be meaningless. External measures, on the other hand,
+compare the algorithms’ outputs to the reference, ground truth groupings that
+are provided by experts. The commonly-used classical partition similarity
+scores, such as the normalised mutual information, Fowlkes–Mallows, or adjusted
+Rand index, might not possess all the desirable properties, e.g., they do not
+identify pathological edge cases correctly. Furthermore, they are not nicely
+interpretable: it is hard to say what a score of 0.8 really means. Its behaviour
+might also vary as the number of true clusters changes. This makes comparing
+clustering algorithms across many benchmark datasets difficult. To remedy this,
+we propose and analyse a new measure: an asymmetric version of the optimal
+set-matching accuracy. It is corrected for chance and the imbalancedness of
+cluster sizes.</p>
 </div></blockquote>
 </section>
 
@@ -246,17 +253,13 @@ numerical computing and data wrangling skills.</p>
   <span style="float: left">
      Previous:
     
-    <a href="20210826-paper-tnorm-similar.html">
-       T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection
+    <a href="20220905-software-genieclust-1-1-0.html">
+       genieclust 1.1.0 on PyPI and CRAN
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
-     Next: 
-    <a href="20211006-paper-cvi.html">
-      Are Cluster Validity Measures (In)valid? 
-    </a>
     
   </span>
 </div>

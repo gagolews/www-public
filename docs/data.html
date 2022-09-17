@@ -239,28 +239,39 @@
 <section id="clustering">
 <h2>Clustering<a class="headerlink" href="#clustering" title="Permalink to this heading"></a></h2>
 <img alt="Marek Gagolewski" class="img-right-align" src="_images/mk4-labels0.png" style="width: 206px;" />
-<p>It is not rare for clustering papers/graduate theses to consider only a small number of datasets, say 5-10 UCI-sourced ones, which obviously is too few to make any evaluations rigorous enough. Other authors propose their own datasets, but forget to test their methods against other benchmarks batteries, risking their evaluations be biased.</p>
-<p>Authors who share their data (kudos to them!) might not necessarily make the use of their suites particularly smooth (different file formats, different ways to access, etc., even across a single repository). On the other hand, other machine learning domains (but also: optimisation) have had some standardised, well agreed-upon approaches for testing the quality of the algorithms for quite a long time.</p>
-<p>Due to these, I started a project that aims to aggregate, polish and standardise the existing clustering benchmark suites referred to across the machine learning and data mining literature. Moreover, it adds a few new datasets of different dimensionalities, sizes, and cluster types.</p>
+<p>There is no, nor will there ever be, single best clustering algorithm.
+Still, we would like to be able to separate the wheat from the chaff:
+to <strong>pinpoint grouping methods that are well-performing on certain task
+types as well as filter out the systematically disappointing ones</strong>.</p>
+<p>However, it is not rare for research papers/graduate theses to consider
+only a small number of datasets. We regularly come across the same 5–10
+test problems from the UCI database. This is obviously too few to
+make any evaluation rigorous enough.</p>
+<p>Other authors propose their own datasets, but do not test their methods
+against other benchmark batteries. This might lead to biased conclusions.</p>
+<p>This is why I started a <a class="reference external" href="https://clustering-benchmarks.gagolewski.com/">project</a> that aims to:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/gagolews/clustering-benchmarks">Benchmark Suite for Clustering Algorithms - Version 1</a></p>
-<ul>
+<li><p><strong>aggregate, polish, and standardise the existing clustering
+benchmark batteries</strong> referred to across the machine learning
+and data mining literature,</p></li>
+<li><p>introduce <strong>new datasets</strong> of different dimensionalities,
+sizes, and cluster types,</p></li>
+<li><p>propose a <strong>consistent methodology</strong> for evaluating clustering
+algorithms.</p></li>
+</ul>
+<p>Links:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://clustering-benchmarks.gagolewski.com/">A Framework for Benchmarking Clustering Algorithms</a></p></li>
+<li><p><a class="reference external" href="https://github.com/gagolews/clustering-data-v1/">Datasets</a></p></li>
+<li><p><a class="reference external" href="https://github.com/gagolews/clustering-results-v1/">Raw Results</a></p></li>
 <li><p><a class="reference external" href="https://genieclust.gagolewski.com/weave/benchmarks_ar.html">Some Results Summarised</a></p></li>
-<li><p><a class="reference external" href="https://github.com/gagolews/clustering_results_v1/">Raw Results of Different Clustering Algorithms</a></p></li>
-<li><p>Authors: <em>Please test your new algorithms against all the datasets
-listed therein and <a class="reference external" href="https://github.com/gagolews/clustering_results_v1/issues">submit</a> the raw results they generate.</em></p></li>
-<li><p>Reviewers: <em>Please ask the authors to verify their proposals
-against this or any other <em>large</em> benchmark battery.</em></p></li>
-<li><p>Researchers: <em>Do you have any interesting additions to the benchmark
-battery? <a class="reference external" href="https://github.com/gagolews/clustering-benchmarks/issues">Let’s prepare</a> Version 2 thereof some time soon together!</em></p></li>
 </ul>
-</li>
-<li><p><a class="reference external" href="https://github.com/gagolews/clustering_benchmarks_v0">Benchmark Suite for Clustering Algorithms - Version 0</a> (DEPRECATED)</p></li>
-</ul>
-<p>Also checkout my recent paper:
-M. Gagolewski, M. Bartoszuk, A. Cena, Are cluster validity measures (in)valid?,
-<em>Information Sciences</em>, 2021, in press,
-doi:<a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2021.10.004">10.1016/j.ins.2021.10.004</a>.</p>
+<p>Authors: <em>Please test your new algorithms against all the datasets
+listed therein and <a class="reference external" href="https://github.com/gagolews/clustering-benchmarks/issues">submit</a> the raw results they generate.</em></p>
+<p>Reviewers: <em>Please ask the authors to verify their proposals
+against this or any other <em>large</em> benchmark battery.</em></p>
+<p>Researchers: <em>Do you have any interesting additions to the benchmark battery? <a class="reference external" href="https://github.com/gagolews/clustering-benchmarks/issues">Contributions are welcome.</a></em></p>
+<!-- * [Benchmark Suite for Clustering Algorithms - Version 0](https://github.com/gagolews/clustering_benchmarks_v0) (DEPRECATED) -->
 </section>
 <section id="teaching">
 <h2>Teaching<a class="headerlink" href="#teaching" title="Permalink to this heading"></a></h2>
@@ -336,7 +347,7 @@ Aggregates — Links
     and a customised <a href="https://github.com/rtfd/sphinx_rtd_theme">rtd</a>
     theme.
       <span class="lastupdated">
-        Last updated on 2022-09-12T16:34:51+1000.
+        Last updated on 2022-09-17T10:25:02+1000.
       </span>
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-09-17T10:24:52.908948+00:00</updated>
+  <updated>2022-09-21T05:29:27.108937+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -450,5 +450,26 @@ Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure
 is now available on arXiv.</summary>
     <category term="submitted-paper" label="submitted-paper"/>
     <published>2022-09-08T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220921-submitted-clustering-benchmarks.html</id>
+    <title>Submitted: A Framework for Benchmarking Clustering Algorithms</title>
+    <updated>2022-09-21T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;A Framework for Benchmarking Clustering Algorithms&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.09493"&gt;arXiv&lt;/a&gt;.
+The project also has a dedicated website:
+&lt;a class="reference external" href="https://clustering-benchmarks.gagolewski.com"&gt;https://clustering-benchmarks.gagolewski.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220921-submitted-clustering-benchmarks.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+A Framework for Benchmarking Clustering Algorithms
+is now available on arXiv.
+The project also has a dedicated website:
+https://clustering-benchmarks.gagolewski.com.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2022-09-21T00:00:00+10:00</published>
   </entry>
 </feed>

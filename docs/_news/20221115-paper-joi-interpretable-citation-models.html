@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Submitted: A Framework for Benchmarking Clustering Algorithms &mdash; Marek Gagolewski — Home Page</title>
+  <title>Interpretable Reparameterisations of Citation Models &mdash; Marek Gagolewski — Home Page</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="canonical" href="https://www.gagolewski.com/_news/20220921-submitted-clustering-benchmarks.html" />
+    <link rel="canonical" href="https://www.gagolewski.com/_news/20221115-paper-joi-interpretable-citation-models.html" />
 
   
   <!--[if lt IE 9]>
@@ -201,7 +201,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Submitted: A Framework for Benchmarking Clustering Algorithms</li>
+      <li>Interpretable Reparameterisations of Citation Models</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -220,30 +220,30 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             <section class="tex2jax_ignore mathjax_ignore" id="submitted-a-framework-for-benchmarking-clustering-algorithms">
-<h1>Submitted: A Framework for Benchmarking Clustering Algorithms<a class="headerlink" href="#submitted-a-framework-for-benchmarking-clustering-algorithms" title="Permalink to this heading"></a></h1>
-<p>An early version of my most recent paper
-<em>A Framework for Benchmarking Clustering Algorithms</em>
-is now available on <a class="reference external" href="https://arxiv.org/abs/2209.09493">arXiv</a>.
-The project also has a dedicated website:
-<a class="reference external" href="https://clustering-benchmarks.gagolewski.com">https://clustering-benchmarks.gagolewski.com</a>.</p>
+             <section class="tex2jax_ignore mathjax_ignore" id="interpretable-reparameterisations-of-citation-models">
+<h1>Interpretable Reparameterisations of Citation Models<a class="headerlink" href="#interpretable-reparameterisations-of-citation-models" title="Permalink to this heading"></a></h1>
+<p>To be published in <em>Journal of Informetrics</em>: a new paper
+by Barbara Żogała-Siudem, Anna Cena, Greg Siudem, and I. Abstract below.</p>
+<!-- (DOI: [xxx](xxx)). -->
 <blockquote>
 <div><p><strong>Abstract.</strong>
-The evaluation of clustering algorithms can be performed by running them
-on a variety of benchmark problems, and comparing their outputs to the
-reference, ground-truth groupings provided by experts. Unfortunately, many
-research papers and graduate theses consider only a small number of datasets.
-Also, rarely the fact that there can be many equally valid ways to cluster
-a given problem set is taken into account. In order to overcome these
-limitations, we have developed a framework whose aim is to introduce
-a consistent methodology for testing clustering algorithms. Furthermore,
-we have aggregated, polished, and standardised many clustering benchmark
-batteries referred to across the machine learning and data mining literature,
-and included new datasets of different dimensionalities, sizes, and cluster
-types. An interactive datasets explorer, the documentation of the Python API,
-a description of the ways to interact with the framework from other
-programming languages such as R or MATLAB, and other details are
-all provided at <a class="reference external" href="https://clustering-benchmarks.gagolewski.com">https://clustering-benchmarks.gagolewski.com</a>.</p>
+This paper aims to find the reasons why some citation models can
+predict a set of specific bibliometric indices extremely well.
+We show why fitting a model that preserves the total sum of a vector
+can be beneficial in the case of heavy-tailed data that are frequently
+observed in informetrics and similar disciplines. Based on this
+observation, we introduce the reparameterised versions of the discrete
+generalised beta distribution (DGBD) and power law models that preserve
+the total sum of elements in a citation vector and, as a byproduct,
+they enjoy much better predictive power when predicting many
+bibliometric indices as well as partial cumulative sums. This also
+results in the underlying model parameters’ being easier to fit
+numerically. Moreover, they are also more interpretable. Namely,
+just like in our recently-introduced 3DSI (three dimensions of
+scientific impact) model, we have a clear distinction between the
+coefficients determining the total productivity (size), total impact
+(sum), and those that affect the shape of the resulting theoretical
+curve.</p>
 </div></blockquote>
 </section>
 
@@ -254,16 +254,16 @@ all provided at <a class="reference external" href="https://clustering-benchmark
   <span style="float: left">
      Previous:
     
-    <a href="20220908-submitted-aaa.html">
-       Submitted: Adjusted Asymmetric Accuracy
+    <a href="20221014-paper-joi-journals.html">
+       Accidentality in Journal Citation Patterns
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
      Next: 
-    <a href="20221014-paper-joi-journals.html">
-      Accidentality in Journal Citation Patterns 
+    <a href="20220921-paper-clustering-benchmarks.html">
+      A Framework for Benchmarking Clustering Algorithms 
     </a>
     
   </span>
@@ -286,7 +286,7 @@ all provided at <a class="reference external" href="https://clustering-benchmark
     and a customised <a href="https://github.com/rtfd/sphinx_rtd_theme">rtd</a>
     theme.
       <span class="lastupdated">
-        Last updated on 2022-11-12T18:04:21+1100.
+        Last updated on 2022-11-16T14:15:12+1100.
       </span>
 
 

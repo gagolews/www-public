@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2022-12-15T04:15:12.551232+00:00</updated>
+  <updated>2022-12-28T04:43:47.854732+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -507,5 +507,32 @@ The project also has a dedicated website:
 https://clustering-benchmarks.gagolewski.com.</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-11-16T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20221228-deepr-draft.html</id>
+    <title>Deep R Programming (First Draft)</title>
+    <updated>2022-12-28T00:00:00+11:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;I’ve released an early draft of my new textbook
+&lt;em&gt;Deep R Programming&lt;/em&gt; – the first 12 chapters.
+It is a comprehensive course on one of the most popular
+languages in data science (statistical computing, graphics,
+machine learning, data wrangling and analytics). It introduces
+the base language in-depth and is aimed at ambitious students,
+practitioners, and researchers who would like to become independent
+users of this powerful environment.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20221228-deepr-draft.html" rel="alternate"/>
+    <summary>I’ve released an early draft of my new textbook
+Deep R Programming – the first 12 chapters.
+It is a comprehensive course on one of the most popular
+languages in data science (statistical computing, graphics,
+machine learning, data wrangling and analytics). It introduces
+the base language in-depth and is aimed at ambitious students,
+practitioners, and researchers who would like to become independent
+users of this powerful environment.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2022-12-28T00:00:00+11:00</published>
   </entry>
 </feed>

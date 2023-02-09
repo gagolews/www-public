@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+
+
+<html class="writer-html5" lang="en" >
+<!-- Copyright (C) 2020-2022, Marek Gagolewski <https://www.gagolewski.com> -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku &mdash; Marek Gagolewski — Home Page</title>
+  
+
+  
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://www.gagolewski.com/notes/uwagi_latex.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+        <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Personal" href="../personal.html" />
+    <link rel="prev" title="Blog/Notes" href="../notes.html" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../blog/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html"> Marek Gagolewski
+          
+
+          
+          </a>
+
+          <div class="version">
+          
+          </div>
+
+<!--
+          
+-->
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search phrase..." />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research.html">Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publications.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching.html">Teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cv.html">CV</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../notes.html">Blog/Notes</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../notes.html#in-polish">In Polish</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#bibliografia">Bibliografia</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../personal.html">Personal</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://datawranglingpy.gagolewski.com/">Minimalist Data Wrangling in Python</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://deepr.gagolewski.com/">Deep R Programming</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://stringi.gagolewski.com/">stringi</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://genieclust.gagolewski.com/">genieclust</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://clustering-benchmarks.gagolewski.com/">Clustering Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/teaching-data/">Teaching Data</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://madam.mini.pw.edu.pl/">MADAM Seminar</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/">GitHub</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Marek Gagolewski</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../notes.html">Blog/Notes</a> &raquo;</li>
+        
+      <li>Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+
+        
+        
+
+
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="../personal.html" class="btn btn-neutral float-right" title="Personal" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="../notes.html" class="btn btn-neutral float-left" title="Blog/Notes" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             <section class="tex2jax_ignore mathjax_ignore" id="czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku">
+<h1>Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku<a class="headerlink" href="#czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku" title="Permalink to this heading"></a></h1>
+<p>Wersja: 0.5 (2023-02-09)</p>
+<ol class="arabic">
+<li><p>Nie zostawiamy „samotnych” jednoliterowych przyimków, spójników
+itd. (w, z, i, …) na końcu wiersza. Należy wstawić niełamliwą spację,
+np. tak: <code class="docutils literal notranslate"><span class="pre">Bolek</span> <span class="pre">i~Lolek</span></code>. Dotyczy to języka polskiego; w angielskim
+nikt raczej nie zwraca (niestety) na to uwagi. Ale my wiemy lepiej.</p>
+<p>Uwaga jednak na kropki w angielskim tekście –
+LaTeX po kropce wstawia domyślnie duży odstęp, tj. zakłada, że zaczynamy
+nowej zdanie. Czasem więc trzeba będzie napisać
+np. <code class="docutils literal notranslate"><span class="pre">see</span> <span class="pre">Tab.~\ref{etykieta}</span></code> (porównaj, co się stanie,
+gdy nie będzie tam niełamliwej spacji).</p>
+<p>Jeśli takie zachowanie obserwujemy w polskim tekście,
+włączamy <code class="docutils literal notranslate"><span class="pre">\frenchspacing</span></code> (albo <code class="docutils literal notranslate"><span class="pre">\usepackage{polski}</span></code>).</p>
+</li>
+<li><p>Operatory, nazwy indeksów itp. występujące we wzorach formatujemy
+innym krojem pisma (np. <code class="docutils literal notranslate"><span class="pre">\mathrm{...}</span></code>).
+Niektóre z nich są już zdefiniowane (<code class="docutils literal notranslate"><span class="pre">\min</span></code>, <code class="docutils literal notranslate"><span class="pre">\max</span></code>, <code class="docutils literal notranslate"><span class="pre">\sin</span></code>, <code class="docutils literal notranslate"><span class="pre">\exp</span></code>, <code class="docutils literal notranslate"><span class="pre">\log</span></code> itd.).</p>
+<p>Przykład: <code class="docutils literal notranslate"><span class="pre">$\mathrm{sensitivity}(\mathbf{x})</span> <span class="pre">=</span> <span class="pre">...$</span></code> daje
+<span class="math notranslate nohighlight">\(\mathrm{sensitivity}(\mathbf{x}) = ...\)</span>.</p>
+<p>Porównaj bowiem: <span class="math notranslate nohighlight">\(exp(3)\)</span> vs <span class="math notranslate nohighlight">\(\exp(3)\)</span></p>
+<p>Inny sposób:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\DeclareMathOperator*</span><span class="nb">{</span><span class="k">\argmin</span><span class="nb">}{</span>arg<span class="k">\,</span>min<span class="nb">}</span>
+<span class="k">\DeclareMathOperator*</span><span class="nb">{</span><span class="k">\argmax</span><span class="nb">}{</span>arg<span class="k">\,</span>max<span class="nb">}</span>
+</pre></div>
+</div>
+<p>We wzorach może pojawić się tekst w języku „mówionym” –
+do jego wprowadzania używamy <code class="docutils literal notranslate"><span class="pre">\text</span></code>. Na przykład dla:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="sb">\[</span>
+<span class="nb">f_</span><span class="nv">\text</span><span class="nb">{optymalna}</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nb">wx, </span><span class="nv">\quad\text</span><span class="nb">{gdzie }w</span><span class="o">=</span><span class="m">7</span><span class="nb">.</span>
+<span class="s">\]</span>
+</pre></div>
+</div>
+<p>otrzymujemy:</p>
+<div class="math notranslate nohighlight">
+\[
+    f_\text{optymalna}(x)=wx, \quad\text{gdzie }w=7.
+    \]</div>
+</li>
+<li><p>W języku polskim separatorem części ułamkowej liczb jest przecinek.
+Nie piszemy jednak: <code class="docutils literal notranslate"><span class="pre">$1,5$</span></code> (<span class="math notranslate nohighlight">\(1,5\)</span>), lecz tak: <code class="docutils literal notranslate"><span class="pre">$1{,}5$</span></code> (<span class="math notranslate nohighlight">\(1{,}5\)</span>).
+Większość liczb (może poza latami) wstawiamy w trybie matematycznym
+(dolary), zatem piszemy <code class="docutils literal notranslate"><span class="pre">$-100$</span></code> (<span class="math notranslate nohighlight">\(-100\)</span>) zamiast po prostu <code class="docutils literal notranslate"><span class="pre">-100</span></code> (-100).</p></li>
+<li><p>Wzory matematyczne (także <em>inline</em>) traktujemy jak części zdania. Pamiętamy
+o znakach interpunkcyjnych. Przykład:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span>Zauważmy, że:              <span class="c">% (uwaga: dwukropek)</span>
+<span class="sb">\[</span>
+<span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nb">wx,                   </span><span class="c">% (uwaga: przecinek)</span>
+<span class="s">\]</span>                         <span class="c">% tu nie ma nowego zdania -- brak odstępu</span>
+gdzie <span class="s">$</span><span class="nb">w </span><span class="o">=</span><span class="nb"> </span><span class="m">7</span><span class="s">$</span>.
+</pre></div>
+</div>
+<p>Ewentualnie:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span>Zauważmy, że:
+
+<span class="sb">\[</span>
+<span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nb">wx,</span>
+<span class="s">\]</span>
+
+<span class="k">\noindent</span> <span class="c">% kontynuujemy zdanie</span>
+gdzie:
+
+<span class="sb">\[</span>
+<span class="nb">w </span><span class="o">=</span><span class="nb"> </span><span class="m">7</span><span class="nb">.</span>
+<span class="s">\]</span>
+</pre></div>
+</div>
+</li>
+<li><p>Odwołania do numerowanych równań (<code class="docutils literal notranslate"><span class="pre">\label{etykieta}</span></code>)
+tworzymy przy użyciu <code class="docutils literal notranslate"><span class="pre">\eqref{etykieta}</span></code>. Wtedy numerowanie mamy w stylu (1).</p></li>
+<li><p>Tytuły (<code class="docutils literal notranslate"><span class="pre">\caption</span></code>) umieszczamy POD rysunkami, ale NAD tabelami (tablicami).
+Między etykietą a tabelą czasem miło jest zobaczyć <code class="docutils literal notranslate"><span class="pre">\smallskip</span></code>.
+Po tytule tabeli <strong>nie stawia się</strong> kropki.
+Po podpisie pod ilustracją <strong>nie stawia się</strong> kropki. Ponadto warto ustawić:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>caption<span class="nb">}</span>
+<span class="c">% \captionsetup{labelsep=period}</span>
+<span class="k">\captionsetup</span><span class="nb">{</span>font=small,labelfont=bf,labelsep=period,justification=centering<span class="nb">}</span>
+<span class="k">\addto\captionspolish</span><span class="nb">{</span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\figurename</span><span class="nb">}{</span>Rys.<span class="nb">}}</span>
+<span class="k">\addto\captionspolish</span><span class="nb">{</span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\tablename</span><span class="nb">}{</span>Tab.<span class="nb">}}</span>
+<span class="k">\addto\captionspolish</span><span class="nb">{</span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\seename</span><span class="nb">}{</span>zob.<span class="nb">}}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Środowiska <code class="docutils literal notranslate"><span class="pre">table</span></code> i <code class="docutils literal notranslate"><span class="pre">figure</span></code> wstawiamy zawsze najlepiej w pozycji
+<code class="docutils literal notranslate"><span class="pre">[t!]</span></code> (ewentualnie czasem <code class="docutils literal notranslate"><span class="pre">[p!]</span></code> lub <code class="docutils literal notranslate"><span class="pre">[tb!]</span></code>) – wykrzyknik wymusza większy
+priorytet w pozycjonowaniu. Zauważmy, że na przykład:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>table<span class="nb">}</span>[t!] <span class="c">% top!</span>
+<span class="k">\caption</span><span class="nb">{</span><span class="k">\label</span><span class="nb">{</span>Tab:wyniki<span class="nb">_</span>glowne<span class="nb">}</span> Podsumowanie wyników<span class="nb">}</span>
+<span class="k">\smallskip</span>
+<span class="k">\begin</span><span class="nb">{</span>tabular<span class="nb">}</span>
+...
+<span class="k">\end</span><span class="nb">{</span>tabular<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>table<span class="nb">}</span>
+</pre></div>
+</div>
+<p>generuje tzw. <em>floating environment</em> – nie jest ono częścią tekstu głównego
+i nie zwracamy zbyt bacznej uwagi na to, gdzie będą one fizycznie wstawione.
+Po to mamy do nich odnośniki numerowane, by zwrócić uwagę Czytelnika
+na ich zawartość. Dlatego też przyjmujemy zasadę, że do <em>każdej</em> tabeli
+(tablicy) i rysunku należy odwołać się (<code class="docutils literal notranslate"><span class="pre">\ref{...}</span></code>) w tekście głównym.</p>
+<p><code class="docutils literal notranslate"><span class="pre">\clearpage</span></code> lub <code class="docutils literal notranslate"><span class="pre">\cleardoublepage</span></code> stosujemy tylko w skrajnych przypadkach.
+Lepiej:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>afterpage<span class="nb">}</span>  <span class="c">% w preambule</span>
+<span class="c">% a potem:</span>
+<span class="k">\afterpage</span><span class="nb">{</span><span class="k">\clearpage</span><span class="nb">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Wykazów tabel i rysunków nie zamieszczamy w tekście pracy dyplomowej.
+Takowe tworzy się raczej w przypadku podręczników lub monografii.
+Z kolei spis treści będzie lepiej wyglądał, jeśli zastosujemy:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="na">[nottoc]</span><span class="nb">{</span>tocbibind<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[subfigure,titles]</span><span class="nb">{</span>tocloft<span class="nb">}</span>
+<span class="k">\tocloftpagestyle</span><span class="nb">{</span>fancy<span class="nb">}</span>
+<span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\cfttoctitlefont</span><span class="nb">}{}</span>
+<span class="c">% \renewcommand{\cftbeforetoctitle}{}</span>
+<span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\cftaftertoctitle</span><span class="nb">}{}</span>
+<span class="k">\setlength</span><span class="nb">{</span><span class="k">\cftaftertoctitleskip</span><span class="nb">}{</span>0pt<span class="nb">}</span>
+<span class="k">\setlength</span><span class="nb">{</span><span class="k">\cftbeforetoctitleskip</span><span class="nb">}{</span>0pt<span class="nb">}</span>
+<span class="k">\setlength</span><span class="nb">{</span><span class="k">\bibsep</span><span class="nb">}{</span>1pt<span class="nb">}</span>
+<span class="k">\setcounter</span><span class="nb">{</span>tocdepth<span class="nb">}{</span>2<span class="nb">}</span>
+<span class="k">\setcounter</span><span class="nb">{</span>secnumdepth<span class="nb">}{</span>3<span class="nb">}</span>
+<span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\cftsecaftersnum</span><span class="nb">}{</span>. <span class="nb">}</span>
+<span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\cftsubsecaftersnum</span><span class="nb">}{</span>. <span class="nb">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Lista wypunktowana i numerowana (tzw. wyliczenia): poszczególne
+punkty kończy się przecinkiem lub średnikiem, a całe wyliczenie – kropką.
+Na przykład:</p>
+<ul class="simple">
+<li><p>jeden,</p></li>
+<li><p>dwa,</p></li>
+<li><p>siedem.</p></li>
+</ul>
+</li>
+<li><p>Rozdział 1, Podrozdział 1.1, Punkt 1.1.1, Rysunek 7, Tablica  2 –
+tak piszemy na początku zdania (oczywiście numeracja jest wstawiana automatycznie,
+zob. <code class="docutils literal notranslate"><span class="pre">\ref{...}</span></code>). W środku zdania skracamy: zob. rozdz. 1, podrozdz. 1.1,
+p. 1.1.1, rys. 2, tab. 8.
+Podobnie w tekście angielskim – Chapter 1, Section 1.1, Section 1.1.1
+(raczej nie piszemy subsection), Figure 2, Table 8 na początku zdania
+lub Chap. 1, Sec. 1.1, Sec. 1.1.1, Fig. 2, Tab. 2 gdzieś w środku.</p></li>
+<li><p>Cudzysłów: ``po angielsku’’ (grawis-grawis… apostrof-apostrof),
+,,po polsku’’ (przecinek-przecinek… apostrof-apostrof).</p></li>
+<li><p>Wielokropek wstawiamy przy użyciu <code class="docutils literal notranslate"><span class="pre">\dots</span></code> a nie trzech kropek.</p></li>
+<li><p>Myślnik (pauza) <code class="docutils literal notranslate"><span class="pre">---</span></code> (—) służy do wstawiania wtrąceń.
+Pamiętajmy o odstępach przed i po pauzach, czyli
+,,wiesz — tak sobie myślę — jedźmy gdzieś’’.
+W tym kontekście dobre też są półpauzy <code class="docutils literal notranslate"><span class="pre">--</span></code> (–),
+czyli ,,wiesz – tak sobie myślę – jedźmy w Bieszczady’’.
+Oczywiście spójność przede wszystkim.</p></li>
+<li><p>Półpauza <code class="docutils literal notranslate"><span class="pre">--</span></code> (–) służy do definiowania
+m.in. zakresów liczbowych (1990–1999, s. 123–666)
+czy podawania autorów metod będących wynikiem pracy zespołowej
+(np. twierdzenie Banacha–Steinhausa). Uwaga: tutaj nie ma odstępów.</p></li>
+<li><p>Łącznik <code class="docutils literal notranslate"><span class="pre">-</span></code> (-) stosujemy <em>tylko</em> w przypadku
+tzw. złożeń (czarno-biały, Bielko-Biała, Skłodowska-Curie).</p></li>
+<li><p>Używajmy edytora, który automatycznie sprawdza pisownię już podczas
+tworzenia dokumentu (i podkreśla błędy), np. <em>Kile</em>, <em>Texmaker</em>
+lub <em>VS Code</em> z różnymi wtyczkami.
+Ja używam <em>kate</em>.</p></li>
+<li><p>Typowe błędy/niezręczności językowe
+(por. też <a class="reference external" href="https://pl.wikipedia.org/wiki/Pomoc:Powszechne_b%C5%82%C4%99dy_j%C4%99zykowe">https://pl.wikipedia.org/wiki/Pomoc:Powszechne_błędy_językowe</a>):</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><s>źle</s></p></th>
+<th class="head"><p>dobrze</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><s>w konsoli</s></p></td>
+<td><p>na konsoli</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>pomiędzy</s></p></td>
+<td><p>między</p></td>
+</tr>
+<tr class="row-even"><td><p><s>poprzez</s></p></td>
+<td><p>przez</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>za pomocą</s></p></td>
+<td><p>przy użyciu</p></td>
+</tr>
+<tr class="row-even"><td><p><s>z użyciem</s></p></td>
+<td><p>przy użyciu</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dla przykładu</s></p></td>
+<td><p>na przykład</p></td>
+</tr>
+<tr class="row-even"><td><p><s>ilość elementów</s></p></td>
+<td><p>liczba elementów</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>oparty o</s>, <s>bazujący o</s></p></td>
+<td><p>oparty na</p></td>
+</tr>
+<tr class="row-even"><td><p><s>w oparciu o</s>, <s>na bazie</s></p></td>
+<td><p>na podstawie</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dwutysięczny osiemnasty</s></p></td>
+<td><p>dwa tysiące osiemnasty</p></td>
+</tr>
+<tr class="row-even"><td><p><s>Internet</s></p></td>
+<td><p>internet</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dedykowane dla</s></p></td>
+<td><p>przeznaczone do</p></td>
+</tr>
+<tr class="row-even"><td><p><s>linia kodu</s></p></td>
+<td><p>wiersz</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>pod rząd</s></p></td>
+<td><p>z rzędu</p></td>
+</tr>
+<tr class="row-even"><td><p><s>odnośnie czegoś</s></p></td>
+<td><p>odnośnie do czegoś, w stosunku do czegoś, w odniesieniu do czegoś, wobec czegoś</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>przekonywujący</s></p></td>
+<td><p>przekonujący, przekonywający</p></td>
+</tr>
+<tr class="row-even"><td><p><s>wydaje się być lepszy</s></p></td>
+<td><p>wydaje się lepszy</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>najbardziej optymalny</s></p></td>
+<td><p>optymalny, najlepszy</p></td>
+</tr>
+<tr class="row-even"><td><p><s>unikalny</s></p></td>
+<td><p>unikatowy</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>w Linux’ie</s></p></td>
+<td><p>w systemie Linux</p></td>
+</tr>
+<tr class="row-even"><td><p><s>R’a</s></p></td>
+<td><p>języku R</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>w cudzysłowiu</s></p></td>
+<td><p>w cudzysłowie</p></td>
+</tr>
+<tr class="row-even"><td><p><s>drugi największy</s></p></td>
+<td><p>drugi co do wielkości, drugi pod względem wielkości</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>stał się bardziej wpływowy</s></p></td>
+<td><p>zyskał na znaczeniu</p></td>
+</tr>
+</tbody>
+</table>
+<p>Odmiana nazwisk angielskich i francuskich: np. Disneya, Arrowa, Murphy’ego, Moore’a
+(zob. np. <a class="reference external" href="https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html">https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html</a>)</p>
+<p>Przymiotniki w języku polskim piszemy małą literą, np. metryka euklidesowa,
+język polski (ale w jęz. ang.  mamy już <em>Euclidean metric</em>,
+<em>Polish language</em>).</p>
+</li>
+<li><p>Podajemy (gdzie się da) angielskie odpowiedniki tłumaczonych
+na język polski terminów, np. ,,precyzja (ang. <em>precision</em>)’’.
+Wprowadzane terminy wyróżniamy np. pogrubieniem.</p></li>
+<li><p>Wszelkie wykresy powinny być zapisane w postaci wektorowej
+(PDF, ew. EPS lub SVG) a nie rastrowej (np. JPG, PNG), chyba że są
+to zdjęcia – wówczas zapisujemy je w odpowiednio wysokiej rozdzielczości
+(np. 300 dpi) i pamiętamy, by przypadkiem LaTeX ich nie przeskalował
+(będą rozmyte).</p></li>
+<li><p>Dobrym pomysłem jest tworzenie tekstu pracy przy użyciu
+pakietu <code class="docutils literal notranslate"><span class="pre">Pweave</span></code> (Python) lub <code class="docutils literal notranslate"><span class="pre">knitr</span></code> (R) albo czegoś podobnego.
+Wówczas na bieżąco możemy
+generować tabele i wykresy w kodzie źródłowym (oczywiście
+nie przeprowadzamy tutaj żadnych czasochłonnych obliczeń – wyniki
+eksperymentów powinny być zapisane np. do plików .csv).</p></li>
+<li><p>Kod w LaTeX-u to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
+Bardzo nie lubię wcięć dokonywanych przy użyciu tabulatorów –
+sugeruję 4 spacje (spójnie w całym kodzie).
+Radzę zaprzyjaźnić się z <code class="docutils literal notranslate"><span class="pre">git</span></code>-em.</p></li>
+<li><p>Pamiętamy o numerowaniu stron.</p></li>
+<li><p>Każdy rozdział pracy powinien zaczynać się na prawej stronie
+(<code class="docutils literal notranslate"><span class="pre">openright</span></code>). Oznacza to, że czasami strona poprzedzająca nowy rozdział
+będzie musiała być zupełnie pusta (nawet bez numerów stron).</p></li>
+<li><p>Bibliografię zawsze tworzymy w BibTeX-u, nigdy ręcznie.
+Na dobry początek polecam ustawienie <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plplain}</span></code> (PL)
+lub <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plain}</span></code> (EN).</p></li>
+<li><p>W przypadku artykułów w czasopismach naukowych nie mylimy <em>volume</em>
+(numeru woluminu, tomu – zawsze obecne) i <em>number</em> (podnumeru <em>issue</em> – można pominąć),
+np. odnośnik do <em>Journal of Magical Science</em> <strong>43</strong>(2) oznacza
+<code class="docutils literal notranslate"><span class="pre">volume=43</span></code> oraz <code class="docutils literal notranslate"><span class="pre">number=2</span></code>, a <em>Nature</em> <strong>123</strong> to tylko <code class="docutils literal notranslate"><span class="pre">volume=123</span></code>;</p></li>
+<li><p>Na koniec pracy z dziełem wycinamy zawartość
+pobocznego pliku <code class="docutils literal notranslate"><span class="pre">.bbl</span></code> i wklejamy go w miejsce wywołania makra
+<code class="docutils literal notranslate"><span class="pre">\bibliography{nazwa_pliku}</span></code>, dzięki temu plik źródłowy nie będzie zależny
+od pliku <code class="docutils literal notranslate"><span class="pre">.bib</span></code>.</p></li>
+<li><p>Przykładowe wpisy w bibliografii:</p>
+<p>[1] Kowalski J.,  Nowak B., <em>Tytuł książki</em>, Wydawnictwo, Warszawa, 2054.</p>
+<p>[2] Skłodowska M., Tytuł artykułu, <em>Czasopismo</em> <strong>666</strong>, 1999, s. 123–432.</p>
+<p>[3] Brzdąc I., <em>Tytuł konferencyjniaczka</em>,
+W: <em>Proc. Taka Ważna Konferencja</em>, 2019, s. 423–424.</p>
+</li>
+<li><p>Używamy kodowania UTF-8, a nie np. WINDOWS-1250
+(ponieważ żyjemy w zglobalizowanym świecie).
+Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="na">[utf8]</span><span class="nb">{</span>inputenc<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[T1]</span><span class="nb">{</span>fontenc<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[T1,plmath]</span><span class="nb">{</span>polski<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[polish]</span><span class="nb">{</span>babel<span class="nb">}</span>
+<span class="k">\selectlanguage</span><span class="nb">{</span>polish<span class="nb">}</span>
+<span class="k">\let\lll\undefined</span> <span class="c">% to avoid babel-amssymb conflict, see below</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amssymb<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsfonts<span class="nb">}</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<section id="bibliografia">
+<h2>Bibliografia<a class="headerlink" href="#bibliografia" title="Permalink to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Chwałkowski R., <em>Typografia typowej książki</em>, Helion, Gliwice, 2001</p></li>
+<li><p><em>Zasady pisowni i interpunkcji</em>, PWN, <a class="reference external" href="https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html">https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html</a>.</p></li>
+</ol>
+<p>Serdecznie dziękuję p. red. Izabeli Mika.</p>
+</section>
+</section>
+
+<div class="section">
+   
+</div>
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../personal.html" class="btn btn-neutral float-right" title="Personal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../notes.html" class="btn btn-neutral float-left" title="Blog/Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        Copyright &#169;  by <a href="https://www.gagolewski.com">Marek Gagolewski</a>. Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
+
+    Built with <a href="https://sphinx-doc.org/">Sphinx</a>
+    and a customised <a href="https://github.com/rtfd/sphinx_rtd_theme">rtd</a>
+    theme.
+      <span class="lastupdated">
+        Last updated on 2023-02-09T16:34:28+1100.
+      </span>
+
+
+    This site will never display any ads: it is a non-profit project.
+    It does not collect any data.
+
+    </p>
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-03-04T01:25:08.161331+00:00</updated>
+  <updated>2023-03-14T04:33:23.230645+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -551,5 +551,39 @@ to appear in Fuzzy Sets and Systems
 (DOI: 10.1016/j.fss.2023.01.014).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2023-01-27T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230310-submitted-clumst.html</id>
+    <title>Submitted: Clustering with minimum spanning trees: How good can it be?</title>
+    <updated>2023-03-10T00:00:00+11:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Clustering with minimum spanning trees: How good can it be?&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05679"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230310-submitted-clumst.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Clustering with minimum spanning trees: How good can it be?
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-03-10T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230310-submitted-owalink.html</id>
+    <title>Submitted: Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
+    <updated>2023-03-10T00:00:00+11:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05683"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230310-submitted-owalink.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-03-10T00:00:00+11:00</published>
   </entry>
 </feed>

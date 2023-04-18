@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-04-14T04:18:03.086401+00:00</updated>
+  <updated>2023-04-18T05:27:51.772680+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -602,5 +602,39 @@ Community detection in complex networks via node similarity, graph representatio
 is now available on arXiv.</summary>
     <category term="submitted-paper" label="submitted-paper"/>
     <published>2023-03-23T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html</id>
+    <title>Submitted: Equivalence of inequality indices: Three dimensions of impact revisited</title>
+    <updated>2023-04-18T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+&lt;em&gt;Equivalence of inequality indices: Three dimensions of impact revisited&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07479"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html" rel="alternate"/>
+    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+Equivalence of inequality indices: Three dimensions of impact revisited
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-04-18T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html</id>
+    <title>Submitted: Gini-stable Lorenz curves and their relation to the generalised Pareto distribution</title>
+    <updated>2023-04-18T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+&lt;em&gt;Gini-stable Lorenz curves and their relation to the generalised Pareto distribution&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07480"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html" rel="alternate"/>
+    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+Gini-stable Lorenz curves and their relation to the generalised Pareto distribution
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-04-18T00:00:00+10:00</published>
   </entry>
 </feed>

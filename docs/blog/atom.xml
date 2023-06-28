@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-06-14T06:06:32.234072+00:00</updated>
+  <updated>2023-06-28T02:03:40.980232+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -636,5 +636,18 @@ Gini-stable Lorenz curves and their relation to the generalised Pareto distribut
 is now available on arXiv.</summary>
     <category term="submitted-paper" label="submitted-paper"/>
     <published>2023-04-18T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230628-deepr.html</id>
+    <title>Deep R Programming v1.0.0</title>
+    <updated>2023-06-28T00:00:00+10:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Final version of &lt;em&gt;Deep R Programming&lt;/em&gt; is now available.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230628-deepr.html" rel="alternate"/>
+    <summary>Final version of Deep R Programming is now available.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2023-06-28T00:00:00+10:00</published>
   </entry>
 </feed>

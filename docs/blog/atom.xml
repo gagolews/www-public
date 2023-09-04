@@ -2,96 +2,510 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-07-03T05:01:23.524892+00:00</updated>
+  <updated>2023-09-04T06:32:14.578118+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
   <entry>
-    <id>https://www.gagolewski.com/_news/20210527-paper-genieclust.html</id>
-    <title>Paper on the genieclust Python+R package</title>
-    <updated>2021-05-27T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;&lt;em&gt;&lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;genieclust&lt;/a&gt;: Fast and robust hierarchical clustering&lt;/em&gt;
-was accepted for publication in &lt;em&gt;SoftwareX&lt;/em&gt;
-(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.softx.2021.100722"&gt;10.1016/j.softx.2021.100722&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20230628-deepr.html</id>
+    <title>Deep R Programming v1.0.0</title>
+    <updated>2023-06-28T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Final version of &lt;em&gt;Deep R Programming&lt;/em&gt; is now available.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20210527-paper-genieclust.html" rel="alternate"/>
-    <summary>genieclust: Fast and robust hierarchical clustering
-was accepted for publication in SoftwareX
-(doi:10.1016/j.softx.2021.100722).</summary>
-    <category term="genieclust" label="genieclust"/>
+    <link href="https://www.gagolewski.com/_news/20230628-deepr.html" rel="alternate"/>
+    <summary>Final version of Deep R Programming is now available.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2023-06-28T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html</id>
+    <title>Submitted: Gini-stable Lorenz curves and their relation to the generalised Pareto distribution</title>
+    <updated>2023-04-18T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+&lt;em&gt;Gini-stable Lorenz curves and their relation to the generalised Pareto distribution&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07480"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html" rel="alternate"/>
+    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+Gini-stable Lorenz curves and their relation to the generalised Pareto distribution
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-04-18T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html</id>
+    <title>Submitted: Equivalence of inequality indices: Three dimensions of impact revisited</title>
+    <updated>2023-04-18T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+&lt;em&gt;Equivalence of inequality indices: Three dimensions of impact revisited&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07479"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html" rel="alternate"/>
+    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+Equivalence of inequality indices: Three dimensions of impact revisited
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-04-18T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html</id>
+    <title>Submitted: Community Detection in Complex Networks</title>
+    <updated>2023-03-23T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.12212"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-03-23T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230310-submitted-owalink.html</id>
+    <title>Submitted: Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
+    <updated>2023-03-10T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05683"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230310-submitted-owalink.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-03-10T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230310-submitted-clumst.html</id>
+    <title>Submitted: Clustering with minimum spanning trees: How good can it be?</title>
+    <updated>2023-03-10T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Clustering with minimum spanning trees: How good can it be?&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05679"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230310-submitted-clumst.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Clustering with minimum spanning trees: How good can it be?
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-03-10T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20230127-paper-fss-benchmark-integral.html</id>
+    <title>A Benchmark-type Generalisation of the Sugeno Integral with Applications in Bibliometrics</title>
+    <updated>2023-01-27T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;New paper by Michał Boczek, Marek Kaluszka, Andrzej Okolewski, and yours truly
+to appear in &lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2023.01.014"&gt;10.1016/j.fss.2023.01.014&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20230127-paper-fss-benchmark-integral.html" rel="alternate"/>
+    <summary>New paper by Michał Boczek, Marek Kaluszka, Andrzej Okolewski, and yours truly
+to appear in Fuzzy Sets and Systems
+(DOI: 10.1016/j.fss.2023.01.014).</summary>
     <category term="new-paper" label="new-paper"/>
-    <published>2021-05-27T00:00:00+10:00</published>
+    <published>2023-01-27T00:00:00+11:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20210604-software-realtest.html</id>
-    <title>realtest: When Expectations Meet Reality: Realistic Unit Testing in R</title>
-    <updated>2021-06-04T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
-is a framework for unit testing for realistic minimalists, where we distinguish
-between expected, acceptable, current, fallback, ideal, or regressive behaviour.
-It can also be used for monitoring other software projects for changes.
-Now available on &lt;a class="reference external" href="https://CRAN.R-project.org/package=realtest"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20221228-deepr-draft.html</id>
+    <title>Deep R Programming (First Draft)</title>
+    <updated>2022-12-28T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;I’ve released an early draft of my new textbook
+&lt;em&gt;Deep R Programming&lt;/em&gt; – the first 12 chapters.
+It is a comprehensive course on one of the most popular
+languages in data science (statistical computing, graphics,
+machine learning, data wrangling and analytics). It introduces
+the base language in-depth and is aimed at ambitious students,
+practitioners, and researchers who would like to become independent
+users of this powerful environment.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20210604-software-realtest.html" rel="alternate"/>
-    <summary>realtest
-is a framework for unit testing for realistic minimalists, where we distinguish
-between expected, acceptable, current, fallback, ideal, or regressive behaviour.
-It can also be used for monitoring other software projects for changes.
-Now available on CRAN.</summary>
-    <category term="realtest" label="realtest"/>
+    <link href="https://www.gagolewski.com/_news/20221228-deepr-draft.html" rel="alternate"/>
+    <summary>I’ve released an early draft of my new textbook
+Deep R Programming – the first 12 chapters.
+It is a comprehensive course on one of the most popular
+languages in data science (statistical computing, graphics,
+machine learning, data wrangling and analytics). It introduces
+the base language in-depth and is aimed at ambitious students,
+practitioners, and researchers who would like to become independent
+users of this powerful environment.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2022-12-28T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220921-paper-clustering-benchmarks.html</id>
+    <title>A Framework for Benchmarking Clustering Algorithms</title>
+    <updated>2022-11-16T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper related to my framework for benchmarking clustering algorithms
+will appear in &lt;em&gt;SoftwareX&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.softx.2022.101270"&gt;10.1016/j.softx.2022.101270&lt;/a&gt;).
+Its preprint is available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.09493"&gt;arXiv&lt;/a&gt;.
+The project also has a dedicated website:
+&lt;a class="reference external" href="https://clustering-benchmarks.gagolewski.com"&gt;https://clustering-benchmarks.gagolewski.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220921-paper-clustering-benchmarks.html" rel="alternate"/>
+    <summary>A paper related to my framework for benchmarking clustering algorithms
+will appear in SoftwareX
+(DOI: 10.1016/j.softx.2022.101270).
+Its preprint is available on arXiv.
+The project also has a dedicated website:
+https://clustering-benchmarks.gagolewski.com.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-11-16T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20221115-paper-joi-interpretable-citation-models.html</id>
+    <title>Interpretable Reparameterisations of Citation Models</title>
+    <updated>2022-11-15T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;To be published in &lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper
+by Barbara Żogała-Siudem, Anna Cena, Greg Siudem, and I
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101355"&gt;10.1016/j.joi.2022.101355&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20221115-paper-joi-interpretable-citation-models.html" rel="alternate"/>
+    <summary>To be published in Journal of Informetrics: a new paper
+by Barbara Żogała-Siudem, Anna Cena, Greg Siudem, and I
+(DOI: 10.1016/j.joi.2022.101355).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-11-15T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20221014-paper-joi-journals.html</id>
+    <title>Accidentality in Journal Citation Patterns</title>
+    <updated>2022-10-14T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Maciej J. Mrowiński, Grzesiek Siudem, and I will have another contribution in
+the &lt;em&gt;Journal of Informetrics&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101341"&gt;10.1016/j.joi.2022.101341&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20221014-paper-joi-journals.html" rel="alternate"/>
+    <summary>Maciej J. Mrowiński, Grzesiek Siudem, and I will have another contribution in
+the Journal of Informetrics
+(DOI: 10.1016/j.joi.2022.101341).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-10-14T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220908-submitted-aaa.html</id>
+    <title>Submitted: Adjusted Asymmetric Accuracy</title>
+    <updated>2022-09-08T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220908-submitted-aaa.html" rel="alternate"/>
+    <summary>An early version of my most recent paper
+Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2022-09-08T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html</id>
+    <title>genieclust 1.1.0 on PyPI and CRAN</title>
+    <updated>2022-09-05T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
+package is available on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
+and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html" rel="alternate"/>
+    <summary>A new release of the genieclust
+package is available on PyPI
+and CRAN.</summary>
+    <category term="genieclust" label="genieclust"/>
     <category term="software" label="software"/>
-    <published>2021-06-04T00:00:00+10:00</published>
+    <published>2022-09-05T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html</id>
-    <title>realtest 0.2.1 on CRAN</title>
-    <updated>2021-06-17T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
-is now available.&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20220825-datawranglingpy-amazon.html</id>
+    <title>Minimalist Data Wrangling with Python – Paperback Available</title>
+    <updated>2022-08-24T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A printed version of my open-access textbook
+&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;Minimalist Data Wrangling with Python&lt;/a&gt;
+can now be ordered from &lt;a class="reference external" href="https://www.amazon.com/dp/0645571911"&gt;Amazon&lt;/a&gt;.
+It is exactly the same as the freely available
+&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/datawranglingpy.pdf"&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html" rel="alternate"/>
-    <summary>An update to realtest
-is now available.</summary>
-    <category term="realtest" label="realtest"/>
+    <link href="https://www.gagolewski.com/_news/20220825-datawranglingpy-amazon.html" rel="alternate"/>
+    <summary>A printed version of my open-access textbook
+Minimalist Data Wrangling with Python
+can now be ordered from Amazon.
+It is exactly the same as the freely available
+PDF version.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2022-08-24T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html</id>
+    <title>Power Laws, the Price Model, and the Pareto type-2 Distribution</title>
+    <updated>2022-08-10T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
+will appear in &lt;em&gt;Physica A: Statistical Mechanics and its Applications&lt;/em&gt;
+(&lt;a class="reference external" href="https://arxiv.org/abs/2201.11456"&gt;preprint&lt;/a&gt;;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.physa.2022.128059"&gt;10.1016/j.physa.2022.128059&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html" rel="alternate"/>
+    <summary>A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
+will appear in Physica A: Statistical Mechanics and its Applications
+(preprint;
+(DOI: 10.1016/j.physa.2022.128059).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-08-10T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html</id>
+    <title>genieclust 1.0.1 on PyPI and CRAN</title>
+    <updated>2022-08-08T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
+has been published on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
+and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html" rel="alternate"/>
+    <summary>A new release of genieclust
+has been published on PyPI
+and CRAN.</summary>
+    <category term="genieclust" label="genieclust"/>
     <category term="software" label="software"/>
-    <published>2021-06-17T00:00:00+10:00</published>
+    <published>2022-08-08T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html</id>
-    <title>stringi 1.7.2</title>
-    <updated>2021-07-14T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Another major update of
-&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
-brings a rewritten version of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stri_sprintf&lt;/span&gt;&lt;/code&gt;,
-support for custom rule-based transliteration,
-extraction of named regex capture groups,
-and many other enhancements.&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20220716-datawranglingpy.html</id>
+    <title>Minimalist Data Wrangling with Python</title>
+    <updated>2022-07-16T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;I’ve completed a
+&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;textbook&lt;/a&gt;
+on data wrangling with Python.
+This work is, and will remain, available for everyone’s enjoyment,
+because I believe that education should be free for all.
+Just like open-source software, more open-access textbooks
+are urgently needed. Free == independent == higher quality.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html" rel="alternate"/>
-    <summary>Another major update of
-stringi
-brings a rewritten version of stri_sprintf,
-support for custom rule-based transliteration,
-extraction of named regex capture groups,
-and many other enhancements.</summary>
+    <link href="https://www.gagolewski.com/_news/20220716-datawranglingpy.html" rel="alternate"/>
+    <summary>I’ve completed a
+textbook
+on data wrangling with Python.
+This work is, and will remain, available for everyone’s enjoyment,
+because I believe that education should be free for all.
+Just like open-source software, more open-access textbooks
+are urgently needed. Free == independent == higher quality.</summary>
+    <category term="new-book" label="new-book"/>
+    <published>2022-07-16T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html</id>
+    <title>stringi 1.7.8 on CRAN</title>
+    <updated>2022-07-11T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+is now available on &lt;a class="reference external" href="https://cran.r-project.org/web/packages/stringi/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html" rel="alternate"/>
+    <summary>A maintenance release of stringi
+is now available on CRAN.</summary>
     <category term="software" label="software"/>
     <category term="stringi" label="stringi"/>
-    <published>2021-07-14T00:00:00+10:00</published>
+    <published>2022-07-11T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html</id>
+    <title>Reduction of Variables and Constraints in Fitting Antibuoyant Fuzzy Measures to Data Using Linear Programming</title>
+    <updated>2022-07-02T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Gleb Beliakov, Simon James, and I will have another paper published in
+&lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2022.06.025"&gt;10.1016/j.fss.2022.06.025&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html" rel="alternate"/>
+    <summary>Gleb Beliakov, Simon James, and I will have another paper published in
+Fuzzy Sets and Systems
+(DOI: 10.1016/j.fss.2022.06.025).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-07-02T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html</id>
+    <title>Time to Vote: Temporal Clustering of User Activity on Stack Overflow</title>
+    <updated>2022-05-04T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
+will appear in the
+&lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1002/asi.24658"&gt;10.1002/asi.24658&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html" rel="alternate"/>
+    <summary>A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
+will appear in the
+Journal of the Association for Information Science and Technology
+(DOI: 10.1002/asi.24658).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-05-04T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html</id>
+    <title>Ockham’s Index of Scientific Impact</title>
+    <updated>2022-03-15T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new paper of mine  (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena) will appear in &lt;em&gt;Scientometrics&lt;/em&gt;
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1007/s11192-022-04345-2"&gt;10.1007/s11192-022-04345-2&lt;/a&gt;)&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html" rel="alternate"/>
+    <summary>A new paper of mine  (co-authored by Basia Żogała-Siudem,
+Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
+(DOI: 10.1007/s11192-022-04345-2)</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-03-15T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html</id>
+    <title>Validating Citation Models by Proxy Indices</title>
+    <updated>2022-02-26T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Accepted for publication in
+&lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper by Ania Cena, Basia Żogała-Siudem,
+Grzesiek Siudem, and yours truly
+(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101267"&gt;10.1016/j.joi.2022.101267&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html" rel="alternate"/>
+    <summary>Accepted for publication in
+Journal of Informetrics: a new paper by Ania Cena, Basia Żogała-Siudem,
+Grzesiek Siudem, and yours truly
+(DOI: 10.1016/j.joi.2022.101267).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-02-26T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220219-award-ministry.html</id>
+    <title>Ministry of Education and Science Award</title>
+    <updated>2022-02-19T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Together with a number of excellent colleagues,
+I have &lt;a class="reference external" href="https://www.gov.pl/web/edukacja-i-nauka/nagrody-ministra-edukacji-i-nauki--serdecznie-gratulujemy"&gt;received&lt;/a&gt;
+the Ministry of Education and Science, Poland,
+award for significant achievements
+in teaching, for the design and implementation of a new innovative
+course of study – Master of Data Science –
+at the Faculty of Mathematics and Information Science,
+Warsaw University of Technology.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220219-award-ministry.html" rel="alternate"/>
+    <summary>Together with a number of excellent colleagues,
+I have received
+the Ministry of Education and Science, Poland,
+award for significant achievements
+in teaching, for the design and implementation of a new innovative
+course of study – Master of Data Science –
+at the Faculty of Mathematics and Information Science,
+Warsaw University of Technology.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2022-02-19T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20220204-fsta-plenary.html</id>
+    <title>Invited Lecture at FSTA 2022</title>
+    <updated>2022-02-04T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;I’m giving (online…) an invited lecture at &lt;a class="reference external" href="http://www.fsta.sk/index.html"&gt;FSTA 2022&lt;/a&gt;
+today entitled &lt;em&gt;Clustering and aggregation&lt;/em&gt;,
+where we will examine a few scenarios where aggregation methods
+can aid in the construction, analysis, and evaluation of tools related to data
+clustering, including linkage criteria, partition similarity measures,
+and cluster validity indices. We’ll also indicate some noteworthy challenges
+for both theoretical and practical future research endeavours.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20220204-fsta-plenary.html" rel="alternate"/>
+    <summary>I’m giving (online…) an invited lecture at FSTA 2022
+today entitled Clustering and aggregation,
+where we will examine a few scenarios where aggregation methods
+can aid in the construction, analysis, and evaluation of tools related to data
+clustering, including linkage criteria, partition similarity measures,
+and cluster validity indices. We’ll also indicate some noteworthy challenges
+for both theoretical and practical future research endeavours.</summary>
+    <published>2022-02-04T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20211008-homepage-rewrite.html</id>
+    <title>Homepage Rewrite</title>
+    <updated>2021-10-08T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://www.sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20211008-homepage-rewrite.html" rel="alternate"/>
+    <summary>My website is now generated with Sphinx.</summary>
+    <published>2021-10-08T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20211006-paper-cvi.html</id>
+    <title>Are Cluster Validity Measures (In)valid?</title>
+    <updated>2021-10-06T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;To appear in
+&lt;em&gt;Information Sciences&lt;/em&gt; — a paper
+coauthored by Maciek Bartoszuk and Ania Cena
+(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2021.10.004"&gt;10.1016/j.ins.2021.10.004&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20211006-paper-cvi.html" rel="alternate"/>
+    <summary>To appear in
+Information Sciences — a paper
+coauthored by Maciek Bartoszuk and Ania Cena
+(doi:10.1016/j.ins.2021.10.004).</summary>
+    <category term="clustering" label="clustering"/>
+    <category term="new-paper" label="new-paper"/>
+    <published>2021-10-06T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20210927-paper-stringi.html</id>
+    <title>Paper on stringi</title>
+    <updated>2021-09-27T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+package has been accepted for publication in
+&lt;em&gt;Journal of Statistical Software&lt;/em&gt;
+(&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" rel="alternate"/>
+    <summary>A paper on my stringi
+package has been accepted for publication in
+Journal of Statistical Software
+(doi:10.18637/jss.v103.i02.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <category term="stringi" label="stringi"/>
+    <published>2021-09-27T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html</id>
+    <title>T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection</title>
+    <updated>2021-08-26T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new paper by Maciek Bartoszuk and me is to appear in &lt;em&gt;Knowledge-Based Systems&lt;/em&gt;
+(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.knosys.2021.107427"&gt;10.1016/j.knosys.2021.107427&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html" rel="alternate"/>
+    <summary>A new paper by Maciek Bartoszuk and me is to appear in Knowledge-Based Systems
+(doi:10.1016/j.knosys.2021.107427).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2021-08-26T00:00:00+10:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20210729-software-stringx.html</id>
     <title>stringx: Drop-in replacements for base R string functions powered by stringi</title>
     <updated>2021-07-29T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;English is the native language for only 5% of the World population.
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;English is the native language for only 5% of the World population.
 Also, only 17% of us can understand this text. Moreover, the Latin alphabet
 is the main one for merely 36% of the total. The early computer era, now a
 very long time ago, was dominated by the US. Due to the proliferation of
@@ -105,7 +519,7 @@ and introduces some new, useful features. Thanks to
 &lt;a class="reference external" href="http://site.icu-project.org"&gt;ICU&lt;/a&gt; (International Components for Unicode) and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;,
 they are fast, reliable, and portable across different platforms.
 Now available from &lt;a class="reference external" href="https://CRAN.R-project.org/package=stringx"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20210729-software-stringx.html" rel="alternate"/>
     <summary>English is the native language for only 5% of the World population.
@@ -128,526 +542,79 @@ Now available from CRAN.</summary>
     <published>2021-07-29T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html</id>
-    <title>T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection</title>
-    <updated>2021-08-26T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new paper by Maciek Bartoszuk and me is to appear in &lt;em&gt;Knowledge-Based Systems&lt;/em&gt;
-(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.knosys.2021.107427"&gt;10.1016/j.knosys.2021.107427&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html</id>
+    <title>stringi 1.7.2</title>
+    <updated>2021-07-14T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Another major update of
+&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+brings a rewritten version of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stri_sprintf&lt;/span&gt;&lt;/code&gt;,
+support for custom rule-based transliteration,
+extraction of named regex capture groups,
+and many other enhancements.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20210826-paper-tnorm-similar.html" rel="alternate"/>
-    <summary>A new paper by Maciek Bartoszuk and me is to appear in Knowledge-Based Systems
-(doi:10.1016/j.knosys.2021.107427).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2021-08-26T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20210927-paper-stringi.html</id>
-    <title>Paper on stringi</title>
-    <updated>2021-09-27T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
-package has been accepted for publication in
-&lt;em&gt;Journal of Statistical Software&lt;/em&gt;
-(&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20210927-paper-stringi.html" rel="alternate"/>
-    <summary>A paper on my stringi
-package has been accepted for publication in
-Journal of Statistical Software
-(doi:10.18637/jss.v103.i02.</summary>
-    <category term="new-paper" label="new-paper"/>
-    <category term="stringi" label="stringi"/>
-    <published>2021-09-27T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20211006-paper-cvi.html</id>
-    <title>Are Cluster Validity Measures (In)valid?</title>
-    <updated>2021-10-06T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;To appear in
-&lt;em&gt;Information Sciences&lt;/em&gt; — a paper
-coauthored by Maciek Bartoszuk and Ania Cena
-(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2021.10.004"&gt;10.1016/j.ins.2021.10.004&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20211006-paper-cvi.html" rel="alternate"/>
-    <summary>To appear in
-Information Sciences — a paper
-coauthored by Maciek Bartoszuk and Ania Cena
-(doi:10.1016/j.ins.2021.10.004).</summary>
-    <category term="clustering" label="clustering"/>
-    <category term="new-paper" label="new-paper"/>
-    <published>2021-10-06T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20211008-homepage-rewrite.html</id>
-    <title>Homepage Rewrite</title>
-    <updated>2021-10-08T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;My website is now generated with &lt;a class="reference external" href="https://www.sphinx-doc.org/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20211008-homepage-rewrite.html" rel="alternate"/>
-    <summary>My website is now generated with Sphinx.</summary>
-    <published>2021-10-08T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220204-fsta-plenary.html</id>
-    <title>Invited Lecture at FSTA 2022</title>
-    <updated>2022-02-04T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I’m giving (online…) an invited lecture at &lt;a class="reference external" href="http://www.fsta.sk/index.html"&gt;FSTA 2022&lt;/a&gt;
-today entitled &lt;em&gt;Clustering and aggregation&lt;/em&gt;,
-where we will examine a few scenarios where aggregation methods
-can aid in the construction, analysis, and evaluation of tools related to data
-clustering, including linkage criteria, partition similarity measures,
-and cluster validity indices. We’ll also indicate some noteworthy challenges
-for both theoretical and practical future research endeavours.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220204-fsta-plenary.html" rel="alternate"/>
-    <summary>I’m giving (online…) an invited lecture at FSTA 2022
-today entitled Clustering and aggregation,
-where we will examine a few scenarios where aggregation methods
-can aid in the construction, analysis, and evaluation of tools related to data
-clustering, including linkage criteria, partition similarity measures,
-and cluster validity indices. We’ll also indicate some noteworthy challenges
-for both theoretical and practical future research endeavours.</summary>
-    <published>2022-02-04T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220219-award-ministry.html</id>
-    <title>Ministry of Education and Science Award</title>
-    <updated>2022-02-19T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Together with a number of excellent colleagues,
-I have &lt;a class="reference external" href="https://www.gov.pl/web/edukacja-i-nauka/nagrody-ministra-edukacji-i-nauki--serdecznie-gratulujemy"&gt;received&lt;/a&gt;
-the Ministry of Education and Science, Poland,
-award for significant achievements
-in teaching, for the design and implementation of a new innovative
-course of study – Master of Data Science –
-at the Faculty of Mathematics and Information Science,
-Warsaw University of Technology.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220219-award-ministry.html" rel="alternate"/>
-    <summary>Together with a number of excellent colleagues,
-I have received
-the Ministry of Education and Science, Poland,
-award for significant achievements
-in teaching, for the design and implementation of a new innovative
-course of study – Master of Data Science –
-at the Faculty of Mathematics and Information Science,
-Warsaw University of Technology.</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-02-19T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html</id>
-    <title>Validating Citation Models by Proxy Indices</title>
-    <updated>2022-02-26T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Accepted for publication in
-&lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper by Ania Cena, Basia Żogała-Siudem,
-Grzesiek Siudem, and yours truly
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101267"&gt;10.1016/j.joi.2022.101267&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html" rel="alternate"/>
-    <summary>Accepted for publication in
-Journal of Informetrics: a new paper by Ania Cena, Basia Żogała-Siudem,
-Grzesiek Siudem, and yours truly
-(DOI: 10.1016/j.joi.2022.101267).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-02-26T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html</id>
-    <title>Ockham’s Index of Scientific Impact</title>
-    <updated>2022-03-15T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new paper of mine  (co-authored by Basia Żogała-Siudem,
-Grzesiek Siudem, and Ania Cena) will appear in &lt;em&gt;Scientometrics&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1007/s11192-022-04345-2"&gt;10.1007/s11192-022-04345-2&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220315-paper-scientometrics-ockham.html" rel="alternate"/>
-    <summary>A new paper of mine  (co-authored by Basia Żogała-Siudem,
-Grzesiek Siudem, and Ania Cena) will appear in Scientometrics
-(DOI: 10.1007/s11192-022-04345-2)</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-03-15T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html</id>
-    <title>Time to Vote: Temporal Clustering of User Activity on Stack Overflow</title>
-    <updated>2022-05-04T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
-will appear in the
-&lt;em&gt;Journal of the Association for Information Science and Technology&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1002/asi.24658"&gt;10.1002/asi.24658&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220504-paper-jasist-timetovote.html" rel="alternate"/>
-    <summary>A new paper of mine (coauthors: Agnieszka Geras, Grzesiek Siudem)
-will appear in the
-Journal of the Association for Information Science and Technology
-(DOI: 10.1002/asi.24658).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-05-04T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html</id>
-    <title>Reduction of Variables and Constraints in Fitting Antibuoyant Fuzzy Measures to Data Using Linear Programming</title>
-    <updated>2022-07-02T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Gleb Beliakov, Simon James, and I will have another paper published in
-&lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2022.06.025"&gt;10.1016/j.fss.2022.06.025&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220702-paper-fss-antibuoyant.html" rel="alternate"/>
-    <summary>Gleb Beliakov, Simon James, and I will have another paper published in
-Fuzzy Sets and Systems
-(DOI: 10.1016/j.fss.2022.06.025).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-07-02T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html</id>
-    <title>stringi 1.7.8 on CRAN</title>
-    <updated>2022-07-11T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
-is now available on &lt;a class="reference external" href="https://cran.r-project.org/web/packages/stringi/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html" rel="alternate"/>
-    <summary>A maintenance release of stringi
-is now available on CRAN.</summary>
+    <link href="https://www.gagolewski.com/_news/20210714-software-stringi-1-7-2.html" rel="alternate"/>
+    <summary>Another major update of
+stringi
+brings a rewritten version of stri_sprintf,
+support for custom rule-based transliteration,
+extraction of named regex capture groups,
+and many other enhancements.</summary>
     <category term="software" label="software"/>
     <category term="stringi" label="stringi"/>
-    <published>2022-07-11T00:00:00+10:00</published>
+    <published>2021-07-14T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20220716-datawranglingpy.html</id>
-    <title>Minimalist Data Wrangling with Python</title>
-    <updated>2022-07-16T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I’ve completed a
-&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;textbook&lt;/a&gt;
-on data wrangling with Python.
-This work is, and will remain, available for everyone’s enjoyment,
-because I believe that education should be free for all.
-Just like open-source software, more open-access textbooks
-are urgently needed. Free == independent == higher quality.&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html</id>
+    <title>realtest 0.2.1 on CRAN</title>
+    <updated>2021-06-17T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+is now available.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20220716-datawranglingpy.html" rel="alternate"/>
-    <summary>I’ve completed a
-textbook
-on data wrangling with Python.
-This work is, and will remain, available for everyone’s enjoyment,
-because I believe that education should be free for all.
-Just like open-source software, more open-access textbooks
-are urgently needed. Free == independent == higher quality.</summary>
-    <category term="new-book" label="new-book"/>
-    <published>2022-07-16T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html</id>
-    <title>genieclust 1.0.1 on PyPI and CRAN</title>
-    <updated>2022-08-08T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
-has been published on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
-and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html" rel="alternate"/>
-    <summary>A new release of genieclust
-has been published on PyPI
-and CRAN.</summary>
-    <category term="genieclust" label="genieclust"/>
+    <link href="https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html" rel="alternate"/>
+    <summary>An update to realtest
+is now available.</summary>
+    <category term="realtest" label="realtest"/>
     <category term="software" label="software"/>
-    <published>2022-08-08T00:00:00+10:00</published>
+    <published>2021-06-17T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html</id>
-    <title>Power Laws, the Price Model, and the Pareto type-2 Distribution</title>
-    <updated>2022-08-10T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
-will appear in &lt;em&gt;Physica A: Statistical Mechanics and its Applications&lt;/em&gt;
-(&lt;a class="reference external" href="https://arxiv.org/abs/2201.11456"&gt;preprint&lt;/a&gt;;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.physa.2022.128059"&gt;10.1016/j.physa.2022.128059&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20210604-software-realtest.html</id>
+    <title>realtest: When Expectations Meet Reality: Realistic Unit Testing in R</title>
+    <updated>2021-06-04T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+is a framework for unit testing for realistic minimalists, where we distinguish
+between expected, acceptable, current, fallback, ideal, or regressive behaviour.
+It can also be used for monitoring other software projects for changes.
+Now available on &lt;a class="reference external" href="https://CRAN.R-project.org/package=realtest"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20220810-paper-physicaa-pricepareto2.html" rel="alternate"/>
-    <summary>A new contribution of ours (with Grzesiek Siudem and Przemysław Nowak)
-will appear in Physica A: Statistical Mechanics and its Applications
-(preprint;
-(DOI: 10.1016/j.physa.2022.128059).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-08-10T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220825-datawranglingpy-amazon.html</id>
-    <title>Minimalist Data Wrangling with Python – Paperback Available</title>
-    <updated>2022-08-24T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A printed version of my open-access textbook
-&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;Minimalist Data Wrangling with Python&lt;/a&gt;
-can now be ordered from &lt;a class="reference external" href="https://www.amazon.com/dp/0645571911"&gt;Amazon&lt;/a&gt;.
-It is exactly the same as the freely available
-&lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/datawranglingpy.pdf"&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220825-datawranglingpy-amazon.html" rel="alternate"/>
-    <summary>A printed version of my open-access textbook
-Minimalist Data Wrangling with Python
-can now be ordered from Amazon.
-It is exactly the same as the freely available
-PDF version.</summary>
-    <category term="new-book" label="new-book"/>
-    <published>2022-08-24T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html</id>
-    <title>genieclust 1.1.0 on PyPI and CRAN</title>
-    <updated>2022-09-05T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
-package is available on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
-and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html" rel="alternate"/>
-    <summary>A new release of the genieclust
-package is available on PyPI
-and CRAN.</summary>
-    <category term="genieclust" label="genieclust"/>
+    <link href="https://www.gagolewski.com/_news/20210604-software-realtest.html" rel="alternate"/>
+    <summary>realtest
+is a framework for unit testing for realistic minimalists, where we distinguish
+between expected, acceptable, current, fallback, ideal, or regressive behaviour.
+It can also be used for monitoring other software projects for changes.
+Now available on CRAN.</summary>
+    <category term="realtest" label="realtest"/>
     <category term="software" label="software"/>
-    <published>2022-09-05T00:00:00+10:00</published>
+    <published>2021-06-04T00:00:00+10:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20220908-submitted-aaa.html</id>
-    <title>Submitted: Adjusted Asymmetric Accuracy</title>
-    <updated>2022-09-08T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+    <id>https://www.gagolewski.com/_news/20210527-paper-genieclust.html</id>
+    <title>Paper on the genieclust Python+R package</title>
+    <updated>2021-05-27T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;&lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;genieclust&lt;/a&gt;: Fast and robust hierarchical clustering&lt;/em&gt;
+was accepted for publication in &lt;em&gt;SoftwareX&lt;/em&gt;
+(doi:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.softx.2021.100722"&gt;10.1016/j.softx.2021.100722&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
 </content>
-    <link href="https://www.gagolewski.com/_news/20220908-submitted-aaa.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2022-09-08T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20221014-paper-joi-journals.html</id>
-    <title>Accidentality in Journal Citation Patterns</title>
-    <updated>2022-10-14T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Maciej J. Mrowiński, Grzesiek Siudem, and I will have another contribution in
-the &lt;em&gt;Journal of Informetrics&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101341"&gt;10.1016/j.joi.2022.101341&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20221014-paper-joi-journals.html" rel="alternate"/>
-    <summary>Maciej J. Mrowiński, Grzesiek Siudem, and I will have another contribution in
-the Journal of Informetrics
-(DOI: 10.1016/j.joi.2022.101341).</summary>
+    <link href="https://www.gagolewski.com/_news/20210527-paper-genieclust.html" rel="alternate"/>
+    <summary>genieclust: Fast and robust hierarchical clustering
+was accepted for publication in SoftwareX
+(doi:10.1016/j.softx.2021.100722).</summary>
+    <category term="genieclust" label="genieclust"/>
     <category term="new-paper" label="new-paper"/>
-    <published>2022-10-14T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20221115-paper-joi-interpretable-citation-models.html</id>
-    <title>Interpretable Reparameterisations of Citation Models</title>
-    <updated>2022-11-15T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;To be published in &lt;em&gt;Journal of Informetrics&lt;/em&gt;: a new paper
-by Barbara Żogała-Siudem, Anna Cena, Greg Siudem, and I
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101355"&gt;10.1016/j.joi.2022.101355&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20221115-paper-joi-interpretable-citation-models.html" rel="alternate"/>
-    <summary>To be published in Journal of Informetrics: a new paper
-by Barbara Żogała-Siudem, Anna Cena, Greg Siudem, and I
-(DOI: 10.1016/j.joi.2022.101355).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-11-15T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220921-paper-clustering-benchmarks.html</id>
-    <title>A Framework for Benchmarking Clustering Algorithms</title>
-    <updated>2022-11-16T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A paper related to my framework for benchmarking clustering algorithms
-will appear in &lt;em&gt;SoftwareX&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.softx.2022.101270"&gt;10.1016/j.softx.2022.101270&lt;/a&gt;).
-Its preprint is available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.09493"&gt;arXiv&lt;/a&gt;.
-The project also has a dedicated website:
-&lt;a class="reference external" href="https://clustering-benchmarks.gagolewski.com"&gt;https://clustering-benchmarks.gagolewski.com&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220921-paper-clustering-benchmarks.html" rel="alternate"/>
-    <summary>A paper related to my framework for benchmarking clustering algorithms
-will appear in SoftwareX
-(DOI: 10.1016/j.softx.2022.101270).
-Its preprint is available on arXiv.
-The project also has a dedicated website:
-https://clustering-benchmarks.gagolewski.com.</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2022-11-16T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20221228-deepr-draft.html</id>
-    <title>Deep R Programming (First Draft)</title>
-    <updated>2022-12-28T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;I’ve released an early draft of my new textbook
-&lt;em&gt;Deep R Programming&lt;/em&gt; – the first 12 chapters.
-It is a comprehensive course on one of the most popular
-languages in data science (statistical computing, graphics,
-machine learning, data wrangling and analytics). It introduces
-the base language in-depth and is aimed at ambitious students,
-practitioners, and researchers who would like to become independent
-users of this powerful environment.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20221228-deepr-draft.html" rel="alternate"/>
-    <summary>I’ve released an early draft of my new textbook
-Deep R Programming – the first 12 chapters.
-It is a comprehensive course on one of the most popular
-languages in data science (statistical computing, graphics,
-machine learning, data wrangling and analytics). It introduces
-the base language in-depth and is aimed at ambitious students,
-practitioners, and researchers who would like to become independent
-users of this powerful environment.</summary>
-    <category term="new-book" label="new-book"/>
-    <published>2022-12-28T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230127-paper-fss-benchmark-integral.html</id>
-    <title>A Benchmark-type Generalisation of the Sugeno Integral with Applications in Bibliometrics</title>
-    <updated>2023-01-27T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;New paper by Michał Boczek, Marek Kaluszka, Andrzej Okolewski, and yours truly
-to appear in &lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;
-(DOI: &lt;a class="reference external" href="https://doi.org/10.1016/j.fss.2023.01.014"&gt;10.1016/j.fss.2023.01.014&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230127-paper-fss-benchmark-integral.html" rel="alternate"/>
-    <summary>New paper by Michał Boczek, Marek Kaluszka, Andrzej Okolewski, and yours truly
-to appear in Fuzzy Sets and Systems
-(DOI: 10.1016/j.fss.2023.01.014).</summary>
-    <category term="new-paper" label="new-paper"/>
-    <published>2023-01-27T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230310-submitted-clumst.html</id>
-    <title>Submitted: Clustering with minimum spanning trees: How good can it be?</title>
-    <updated>2023-03-10T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Clustering with minimum spanning trees: How good can it be?&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05679"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230310-submitted-clumst.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Clustering with minimum spanning trees: How good can it be?
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-03-10T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230310-submitted-owalink.html</id>
-    <title>Submitted: Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
-    <updated>2023-03-10T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05683"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230310-submitted-owalink.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-03-10T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html</id>
-    <title>Submitted: Community Detection in Complex Networks</title>
-    <updated>2023-03-23T00:00:00+11:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.12212"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-03-23T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html</id>
-    <title>Submitted: Equivalence of inequality indices: Three dimensions of impact revisited</title>
-    <updated>2023-04-18T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-&lt;em&gt;Equivalence of inequality indices: Three dimensions of impact revisited&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07479"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html" rel="alternate"/>
-    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-Equivalence of inequality indices: Three dimensions of impact revisited
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-04-18T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html</id>
-    <title>Submitted: Gini-stable Lorenz curves and their relation to the generalised Pareto distribution</title>
-    <updated>2023-04-18T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-&lt;em&gt;Gini-stable Lorenz curves and their relation to the generalised Pareto distribution&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07480"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html" rel="alternate"/>
-    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-Gini-stable Lorenz curves and their relation to the generalised Pareto distribution
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-04-18T00:00:00+10:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230628-deepr.html</id>
-    <title>Deep R Programming v1.0.0</title>
-    <updated>2023-06-28T00:00:00+10:00</updated>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Final version of &lt;em&gt;Deep R Programming&lt;/em&gt; is now available.&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230628-deepr.html" rel="alternate"/>
-    <summary>Final version of Deep R Programming is now available.</summary>
-    <category term="new-book" label="new-book"/>
-    <published>2023-06-28T00:00:00+10:00</published>
+    <published>2021-05-27T00:00:00+10:00</published>
   </entry>
 </feed>

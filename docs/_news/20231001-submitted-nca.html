@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20220908-submitted-aaa.html" />
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20231001-submitted-nca.html" />
 
-    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>Submitted: Adjusted Asymmetric Accuracy - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>Submitted: Normalised Clustering Accuracy - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
@@ -232,32 +232,15 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="submitted-adjusted-asymmetric-accuracy">
-<h1>Submitted: Adjusted Asymmetric Accuracy<a class="headerlink" href="#submitted-adjusted-asymmetric-accuracy" title="Link to this heading">#</a></h1>
-<p>An early version of my most recent paper
-<em>Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure</em>
+          <section class="tex2jax_ignore mathjax_ignore" id="submitted-normalised-clustering-accuracy">
+<h1>Submitted: Normalised Clustering Accuracy<a class="headerlink" href="#submitted-normalised-clustering-accuracy" title="Link to this heading">#</a></h1>
+<p>An revised version of a paper
+<em>Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure</em>
+(in a previous draft called <em>Adjusted Asymmetric Accuracy</em>)
 is now available on <a class="reference external" href="https://arxiv.org/abs/2209.02935">arXiv</a>.</p>
 <blockquote>
 <div><p><strong>Abstract.</strong>
-There is no, nor will there ever be, single best clustering algorithm, but we
-would still like to be able to pinpoint those which are well-performing on
-certain task types and filter out the systematically disappointing ones.
-Clustering algorithms are traditionally evaluated using either internal or
-external validity measures. Internal measures quantify different aspects of the
-obtained partitions, e.g., the average degree of cluster compactness or point
-separability. Yet, their validity is questionable because the clusterings they
-promote can sometimes be meaningless. External measures, on the other hand,
-compare the algorithms’ outputs to the reference, ground truth groupings that
-are provided by experts. The commonly-used classical partition similarity
-scores, such as the normalised mutual information, Fowlkes–Mallows, or adjusted
-Rand index, might not possess all the desirable properties, e.g., they do not
-identify pathological edge cases correctly. Furthermore, they are not nicely
-interpretable: it is hard to say what a score of 0.8 really means. Its behaviour
-might also vary as the number of true clusters changes. This makes comparing
-clustering algorithms across many benchmark datasets difficult. To remedy this,
-we propose and analyse a new measure: an asymmetric version of the optimal
-set-matching accuracy. It is corrected for chance and the imbalancedness of
-cluster sizes.</p>
+There is no, nor will there ever be, single best clustering algorithm, but we would still like to be able to distinguish between methods which work well on certain task types and those that  systematically underperform. Clustering algorithms are traditionally evaluated using either internal or external validity measures. Internal measures quantify different aspects of the obtained partitions, e.g., the average degree of cluster compactness or point separability. Yet, their validity is questionable, because the clusterings they promote can sometimes be meaningless. External measures, on the other hand, compare the algorithms’ outputs to the reference, ground truth groupings that are provided by experts. In this paper, we argue that the commonly-used classical partition similarity scores, such as the normalised mutual information, Fowlkes–Mallows, or adjusted Rand index, miss some desirable properties, e.g., they do not identify worst-case scenarios correctly or are not easily interpretable. This makes comparing clustering algorithms across many benchmark datasets difficult. To remedy these issues, we propose and analyse a new measure: a version of the optimal set-matching accuracy, which is normalised, monotonic, scale invariant, and corrected for the imbalancedness of cluster sizes (but neither symmetric nor adjusted for chance).</p>
 </div></blockquote>
 </section>
 
@@ -278,7 +261,7 @@ cluster sizes.</p>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2023-09-19T17:02:42+1000.
+              Last updated on 2023-10-01T14:16:40+1100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

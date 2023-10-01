@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-09-19T07:02:43.303063+00:00</updated>
+  <updated>2023-10-01T03:16:41.311697+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20231001-submitted-nca.html</id>
+    <title>Submitted: Normalised Clustering Accuracy</title>
+    <updated>2023-10-01T00:00:00+10:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An revised version of a paper
+&lt;em&gt;Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure&lt;/em&gt;
+(in a previous draft called &lt;em&gt;Adjusted Asymmetric Accuracy&lt;/em&gt;)
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20231001-submitted-nca.html" rel="alternate"/>
+    <summary>An revised version of a paper
+Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure
+(in a previous draft called Adjusted Asymmetric Accuracy)
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-10-01T00:00:00+10:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20230628-deepr.html</id>
     <title>Deep R Programming v1.0.0</title>
@@ -193,22 +211,6 @@ the Journal of Informetrics
 (DOI: 10.1016/j.joi.2022.101341).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2022-10-14T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20220908-submitted-aaa.html</id>
-    <title>Submitted: Adjusted Asymmetric Accuracy</title>
-    <updated>2022-09-08T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20220908-submitted-aaa.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Adjusted Asymmetric Accuracy: A Well-Behaving External Cluster Validity Measure
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2022-09-08T00:00:00+10:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html</id>

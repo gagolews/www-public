@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-10-01T03:16:41.311697+00:00</updated>
+  <updated>2023-10-03T11:05:40.039665+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20231003-paper-owalink.html</id>
+    <title>Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
+    <updated>2023-10-03T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper by Anna Cena, Simon James, Gleb Beliakov, and I entitled
+&lt;em&gt;Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions&lt;/em&gt;
+has been accepted for publication in &lt;em&gt;Fuzzy Sets and Systems&lt;/em&gt;.
+A preprint is available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05683"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20231003-paper-owalink.html" rel="alternate"/>
+    <summary>A paper by Anna Cena, Simon James, Gleb Beliakov, and I entitled
+Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions
+has been accepted for publication in Fuzzy Sets and Systems.
+A preprint is available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2023-10-03T00:00:00+11:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20231001-submitted-nca.html</id>
     <title>Submitted: Normalised Clustering Accuracy</title>
@@ -83,22 +101,6 @@ Community detection in complex networks via node similarity, graph representatio
 is now available on arXiv.</summary>
     <category term="submitted-paper" label="submitted-paper"/>
     <published>2023-03-23T00:00:00+11:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230310-submitted-owalink.html</id>
-    <title>Submitted: Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
-    <updated>2023-03-10T00:00:00+11:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
-&lt;em&gt;Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2303.05683"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230310-submitted-owalink.html" rel="alternate"/>
-    <summary>An early version of my most recent paper
-Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-03-10T00:00:00+11:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20230310-submitted-clumst.html</id>

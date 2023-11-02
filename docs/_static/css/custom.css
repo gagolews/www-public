@@ -143,6 +143,15 @@ strong.command, strong.program, .rst-content code, .rst-content div[class^="high
 
 /* -------------------------------------------------------------------------- */
 
+img.sidebar-logo {
+    height: 128px;
+    width: 128px;
+}
+
+img.round-border {
+    border-radius: 100%;
+}
+
 img.img-left-align-always {
     float: left;
     margin-right: 16px;
@@ -153,10 +162,6 @@ img.img-right-align-always {
     float: right;
     margin-left: 16px;
     margin-bottom: 16px;
-}
-
-img.round-border {
-    border-radius: 100%;
 }
 
 @media (max-width: 480px) {

@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html" />
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20231109-software-stringi-1-8-1.html" />
 
-    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>genieclust 1.0.1 on PyPI and CRAN - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>stringi 1.8.1 on CRAN - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
@@ -232,19 +232,40 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="genieclust-1-0-1-on-pypi-and-cran">
-<h1><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong> 1.0.1 on PyPI and CRAN<a class="headerlink" href="#genieclust-1-0-1-on-pypi-and-cran" title="Link to this heading">#</a></h1>
-<p>A new release of <a class="reference external" href="https://genieclust.gagolewski.com"><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong></a>
-has been published on <a class="reference external" href="https://pypi.org/project/genieclust/">PyPI</a>
-and <a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/">CRAN</a>.</p>
-<p>Changes since v1.0.0:</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="stringi-1-8-1-on-cran">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">stringi</span></code></strong> 1.8.1 on CRAN<a class="headerlink" href="#stringi-1-8-1-on-cran" title="Link to this heading">#</a></h1>
+<p>A new major release of <a class="reference external" href="https://stringi.gagolewski.com"><strong><code class="docutils literal notranslate"><span class="pre">stringi</span></code></strong></a>
+was submitted to <a class="reference external" href="https://cran.r-project.org/package=stringi">CRAN</a>.</p>
+<p>Changes since the last release:</p>
 <ul class="simple">
-<li><p>[GENERAL] A paper on the <code class="docutils literal notranslate"><span class="pre">genieclust</span></code> package
-has <a class="reference external" href="https://doi.org/10.1016/j.softx.2021.100722">appeared</a> in <em>SoftwareX</em>.</p></li>
-<li><p>[Python] <code class="docutils literal notranslate"><span class="pre">plot_scatter</span></code> now uses a more accessible default palette
-(from R 4.0.0).</p></li>
-<li><p>[Python] New function: <code class="docutils literal notranslate"><span class="pre">inequity.devergottini_index</span></code>.</p></li>
-<li><p>[R] New function: <code class="docutils literal notranslate"><span class="pre">devergottini_index</span></code>.</p></li>
+<li><p>[GENERAL] ICU bundle updated to version 74.1 (Unicode 15.1, CLDR 44).</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY] [BUILD TIME] Support for Solaris has now been
+dropped. The package is no longer shipped with the very outdated ICU55 bundle.
+A compiler supporting at least C++11 as well as ICU &gt;= 61 are now required.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY] #469: Missing date-time fields in
+<code class="docutils literal notranslate"><span class="pre">stri_datetime_parse</span></code> and <code class="docutils literal notranslate"><span class="pre">stri_datetime_create</span></code> now default to today’s
+midnight local time.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY] Removed the long-deprecated and defunct
+<code class="docutils literal notranslate"><span class="pre">fallback_encoding</span></code> parameter of <code class="docutils literal notranslate"><span class="pre">stri_read_lines</span></code> and the ellipsis
+parameter of <code class="docutils literal notranslate"><span class="pre">stri_opts_collator</span></code>, <code class="docutils literal notranslate"><span class="pre">stri_opts_regex</span></code>, <code class="docutils literal notranslate"><span class="pre">stri_opts_fixed</span></code>,
+and <code class="docutils literal notranslate"><span class="pre">stri_opts_regex</span></code>.</p></li>
+<li><p>[BUILD TIME] As per the suggestion of Prof. Brian Ripley, <code class="docutils literal notranslate"><span class="pre">icudt74l</span></code>
+(ICU data - little endian) is now included in the source tarball (compressed
+with xz to save space). This allows for building <strong><code class="docutils literal notranslate"><span class="pre">stringi</span></code></strong> on systems with
+no internet access.</p></li>
+<li><p>[NEW FEATURE] #476: In break iterator-, date-time-, and collator-based
+operations (e.g., <code class="docutils literal notranslate"><span class="pre">stri_sort</span></code>), a warning is emitted when the <em>root</em> ICU
+resource bundle is returned when using an <em>explicitly</em> requested locale.
+This might happen when we pass an ‘unknown’ <code class="docutils literal notranslate"><span class="pre">locale</span></code> argument to these
+functions. Note that when relying on the default <code class="docutils literal notranslate"><span class="pre">locale=NULL</span></code> argument,
+no warning is emitted. In such a case, checking
+if the default locale as returned by <code class="docutils literal notranslate"><span class="pre">stri_enc_get</span></code> is amongst
+those listed in <code class="docutils literal notranslate"><span class="pre">stri_enc_list</span></code> is recommended.</p></li>
+<li><p>[NEW FEATURE] The <code class="docutils literal notranslate"><span class="pre">C</span></code> locale identifier now resolves to <code class="docutils literal notranslate"><span class="pre">en_US_POSIX</span></code>.</p></li>
+<li><p>[BUGFIX] #469: <code class="docutils literal notranslate"><span class="pre">stri_datetime_parse</span></code> did not reset the <code class="docutils literal notranslate"><span class="pre">Calendar</span></code>
+object when parsing multiple dates.</p></li>
+<li><p>[BUGFIX] #487: Some functions did not accept ASCII strings longer than
+858993457 characters on input.</p></li>
 </ul>
 </section>
 

@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-11-07T23:08:54.153524+00:00</updated>
+  <updated>2023-11-13T21:33:16.493856+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20231109-software-stringi-1-8-1.html</id>
+    <title>stringi 1.8.1 on CRAN</title>
+    <updated>2023-11-09T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new major release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+was submitted to &lt;a class="reference external" href="https://cran.r-project.org/package=stringi"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20231109-software-stringi-1-8-1.html" rel="alternate"/>
+    <summary>A new major release of stringi
+was submitted to CRAN.</summary>
+    <category term="software" label="software"/>
+    <category term="stringi" label="stringi"/>
+    <published>2023-11-09T00:00:00+11:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20231003-paper-owalink.html</id>
     <title>Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions</title>
@@ -220,7 +235,7 @@ the Journal of Informetrics
     <id>https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html</id>
     <title>genieclust 1.1.0 on PyPI and CRAN</title>
     <updated>2022-09-05T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 package is available on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
 and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -275,7 +290,7 @@ will appear in Physica A: Statistical Mechanics and its Applications
     <id>https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html</id>
     <title>genieclust 1.0.1 on PyPI and CRAN</title>
     <updated>2022-08-08T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;em&gt;genieclust&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 has been published on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
 and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -316,7 +331,7 @@ are urgently needed. Free == independent == higher quality.</summary>
     <id>https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html</id>
     <title>stringi 1.7.8 on CRAN</title>
     <updated>2022-07-11T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 is now available on &lt;a class="reference external" href="https://cran.r-project.org/web/packages/stringi/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
@@ -478,7 +493,7 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <id>https://www.gagolewski.com/_news/20210927-paper-stringi.html</id>
     <title>Paper on stringi</title>
     <updated>2021-09-27T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 package has been accepted for publication in
 &lt;em&gt;Journal of Statistical Software&lt;/em&gt;
 (&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;.&lt;/p&gt;
@@ -517,12 +532,13 @@ is the main one for merely 36% of the total. The early computer era, now a
 very long time ago, was dominated by the US. Due to the proliferation of
 the internet, smartphones, social media, and other technologies and
 communication platforms, this is no longer the case.
-The &lt;a class="reference external" href="https://stringx.gagolewski.com"&gt;&lt;em&gt;stringx&lt;/em&gt;&lt;/a&gt;
+The &lt;a class="reference external" href="https://stringx.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringx&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 package replaces base R string functions (such as &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;grep()&lt;/span&gt;&lt;/code&gt;, &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;tolower()&lt;/span&gt;&lt;/code&gt;,
 and &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;sprintf()&lt;/span&gt;&lt;/code&gt;) with ones that fully support the Unicode standards related
 to natural language processing, fixes some long-standing inconsistencies,
 and introduces some new, useful features. Thanks to
-&lt;a class="reference external" href="http://site.icu-project.org"&gt;ICU&lt;/a&gt; (International Components for Unicode) and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;,
+&lt;a class="reference external" href="http://site.icu-project.org"&gt;ICU&lt;/a&gt; (International Components for Unicode)
+and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;,
 they are fast, reliable, and portable across different platforms.
 Now available from &lt;a class="reference external" href="https://CRAN.R-project.org/package=stringx"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -539,7 +555,8 @@ package replaces base R string functions (such as grep(), tolower(),
 and sprintf()) with ones that fully support the Unicode standards related
 to natural language processing, fixes some long-standing inconsistencies,
 and introduces some new, useful features. Thanks to
-ICU (International Components for Unicode) and stringi,
+ICU (International Components for Unicode)
+and stringi,
 they are fast, reliable, and portable across different platforms.
 Now available from CRAN.</summary>
     <category term="software" label="software"/>
@@ -552,7 +569,7 @@ Now available from CRAN.</summary>
     <title>stringi 1.7.2</title>
     <updated>2021-07-14T00:00:00+10:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Another major update of
-&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;em&gt;stringi&lt;/em&gt;&lt;/a&gt;
+&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 brings a rewritten version of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stri_sprintf&lt;/span&gt;&lt;/code&gt;,
 support for custom rule-based transliteration,
 extraction of named regex capture groups,
@@ -574,7 +591,7 @@ and many other enhancements.</summary>
     <id>https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html</id>
     <title>realtest 0.2.1 on CRAN</title>
     <updated>2021-06-17T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;realtest&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 is now available.&lt;/p&gt;
 &lt;/p&gt;
 </content>
@@ -589,7 +606,7 @@ is now available.</summary>
     <id>https://www.gagolewski.com/_news/20210604-software-realtest.html</id>
     <title>realtest: When Expectations Meet Reality: Realistic Unit Testing in R</title>
     <updated>2021-06-04T00:00:00+10:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;em&gt;realtest&lt;/em&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;realtest&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 is a framework for unit testing for realistic minimalists, where we distinguish
 between expected, acceptable, current, fallback, ideal, or regressive behaviour.
 It can also be used for monitoring other software projects for changes.

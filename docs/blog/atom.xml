@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2023-12-17T06:09:14.774453+00:00</updated>
+  <updated>2024-01-07T05:57:19.868648+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20240104-paper-randomfn.html</id>
+    <title>Random generation of linearly constrained fuzzy measures and domain coverage performance evaluation</title>
+    <updated>2024-01-04T00:00:00+11:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Jian-Zhang Wu, Gleb Beliakov, Simon James, and I will have a new paper in &lt;em&gt;Information Sciences&lt;/em&gt;
+(DOI:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2023.120080"&gt;10.1016/j.ins.2023.120080&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20240104-paper-randomfn.html" rel="alternate"/>
+    <summary>Jian-Zhang Wu, Gleb Beliakov, Simon James, and I will have a new paper in Information Sciences
+(DOI:10.1016/j.ins.2023.120080).</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2024-01-04T00:00:00+11:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20231109-software-stringi-1-8-1.html</id>
     <title>stringi 1.8.1 on CRAN</title>
@@ -38,7 +52,7 @@ Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and
 has been accepted for publication in Fuzzy Sets and Systems
 (DOI:10.1016/j.fss.2023.108740).
 A preprint is available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
+    <category term="new-paper" label="new-paper"/>
     <published>2023-10-03T00:00:00+11:00</published>
   </entry>
   <entry>

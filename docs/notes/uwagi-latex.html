@@ -288,21 +288,6 @@ o znakach interpunkcyjnych. Przykład:</p>
 gdzie <span class="s">$</span><span class="nb">w </span><span class="o">=</span><span class="nb"> </span><span class="m">7</span><span class="s">$</span>.
 </pre></div>
 </div>
-<p>Ewentualnie:</p>
-<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span>Zauważmy, że:
-
-<span class="sb">\[</span>
-<span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nb">wx,</span>
-<span class="s">\]</span>
-
-<span class="k">\noindent</span> <span class="c">% kontynuujemy zdanie</span>
-gdzie:
-
-<span class="sb">\[</span>
-<span class="nb">w </span><span class="o">=</span><span class="nb"> </span><span class="m">7</span><span class="nb">.</span>
-<span class="s">\]</span>
-</pre></div>
-</div>
 </li>
 <li><p>Odwołania do numerowanych równań (<code class="docutils literal notranslate"><span class="pre">\label{etykieta}</span></code>)
 tworzymy przy użyciu <code class="docutils literal notranslate"><span class="pre">\eqref{etykieta}</span></code>. Wtedy numerowanie mamy w stylu (1).</p></li>
@@ -486,7 +471,7 @@ Ja używam <em>kate</em>.</p></li>
 <p>Odmiana nazwisk angielskich i francuskich: np. Disneya, Arrowa, Murphy’ego, Moore’a
 (zob. np. <a class="reference external" href="https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html">https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html</a>).</p>
 <p>Przymiotniki w języku polskim piszemy małą literą, np. metryka euklidesowa,
-język polski (ale w jęz. ang.  mamy już <em>Euclidean metric</em>,
+język polski (ale w jęz. ang. mamy już <em>Euclidean metric</em>,
 <em>Polish language</em>).</p>
 </li>
 <li><p>Podajemy (gdzie się da) angielskie odpowiedniki tłumaczonych
@@ -506,12 +491,12 @@ eksperymentów powinny być zapisane np. do plików .csv).</p></li>
 <li><p>Kod w LaTeX-u to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
 Bardzo nie lubię wcięć dokonywanych przy użyciu tabulatorów –
 sugeruję 4 spacje (spójnie w całym kodzie).
-Radzę zaprzyjaźnić się z <code class="docutils literal notranslate"><span class="pre">git</span></code>-em.</p></li>
+Radzę zaprzyjaźnić się z programem <code class="docutils literal notranslate"><span class="pre">git</span></code>.</p></li>
 <li><p>Pamiętamy o numerowaniu stron.</p></li>
 <li><p>Każdy rozdział pracy powinien zaczynać się na prawej stronie
 (<code class="docutils literal notranslate"><span class="pre">openright</span></code>). Oznacza to, że czasami strona poprzedzająca nowy rozdział
 będzie musiała być zupełnie pusta (nawet bez numerów stron).</p></li>
-<li><p>Bibliografię zawsze tworzymy w BibTeX-u, nigdy ręcznie.
+<li><p>Bibliografię zawsze tworzymy w systemie BibTeX (lub podobnym), nigdy ręcznie.
 Na dobry początek polecam ustawienie <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plplain}</span></code> (PL)
 lub <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plain}</span></code> (EN).</p></li>
 <li><p>W przypadku artykułów w czasopismach naukowych nie mylimy <em>volume</em>
@@ -536,7 +521,7 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
 <span class="k">\usepackage</span><span class="na">[T1,plmath]</span><span class="nb">{</span>polski<span class="nb">}</span>
 <span class="k">\usepackage</span><span class="na">[polish]</span><span class="nb">{</span>babel<span class="nb">}</span>
 <span class="k">\selectlanguage</span><span class="nb">{</span>polish<span class="nb">}</span>
-<span class="k">\let\lll\undefined</span> <span class="c">% to avoid babel-amssymb conflict, see below</span>
+<span class="k">\let\lll\undefined</span>  <span class="c">% to avoid babel-amssymb conflict</span>
 <span class="k">\usepackage</span><span class="nb">{</span>amssymb<span class="nb">}</span>
 <span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
 <span class="k">\usepackage</span><span class="nb">{</span>amsfonts<span class="nb">}</span>
@@ -547,10 +532,11 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
 <section id="bibliografia">
 <h2>Bibliografia<a class="headerlink" href="#bibliografia" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p>Chwałkowski R., <em>Typografia typowej książki</em>, Helion, Gliwice, 2001</p></li>
+<li><p>Chwałkowski R., <em>Typografia typowej książki</em>, Helion, Gliwice, 2001.</p></li>
 <li><p><em>Zasady pisowni i interpunkcji</em>, PWN, <a class="reference external" href="https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html">https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html</a>.</p></li>
+<li><p>Oetiker T. i in., <a class="reference external" href="https://tobi.oetiker.ch/lshort/lshort.pdf"><em>The Not So Short Introduction to LaTeX 2ε</em></a>, 2021.</p></li>
 </ol>
-<p>Serdecznie dziękuję p. red. Izabeli Mika.</p>
+<p>Serdecznie dziękuję p. red. Izabeli Mika za wiele cennych uwag.</p>
 </section>
 </section>
 
@@ -589,7 +575,7 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-05-21T10:15:14+0200.
+              Last updated on 2024-06-06T16:26:15+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

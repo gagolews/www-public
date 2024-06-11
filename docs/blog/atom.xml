@@ -2,22 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2024-06-06T14:26:16.125029+00:00</updated>
+  <updated>2024-06-11T11:31:20.685635+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
   <entry>
+    <id>https://www.gagolewski.com/_news/20240611-paper-nca.html</id>
+    <title>Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure</title>
+    <updated>2024-06-11T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;My paper on a new well-behaving external cluster validity measure will appear in the &lt;em&gt;Journal of Classification&lt;/em&gt;;
+see &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;preprint&lt;/a&gt; (&amp;#64;TODO: update) (&amp;#64;TODO: add DOI).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20240611-paper-nca.html" rel="alternate"/>
+    <summary>My paper on a new well-behaving external cluster validity measure will appear in the Journal of Classification;
+see preprint (@TODO: update) (@TODO: add DOI).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2024-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>https://www.gagolewski.com/_news/20240108-paper-lorenz-gini.html</id>
     <title>Gini-stable Lorenz curves and their relation to the generalised Pareto distribution</title>
     <updated>2024-01-08T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;Journal of Informetrics&lt;/em&gt; will publish a new paper of ours
-(by Lucio Bertoli-Barsotti, Grzegorz Siudem, Barbara Żogała-Siudem, and yours truly);
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;Journal of Informetrics&lt;/em&gt; will publish a new paper
+by Lucio Bertoli-Barsotti, Grzegorz Siudem, Barbara Żogała-Siudem, and yours truly
 (DOI:&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.joi.2024.101499"&gt;10.1016/j.joi.2024.101499&lt;/a&gt;).&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20240108-paper-lorenz-gini.html" rel="alternate"/>
-    <summary>Journal of Informetrics will publish a new paper of ours
-(by Lucio Bertoli-Barsotti, Grzegorz Siudem, Barbara Żogała-Siudem, and yours truly);
+    <summary>Journal of Informetrics will publish a new paper
+by Lucio Bertoli-Barsotti, Grzegorz Siudem, Barbara Żogała-Siudem, and yours truly
 (DOI:10.1016/j.joi.2024.101499).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2024-01-08T00:00:00+01:00</published>
@@ -72,24 +86,6 @@ A preprint is available on arXiv.</summary>
     <published>2023-10-03T00:00:00+02:00</published>
   </entry>
   <entry>
-    <id>https://www.gagolewski.com/_news/20231001-submitted-nca.html</id>
-    <title>Submitted: Normalised Clustering Accuracy</title>
-    <updated>2023-10-01T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An revised version of a paper
-&lt;em&gt;Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure&lt;/em&gt;
-(in a previous draft called &lt;em&gt;Adjusted Asymmetric Accuracy&lt;/em&gt;)
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2209.02935"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20231001-submitted-nca.html" rel="alternate"/>
-    <summary>An revised version of a paper
-Normalised Clustering Accuracy: An Asymmetric External Cluster Validity Measure
-(in a previous draft called Adjusted Asymmetric Accuracy)
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-10-01T00:00:00+02:00</published>
-  </entry>
-  <entry>
     <id>https://www.gagolewski.com/_news/20230628-deepr.html</id>
     <title>Deep R Programming v1.0.0</title>
     <updated>2023-06-28T00:00:00+02:00</updated>
@@ -100,22 +96,6 @@ is now available on arXiv.</summary>
     <summary>Final version of Deep R Programming is now available.</summary>
     <category term="new-book" label="new-book"/>
     <published>2023-06-28T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html</id>
-    <title>Submitted: Gini-stable Lorenz curves and their relation to the generalised Pareto distribution</title>
-    <updated>2023-04-18T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-&lt;em&gt;Gini-stable Lorenz curves and their relation to the generalised Pareto distribution&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07480"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230418-submitted-gini-lorenz.html" rel="alternate"/>
-    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-Gini-stable Lorenz curves and their relation to the generalised Pareto distribution
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-04-18T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html</id>

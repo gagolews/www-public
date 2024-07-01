@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2024-07-01T08:22:01.212865+00:00</updated>
+  <updated>2024-07-01T09:07:35.048713+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
@@ -12,17 +12,15 @@
     <updated>2024-06-20T00:00:00+02:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;Clustering with minimum spanning trees: How good can it be?&lt;/em&gt; –
 a joint work with Anna Cena, Maciej Bartoszuk, and Łukasz Brzozowski,
-will appear in the &lt;em&gt;Journal of Classification&lt;/em&gt;;
-&lt;a class="reference external" href="https://arxiv.org/abs/2303.05679"&gt;preprint available here&lt;/a&gt;
-(&amp;#64;TODO: update) (&amp;#64;TODO: add DOI).&lt;/p&gt;
+will appear in the &lt;em&gt;Journal of Classification&lt;/em&gt;
+(DOI:&lt;a class="reference external" href="https://dx.doi.org/10.1007/s00357-024-09483-1"&gt;10.1007/s00357-024-09483-1&lt;/a&gt;).&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20240620-paper-clumst.html" rel="alternate"/>
     <summary>Clustering with minimum spanning trees: How good can it be? –
 a joint work with Anna Cena, Maciej Bartoszuk, and Łukasz Brzozowski,
-will appear in the Journal of Classification;
-preprint available here
-(@TODO: update) (@TODO: add DOI).</summary>
+will appear in the Journal of Classification
+(DOI:10.1007/s00357-024-09483-1).</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2024-06-20T00:00:00+02:00</published>
   </entry>

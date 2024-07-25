@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2024-07-11T11:07:09.301612+00:00</updated>
+  <updated>2024-07-25T10:24:29.687281+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20240725-paper-equivalence-inequality.html</id>
+    <title>Equivalence of inequality indices in the three-dimensional model of informetric impact</title>
+    <updated>2024-07-25T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Our (by Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+&lt;em&gt;Equivalence of inequality indices in the three-dimensional model of informetric impact&lt;/em&gt;
+was accepted for publication in the &lt;em&gt;Journal of Informetrics&lt;/em&gt;
+(&lt;a class="reference external" href="https://dx.doi.org/10.1016/j.joi.2024.101566"&gt;DOI:10.1016/j.joi.2024.101566&lt;/a&gt;).&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20240725-paper-equivalence-inequality.html"/>
+    <summary>Our (by Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
+Equivalence of inequality indices in the three-dimensional model of informetric impact
+was accepted for publication in the Journal of Informetrics
+(DOI:10.1016/j.joi.2024.101566).</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2024-07-25T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20240620-paper-clumst.html</id>
     <title>Clustering with minimum spanning trees: How good can it be?</title>
@@ -114,22 +132,6 @@ A preprint is available on arXiv.</summary>
     <summary>Final version of Deep R Programming is now available.</summary>
     <category term="new-book" label="new-book"/>
     <published>2023-06-28T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html</id>
-    <title>Submitted: Equivalence of inequality indices: Three dimensions of impact revisited</title>
-    <updated>2023-04-18T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-&lt;em&gt;Equivalence of inequality indices: Three dimensions of impact revisited&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2304.07479"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20230418-submitted-equivalence-inequality.html"/>
-    <summary>A preprint of our (Lucio Bertoli-Barsotti, Marek Gagolewski, Grzegorz Siudem, and Barbara Żogała-Siudem) new contribution
-Equivalence of inequality indices: Three dimensions of impact revisited
-is now available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2023-04-18T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html</id>

@@ -1,0 +1,837 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="CV" href="cv.html" /><link rel="prev" title="Advanced Algorithms and Data Structures for Data Science" href="teaching-aadsds.html" />
+        <link rel="canonical" href="https://www.gagolewski.com/teaching-sd.html" />
+
+    <link rel="shortcut icon" href="_static/favicon.png"/>        <title>Seminarium Dyplomowe (Research Thesis Seminar; BSc in Data Science) 🇵🇱 - Marek Gagolewski — Home Page</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=1e0fcfc0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --admonition-font-size: 95%;
+  --admonition-title-font-size: 95%;
+  --color-brand-primary: red;
+  --color-brand-content: #CC3333;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --admonition-font-size: 95%;
+  --admonition-title-font-size: 95%;
+  --color-brand-primary: #ff2b53;
+  --color-brand-content: #dd3333;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --admonition-font-size: 95%;
+  --admonition-title-font-size: 95%;
+  --color-brand-primary: #ff2b53;
+  --color-brand-content: #dd3333;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" /
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">Marek Gagolewski — Home Page</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto colour theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky">
+
+<span class="sidebar-brand-text">
+<a class="sidebar-brand" href="index.html">Marek Gagolewski</a>
+</span>
+<div class="sidebar-brand">
+
+</div>
+<form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="publications.html">Publications</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Publications</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="publications_by_year.html">By Year</a></li>
+<li class="toctree-l2"><a class="reference internal" href="publications_by_type.html">By Type</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="teaching.html">Teaching</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Teaching</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="teaching-aadsds.html">Advanced Algorithms and Data Structures for Data Science (MSc in Data Science)</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Seminarium Dyplomowe (Research Thesis Seminar; BSc in Data Science) 🇵🇱</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cv.html">CV</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="notes.html">Blog/Notes</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Blog/Notes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="notes/data-science-literature-undergraduate.html">Recommended Literature for Data Science Students (Undergraduate)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/data-science-literature-postgraduate.html">Recommended Literature for Data Science Students (Postgraduate)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/uwagi-latex.html">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="personal.html">Personal</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://deepr.gagolewski.com/">Deep R Programming</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://datawranglingpy.gagolewski.com/">Minimalist Data Wrangling in Python</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://stringi.gagolewski.com/">stringi</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://genieclust.gagolewski.com/">genieclust</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://clustering-benchmarks.gagolewski.com/">Clustering Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/teaching-data/">Teaching Data</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://madam.mini.pw.edu.pl/">MADAM Seminar</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/gagolews/">GitHub</a></li>
+</ul>
+
+</div></div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto colour theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section class="tex2jax_ignore mathjax_ignore" id="seminarium-dyplomowe-research-thesis-seminar-bsc-in-data-science">
+<h1>Seminarium Dyplomowe (Research Thesis Seminar; BSc in Data Science) 🇵🇱<a class="headerlink" href="#seminarium-dyplomowe-research-thesis-seminar-bsc-in-data-science" title="Link to this heading">¶</a></h1>
+<p>Studia inżynierskie, Inżynieria i Analiza Danych (Data Science),
+Wydział Matematyki i Nauk Informacyjnych
+Politechniki Warszawskiej</p>
+<blockquote>
+<div><p><em>Celem przedmiotu jest przygotowanie studentów do obrony
+(świetnej) pracy dyplomowej inżynierskiej i egzaminu dyplomowego.</em></p>
+</div></blockquote>
+<section id="harmonogram-semestr-zimowy-2024-2025-w-przygotowaniu">
+<h2>Harmonogram – Semestr zimowy 2024/2025 (w przygotowaniu)<a class="headerlink" href="#harmonogram-semestr-zimowy-2024-2025-w-przygotowaniu" title="Link to this heading">¶</a></h2>
+<section id="grupa-i-wtorki-16-1518-00-314-mini">
+<h3>Grupa I: Wtorki 16:15–18:00, 314 MiNI<a class="headerlink" href="#grupa-i-wtorki-16-1518-00-314-mini" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Tydzień</p></th>
+<th class="head"><p>Data</p></th>
+<th class="head"><p>Temat</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>2024-10-08</p></td>
+<td><ul class="simple">
+<li><p>Wprowadzenie</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>2024-10-15</p></td>
+<td><ul class="simple">
+<li><p>Zagadnienia zarządzania ryzykiem w projekcie</p></li>
+<li><p>Programowanie generyczne</p></li>
+<li><p>Sieć Kohonena: topologia, uczenie, zastosowania</p></li>
+<li><p>Wzorce architektoniczne Lambda i Kappa</p></li>
+<li><p>Etapy procesu wytwarzania oprogramowania</p></li>
+<li><p>Rozkłady macierzy na czynniki i ich zastosowania</p></li>
+<li><p>Wyzwania programowania równoległego</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>2024-10-22</p></td>
+<td><ul class="simple">
+<li><p>Podział i charakterystyka metod uczenia maszynowego (nadzorowane i nienadzorowane)</p></li>
+<li><p>Przetwarzanie transakcyjne w bazach danych</p></li>
+<li><p>Metody selekcji zmiennych w zadaniach klasyfikacji i regresji</p></li>
+<li><p>Rozkłady prawdopodobieństwa i ich charakterystyki</p></li>
+<li><p>Warunki konieczne optymalności dla zadań z ograniczeniami</p></li>
+<li><p>Metody gradientów sprzężonych</p></li>
+<li><p>Właściwości algorytmów sortujących (złożoność, stabilność, dolne ograniczenia złożoności)</p></li>
+<li><p>Charakterystyka modeli drzewiastych (drzewa, lasy, itd.)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>2024-10-25</p></td>
+<td><ul class="simple">
+<li><p>Grafy planarne - podstawowe własności i twierdzenia ich dotyczące</p></li>
+<li><p>Problem najtańszego drzewa rozpinającego w grafie</p></li>
+<li><p>Wzorzec architektury mikro-usługowej (ang. microservices)</p></li>
+<li><p>TCP vs UDP - krótka charakterystyka porównawcza</p></li>
+<li><p>Zadanie interpolacji. Zastosowania interpolacji</p></li>
+<li><p>Wektory losowe - rozkłady łączne i brzegowe, niezależność, korelacja i kowariancja</p></li>
+<li><p>Wyrażenie lambda i interfejsy funkcyjne</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>2024-11-05</p></td>
+<td><ul class="simple">
+<li><p>Bazy relacyjne, hurtownie danych, platformy Big Data, platformy NoSQL - podobieństwa, różnice, zastosowania</p></li>
+<li><p>Organizacja i metody składowania danych oraz metadanych w platformach Big Data: pliki, hurtownia danych, kolumnowe platformy NoSQL</p></li>
+<li><p>Zwinne metodyki wytwarzania oprogramowania: wartości, praktyki, procesy i artefakty</p></li>
+<li><p>Metody estymacji nieznanych parametrów rozkładów zmiennych losowych: podstawowe własności estymatorów i metody konstrukcji estymatorów</p></li>
+<li><p>Testowanie oprogramowania: klasyfikacja i dobre praktyki</p></li>
+<li><p>Pojęcie złożoności obliczeniowej. Notacje</p></li>
+<li><p>Wzorce projektowe</p></li>
+<li><p>Struktury danych do implementacji kolejek priorytetowych i słowników</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>2024-11-12</p></td>
+<td><ul class="simple">
+<li><p>(grupa I - prezentacja I)</p></li>
+<li><p>(grupa II - prezentacja I)</p></li>
+<li><p>(grupa III - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>2024-11-19</p></td>
+<td><ul class="simple">
+<li><p>(grupa IV - prezentacja I)</p></li>
+<li><p>(grupa V - prezentacja I)</p></li>
+<li><p>(grupa VI - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>2024-11-26</p></td>
+<td><ul class="simple">
+<li><p>(grupa VII - prezentacja I)</p></li>
+<li><p>(grupa VIII - prezentacja I)</p></li>
+<li><p>(grupa IX - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>2024-12-03</p></td>
+<td><ul class="simple">
+<li><p>(grupa X - prezentacja I)</p></li>
+<li><p>(grupa XI - prezentacja I)</p></li>
+<li><p>(grupa XII - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>2024-12-10</p></td>
+<td><ul class="simple">
+<li><p>(grupa XIII - prezentacja I)</p></li>
+<li><p>(grupa XIV - prezentacja I)</p></li>
+<li><p>(grupa XV - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>2024-12-17</p></td>
+<td><ul class="simple">
+<li><p>(grupa I - prezentacja II)</p></li>
+<li><p>(grupa II - prezentacja II)</p></li>
+<li><p>(grupa III - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>2025-01-07</p></td>
+<td><ul class="simple">
+<li><p>(grupa IV - prezentacja II)</p></li>
+<li><p>(grupa V - prezentacja II)</p></li>
+<li><p>(grupa VI - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>2025-01-14</p></td>
+<td><ul class="simple">
+<li><p>(grupa VII - prezentacja II)</p></li>
+<li><p>(grupa VIII - prezentacja II)</p></li>
+<li><p>(grupa IX - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>2025-01-21</p></td>
+<td><ul class="simple">
+<li><p>(grupa X - prezentacja II)</p></li>
+<li><p>(grupa XI - prezentacja II)</p></li>
+<li><p>(grupa XII - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>2025-01-28</p></td>
+<td><ul class="simple">
+<li><p>(grupa XIII - prezentacja II)</p></li>
+<li><p>(grupa XIV - prezentacja II)</p></li>
+<li><p>(grupa XV - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="grupa-ii-wtorki-18-1520-00-314-mini">
+<h3>Grupa II: Wtorki 18:15–20:00, 314 MiNI<a class="headerlink" href="#grupa-ii-wtorki-18-1520-00-314-mini" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Tydzień</p></th>
+<th class="head"><p>Data</p></th>
+<th class="head"><p>Temat</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>2024-10-08</p></td>
+<td><ul class="simple">
+<li><p>Wprowadzenie</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>2024-10-15</p></td>
+<td><ul class="simple">
+<li><p>Obciążenie a wariancja modeli uczenia maszynowego, przykłady</p></li>
+<li><p>Metody estymacji i testowania w modelu liniowym</p></li>
+<li><p>Zagadnienia zarządzania jakością, normy i standardy w organizacji</p></li>
+<li><p>Prezentacja wartości pomysłu biznesowego (np. Business Model Canvas)</p></li>
+<li><p>Wzorzec MVC (ang. model, view, controller)</p></li>
+<li><p>Model referencyjny OSI</p></li>
+<li><p>Metoda Newtona rozwiązywania zadań optymalizacji bez ograniczeń</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>2024-10-22</p></td>
+<td><ul class="simple">
+<li><p>Perceptron wielowarstwowy: topologia, uczenie gradientowe, zastosowania</p></li>
+<li><p>Typowe błędy w wizualizacji danych</p></li>
+<li><p>Metody regresyjne dla odpowiedzi binarnej</p></li>
+<li><p>Paradygmaty programowania obiektowego</p></li>
+<li><p>Paradygmaty i założenia projektowe systemów Unix</p></li>
+<li><p>Zadania systemu operacyjnego. Standardy POSIX i SUS</p></li>
+<li><p>Idea i przykłady algorytmów ewolucyjnych</p></li>
+<li><p>Architektura oparta na zdarzeniach (ang. Event-Driven Architecture)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>2024-10-25</p></td>
+<td><ul class="simple">
+<li><p>Klasy wewnętrzne i anonimowe</p></li>
+<li><p>Zasady w doborze kolorów na wykresach, teoria znaku, rodzaje skal, defekty w widzeniu barw</p></li>
+<li><p>Twierdzenia graniczne rachunku prawdopodobieństwa</p></li>
+<li><p>Zadaniowe zarządzanie projektem (np. Kanban)</p></li>
+<li><p>Relacyjne bazy danych</p></li>
+<li><p>Analiza rynku i analiza konkurencji</p></li>
+<li><p>Weryfikacja hipotez: podstawowe pojęcia i własności testów oraz metody konstrukcji testów statystycznych</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>2024-11-05</p></td>
+<td><ul class="simple">
+<li><p>Estymacja przedziałowa: podstawowe pojęcia i metody konstrukcji przedziałów ufności</p></li>
+<li><p>Język SQL i przetwarzanie transakcyjne w platformach Big Data: podobieństwa i różnice w obsługiwanych dialektach w stosunku do platform RDBMS na przykładzie wybranej platformy Big Data</p></li>
+<li><p>Skale pomiarowe, ilorazowa, przedziałowa, nominalna. Właściwości i zalecenia związane z prezentacją danych</p></li>
+<li><p>Najważniejsze pojęcia związane z dokładnością obliczeń numerycznych</p></li>
+<li><p>Reguła SOLID w projektowaniu oprogramowania</p></li>
+<li><p>Oprogramowanie FLOSS, oprogramowanie wolne i otwarte</p></li>
+<li><p>Spójność grafów - podstawowe pojęcia, twierdzenie Mengera</p></li>
+<li><p>Protokół HTTP i usługi w modelu REST</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>2024-11-12</p></td>
+<td><ul class="simple">
+<li><p>(grupa I - prezentacja I)</p></li>
+<li><p>(grupa II - prezentacja I)</p></li>
+<li><p>(grupa III - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>2024-11-19</p></td>
+<td><ul class="simple">
+<li><p>(grupa IV - prezentacja I)</p></li>
+<li><p>(grupa V - prezentacja I)</p></li>
+<li><p>(grupa VI - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>2024-11-26</p></td>
+<td><ul class="simple">
+<li><p>(grupa VII - prezentacja I)</p></li>
+<li><p>(grupa VIII - prezentacja I)</p></li>
+<li><p>(grupa IX - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>2024-12-03</p></td>
+<td><ul class="simple">
+<li><p>(grupa X - prezentacja I)</p></li>
+<li><p>(grupa XI - prezentacja I)</p></li>
+<li><p>(grupa XII - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>2024-12-10</p></td>
+<td><ul class="simple">
+<li><p>(grupa XIII - prezentacja I)</p></li>
+<li><p>(grupa XIV - prezentacja I)</p></li>
+<li><p>(grupa XV - prezentacja I)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>2024-12-17</p></td>
+<td><ul class="simple">
+<li><p>(grupa I - prezentacja II)</p></li>
+<li><p>(grupa II - prezentacja II)</p></li>
+<li><p>(grupa III - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>2025-01-07</p></td>
+<td><ul class="simple">
+<li><p>(grupa IV - prezentacja II)</p></li>
+<li><p>(grupa V - prezentacja II)</p></li>
+<li><p>(grupa VI - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>2025-01-14</p></td>
+<td><ul class="simple">
+<li><p>(grupa VII - prezentacja II)</p></li>
+<li><p>(grupa VIII - prezentacja II)</p></li>
+<li><p>(grupa IX - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>2025-01-21</p></td>
+<td><ul class="simple">
+<li><p>(grupa X - prezentacja II)</p></li>
+<li><p>(grupa XI - prezentacja II)</p></li>
+<li><p>(grupa XII - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>2025-01-28</p></td>
+<td><ul class="simple">
+<li><p>(grupa XIII - prezentacja II)</p></li>
+<li><p>(grupa XIV - prezentacja II)</p></li>
+<li><p>(grupa XV - prezentacja II)</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="regulamin-i-zasady-zaliczenia-w-przygotowaniu">
+<h2>Regulamin i zasady zaliczenia (w przygotowaniu)<a class="headerlink" href="#regulamin-i-zasady-zaliczenia-w-przygotowaniu" title="Link to this heading">¶</a></h2>
+<p>W pierwszej części semestru (tygodnie II-V) temat referatu jest określany przez Prowadzącego –
+obejmuje zakres <a class="reference external" href="https://ww2.mini.pw.edu.pl/wp-content/uploads/zal_nr_2_przykladowe_zagadnienia_egzaminacyjne_IAD_I_stopien.pdf">szeroko rozumianej inżynierii i analizy danych</a>.
+Prezentacja odbywa się tylko przy użyciu tablicy (jak na egzaminie dyplomowym) –
+bez własnych notatek, bez slajdów. Odpowiedzi są indywidualne (ok. 5 min. na temat + dyskusja).</p>
+<p>W drugiej i trzeciej części semestru (tygodnie VI-X i XI-XV) każda grupa projektowa
+(2–3 osobowa) przedstawia po 2 referaty po około 10–12 min. (slajdy),
+po których następuje krótka dyskusja (pytania z sali itp.).
+Referaty dotyczą realizowanych prac dyplomowych. Studenci przedstawiają:</p>
+<ul class="simple">
+<li><p>ramowy zakres pracy,</p></li>
+<li><p>uzasadnienie wyboru tematu,</p></li>
+<li><p>przegląd literatury związanej z tematyka pracy,</p></li>
+<li><p>osiągnięte oraz planowane rezultaty,</p></li>
+<li><p>przewidywane problemy,</p></li>
+<li><p>podział obowiązków wśród członków zespołu,</p></li>
+<li><p>pomysły na przyszłe badania/rozwijanie tematu,</p></li>
+<li><p>itp.</p></li>
+</ul>
+<p>Studenci za każdym razem pokazują także aktualną wersję PDF pracy
+(celem oceny stopnia jej zaawansowania).</p>
+<p>Każdy z referatów jest oceniany w skali od 0 do 5 punktów.
+Ocena zależy m.in. od jakości wygłoszonego referatu,
+utrzymania wyznaczonych ram czasowych
+oraz stopnia zaawansowania pracy z uwzględnieniem harmonogramu.</p>
+<p>Ostateczną oceną jest zaokrąglona do najbliższej 0,5-ki
+średnia arytmetyczna z uzyskanych punktów.</p>
+<p>Nieuzasadnione opóźnienie powoduje obniżenie oceny o 0,5 pkt. za każdy tydzień.</p>
+<p>Za każdą nieusprawiedliwioną (np. formalnym zaświadczeniem lekarskim)
+nieobecność obniża się ocenę końcową o 0,5 pkt.
+Szanujmy siebie nawzajem: skoro kolega lub koleżanka słucha naszej prezentacji, to i my słuchamy ich.
+Jednakże niewygłoszenie referatu jest równoznaczne z przyznaniem 0 punktów (zero).</p>
+</section>
+<section id="dodatkowe-informacje">
+<h2>Dodatkowe Informacje<a class="headerlink" href="#dodatkowe-informacje" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ww2.mini.pw.edu.pl/studia/dziekanat/dla-dyplomantow-i-promotorow/">Informacje dla dyplomantów (MiNI PW)</a></p></li>
+<li><p><a class="reference external" href="https://ww2.mini.pw.edu.pl/wp-content/uploads/zal_nr_2_przykladowe_zagadnienia_egzaminacyjne_IAD_I_stopien.pdf">Pytania na egzamin inżynierski (przykładowe)</a>
+(zob. też <a class="reference external" href="https://www.reddit.com/r/datascience/comments/f8b38r/the_toughest_interview_i_ever_had/">to</a>,
+<a class="reference external" href="https://www.reddit.com/r/datascience/comments/f7cdwg/data_science_and_machine_learning_interview/">to</a>,
+<a class="reference external" href="https://github.com/Sroy20/machine-learning-interview-questions">to</a>
+i <a class="reference external" href="https://www.reddit.com/r/datascience/comments/cuwwuc/are_these_data_science_interview_questions_enough/">to</a>, bo podobne pytania
+zadajemy, rekrutując kandydatów na stanowiska związane z naszą dziedziną)</p></li>
+<li><p><a class="reference external" href="https://ww2.mini.pw.edu.pl/wp-content/uploads/2023-12-08-Zarzadzenie-nr-8-2023-dyplomowanie-IAD-zal.pdf">Szczegółowe zasady prowadzenia prac dyplomowych i egzaminów dyplomowych</a></p></li>
+<li><p><a class="reference external" href="https://ww2.mini.pw.edu.pl/wp-content/uploads/Zalacznik-4_Wytyczne_dla_oceny_zgloszen_i_realizacji_prac_dyplomowych.pdf">Wytyczne dla oceny zgłoszeń tematów i realizacji prac dyplomowych</a></p></li>
+</ul>
+<section id="redakcja-pracy">
+<h3>Redakcja pracy<a class="headerlink" href="#redakcja-pracy" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://bip.pw.edu.pl/Wewnetrzne-akty-prawne/Dokumenty-Rektora-PW/Zarzadzenia-Rektora/2022/Zarzadzenie-nr-4-2022-Rektora-PW-z-dnia-27-01-2022">Wymogi edytorskie w PW</a></p></li>
+<li><p><a class="reference external" href="https://ww2.mini.pw.edu.pl/wp-content/uploads/szablon_dyplomowy_20221.zip">Szablon pracy (LaTeX)</a>;
+można używać np. <a class="reference external" href="https://www.overleaf.com/">Overleafa</a></p></li>
+<li><p><a class="reference external" href="https://tobi.oetiker.ch/lshort/lshort.pdf">T. Oetiker i in., <em>The Not So Short Introduction to LaTeX</em></a></p></li>
+<li><p><a class="reference internal" href="notes/uwagi-latex.html"><span class="doc std std-doc">Częste uwagi redakcyjne</span></a></p></li>
+</ul>
+<p>Język: akademicki, nie korporacyjny żargon; Styl: raczej formalny.</p>
+</section>
+<section id="bibliografia">
+<h3>Bibliografia<a class="headerlink" href="#bibliografia" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Preferujemy cytowanie dobrych książek i czasopism, nie informacji
+ze stron internetowych (np. blogów czy Wikipedii, choć mogą być one
+punktem wyjścia do przeglądu literaturowego).</p></li>
+<li><p>Przeglądu literatury dokonujemy z należytą starannością.
+ChatGPT lub podobne (np. automatycznie generowane podsumowania
+w wyszukiwarce G**gle) zwracają niewiarogodne wyniki.
+Sugerujemy zapoznanie się z bazą <a class="reference external" href="https://scholar.google.com/">Google Scholar</a>
+lub <a class="reference external" href="https://www.scopus.com/">Scopus</a>.</p></li>
+<li><p>Dostęp do większości czasopism mamy z sieci PW za darmo. Jeśli nie,
+to preprinty większości artykułów można znaleźć dość łatwo np. na ArXiVie.</p></li>
+<li><p>Unikamy materiałów z kiepskich konferencji
+oraz tzw. <a class="reference external" href="https://en.wikipedia.org/wiki/Predatory_publishing">predatory journals</a>,
+choć i tam znaleźć się mogą perły. Zawsze podchodzimy krytycznie do tego, co czytamy.</p></li>
+<li><p>Bibliografię formatujemy przy użyciu BibTeXa lub Bibera, nigdy ręcznie.
+Formatowanie bibliografii powinno być spójne.</p></li>
+</ul>
+</section>
+<section id="samodzielnosc-i-poprawnosc-pracy">
+<h3>Samodzielność i poprawność pracy<a class="headerlink" href="#samodzielnosc-i-poprawnosc-pracy" title="Link to this heading">¶</a></h3>
+<p>Odpowiadacie za całość treści pracy, w tym jej poprawność merytoryczną.</p>
+<p>Prace będą przetwarzane przez system antyplagiatowy.</p>
+<p>Nie generujemy/streszczamy/parafrazujemy tekstu pracy, kodu i prezentacji
+przy użyciu narzędzi informatycznych (GenAI w tym LLM typu ChatGPT, Llama itp.).
+Miejmy swój styl. Chcemy, byście wyrośli na niezależnych ekspertów,
+których nie zastąpi tzw. AI. Uwaga: wysyłając pracę, składacie oświadczenie
+że została ona napisana <em>samodzielnie</em> oraz że nie narusza ona praw autorskich.</p>
+<blockquote>
+<div><p>Świadomy(a) odpowiedzialności karnej za składanie fałszywych zeznań
+oświadczam, że niniejsza praca dyplomowa została napisana przeze mnie
+samodzielnie, pod opieką kierującego pracą dyplomową.</p>
+<p>Jednocześnie oświadczam, że:</p>
+<ul class="simple">
+<li><p>niniejsza praca dyplomowa nie narusza praw autorskich w rozumieniu
+ustawy z dnia 4 lutego 1994 roku o prawie autorskim i prawach pokrewnych (Dz.U. z 2021 r., poz. 1062) oraz dóbr osobistych chronionych prawem
+cywilnym,</p></li>
+<li><p>niniejsza praca dyplomowa nie zawiera danych i informacji, które uzyskałem(am) w sposób niedozwolony,</p></li>
+<li><p>niniejsza praca dyplomowa nie była wcześniej podstawą żadnej innej
+urzędowej procedury związanej z nadawaniem dyplomów lub tytułów
+zawodowych,</p></li>
+<li><p>wszystkie informacje umieszczone w niniejszej pracy,
+uzyskane ze źródeł pisanych i elektronicznych, zostały udokumentowane w
+wykazie literatury odpowiednimi odnośnikami,</p></li>
+<li><p>znam regulacje prawne
+Politechniki Warszawskiej w sprawie zarządzania prawami autorskimi i
+prawami pokrewnymi, prawami własności przemysłowej oraz zasadami
+komercjalizacji.</p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="cv.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">CV</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="teaching-aadsds.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Advanced Algorithms and Data Structures for Data Science</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+              
+              
+              Copyright &#169;  by <a href="https://www.gagolewski.com">Marek Gagolewski</a>.
+              Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
+              Built with <a href="https://sphinx-doc.org/">Sphinx</a>
+              and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
+              Last updated on 2024-09-11T17:29:21+0200.
+              This site will never display any ads: it is a non-profit project.
+              It does not collect any data.
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            In this section
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Seminarium Dyplomowe (Research Thesis Seminar; BSc in Data Science) 🇵🇱</a><ul>
+<li><a class="reference internal" href="#harmonogram-semestr-zimowy-2024-2025-w-przygotowaniu">Harmonogram – Semestr zimowy 2024/2025 (w przygotowaniu)</a><ul>
+<li><a class="reference internal" href="#grupa-i-wtorki-16-1518-00-314-mini">Grupa I: Wtorki 16:15–18:00, 314 MiNI</a></li>
+<li><a class="reference internal" href="#grupa-ii-wtorki-18-1520-00-314-mini">Grupa II: Wtorki 18:15–20:00, 314 MiNI</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#regulamin-i-zasady-zaliczenia-w-przygotowaniu">Regulamin i zasady zaliczenia (w przygotowaniu)</a></li>
+<li><a class="reference internal" href="#dodatkowe-informacje">Dodatkowe Informacje</a><ul>
+<li><a class="reference internal" href="#redakcja-pracy">Redakcja pracy</a></li>
+<li><a class="reference internal" href="#bibliografia">Bibliografia</a></li>
+<li><a class="reference internal" href="#samodzielnosc-i-poprawnosc-pracy">Samodzielność i poprawność pracy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=4e2eecee"></script>
+    </body>
+</html>

@@ -235,9 +235,13 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../teaching.html">Teaching</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../teaching.html">Teaching</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Teaching</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../teaching-aadsds.html">Advanced Algorithms and Data Structures for Data Science (MSc in Data Science)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../teaching-sd.html">Seminarium Dyplomowe (Research Thesis Seminar; BSc in Data Science) 🇵🇱</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../cv.html">CV</a></li>
-<li class="toctree-l1 current has-children"><a class="reference internal" href="../notes.html">Blog/Notes</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Blog/Notes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../notes.html">Blog/Notes</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Blog/Notes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="data-science-literature-undergraduate.html">Recommended Literature for Data Science Students (Undergraduate)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data-science-literature-postgraduate.html">Recommended Literature for Data Science Students (Postgraduate)</a></li>
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</a></li>
@@ -290,7 +294,7 @@
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku">
 <h1>Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱<a class="headerlink" href="#czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku" title="Link to this heading">¶</a></h1>
-<p>Wersja: 0.5 (2023-02-09)</p>
+<p>Wersja: 0.5.1 (2024-09-11)</p>
 <ol class="arabic">
 <li><p>Nie zostawiamy „samotnych” jednoliterowych przyimków, spójników
 itd. (w, z, i, …) na końcu wiersza. Należy wstawić niełamliwą spację,
@@ -336,16 +340,19 @@ Większość liczb (może poza latami) wstawiamy w trybie matematycznym
 (dolary), zatem piszemy <code class="docutils literal notranslate"><span class="pre">$-100$</span></code> (<span class="math notranslate nohighlight">\(-100\)</span>) zamiast po prostu <code class="docutils literal notranslate"><span class="pre">-100</span></code> (-100).</p></li>
 <li><p>Wzory matematyczne (także <em>inline</em>) traktujemy jak części zdania. Pamiętamy
 o znakach interpunkcyjnych. Przykład:</p>
-<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span>Zauważmy, że:              <span class="c">% (uwaga: dwukropek)</span>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span>Zauważmy, że:              <span class="c">% (dwukropek tu to rzecz gustu)</span>
+
 <span class="sb">\[</span>
 <span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nb">wx,                   </span><span class="c">% (uwaga: przecinek)</span>
-<span class="s">\]</span>                         <span class="c">% tu nie ma nowego zdania -- brak odstępu</span>
+<span class="s">\]</span>
+
+<span class="k">\noindent</span>  <span class="c">% tu nie ma nowego akapitu</span>
 gdzie <span class="s">$</span><span class="nb">w </span><span class="o">=</span><span class="nb"> </span><span class="m">7</span><span class="s">$</span>.
 </pre></div>
 </div>
 </li>
 <li><p>Odwołania do numerowanych równań (<code class="docutils literal notranslate"><span class="pre">\label{etykieta}</span></code>)
-tworzymy przy użyciu <code class="docutils literal notranslate"><span class="pre">\eqref{etykieta}</span></code>. Wtedy numerowanie mamy w stylu (1).</p></li>
+tworzymy przy użyciu <code class="docutils literal notranslate"><span class="pre">\eqref{etykieta}</span></code>. Wtedy numerowanie mamy w stylu <code class="docutils literal notranslate"><span class="pre">(1)</span></code>.</p></li>
 <li><p>Tytuły (<code class="docutils literal notranslate"><span class="pre">\caption</span></code>) umieszczamy POD rysunkami, ale NAD tabelami (tablicami).
 Między etykietą a tabelą czasem miło jest zobaczyć <code class="docutils literal notranslate"><span class="pre">\smallskip</span></code>.
 Po tytule tabeli <strong>nie stawia się</strong> kropki.
@@ -532,33 +539,33 @@ język polski (ale w jęz. ang. mamy już <em>Euclidean metric</em>,
 <li><p>Podajemy (gdzie się da) angielskie odpowiedniki tłumaczonych
 na język polski terminów, np. ,,precyzja (ang. <em>precision</em>)’’.
 Wprowadzane terminy wyróżniamy np. pogrubieniem.</p></li>
-<li><p>Wszelkie wykresy powinny być zapisane w postaci wektorowej
+<li><p>Wykresy powinny być zapisane w postaci wektorowej
 (PDF, ew. EPS lub SVG) a nie rastrowej (np. JPG, PNG), chyba że są
 to zdjęcia – wówczas zapisujemy je w odpowiednio wysokiej rozdzielczości
-(np. 300 dpi) i pamiętamy, by przypadkiem LaTeX ich nie przeskalował
+(np. 300 dpi), pamiętając, by przypadkiem LaTeX ich nie przeskalował
 (będą rozmyte).</p></li>
 <li><p>Dobrym pomysłem jest tworzenie tekstu pracy przy użyciu
-pakietu <code class="docutils literal notranslate"><span class="pre">Pweave</span></code> (Python) lub <code class="docutils literal notranslate"><span class="pre">knitr</span></code> (R) albo czegoś podobnego.
-Wówczas na bieżąco możemy
+pakietu <code class="docutils literal notranslate"><span class="pre">knitr</span></code>, <code class="docutils literal notranslate"><span class="pre">quarto</span></code> lub czegoś podobnego. Wówczas na bieżąco możemy
 generować tabele i wykresy w kodzie źródłowym (oczywiście
 nie przeprowadzamy tutaj żadnych czasochłonnych obliczeń – wyniki
 eksperymentów powinny być zapisane np. do plików .csv).</p></li>
-<li><p>Kod w LaTeX-u to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
+<li><p>Kod w LaTeXu to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
 Bardzo nie lubię wcięć dokonywanych przy użyciu tabulatorów –
 sugeruję 4 spacje (spójnie w całym kodzie).
-Radzę zaprzyjaźnić się z programem <code class="docutils literal notranslate"><span class="pre">git</span></code>.</p></li>
+Radzę zaprzyjaźnić się z <code class="docutils literal notranslate"><span class="pre">git</span></code>-em lub podobnym narzędziem do zarządzania
+wersjami.</p></li>
 <li><p>Pamiętamy o numerowaniu stron.</p></li>
 <li><p>Każdy rozdział pracy powinien zaczynać się na prawej stronie
 (<code class="docutils literal notranslate"><span class="pre">openright</span></code>). Oznacza to, że czasami strona poprzedzająca nowy rozdział
 będzie musiała być zupełnie pusta (nawet bez numerów stron).</p></li>
-<li><p>Bibliografię zawsze tworzymy w systemie BibTeX (lub podobnym), nigdy ręcznie.
+<li><p>Bibliografię zawsze tworzymy w systemie <em>bibtex</em>, <em>biblatex</em> lub podobnym, nigdy ręcznie.
 Na dobry początek polecam ustawienie <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plplain}</span></code> (PL)
 lub <code class="docutils literal notranslate"><span class="pre">\bibliographystyle{plain}</span></code> (EN).</p></li>
 <li><p>W przypadku artykułów w czasopismach naukowych nie mylimy <em>volume</em>
 (numeru woluminu, tomu – zawsze obecne) i <em>number</em> (podnumeru <em>issue</em> – można pominąć),
 np. odnośnik do <em>Journal of Magical Science</em> <strong>43</strong>(2) oznacza
 <code class="docutils literal notranslate"><span class="pre">volume=43</span></code> oraz <code class="docutils literal notranslate"><span class="pre">number=2</span></code>, a <em>Nature</em> <strong>123</strong> to tylko <code class="docutils literal notranslate"><span class="pre">volume=123</span></code>;</p></li>
-<li><p>Na koniec pracy z dziełem wycinamy zawartość
+<li><p>Jeśli używamy <em>bibtex</em>a, to na koniec pracy z dziełem wycinamy zawartość
 pobocznego pliku <code class="docutils literal notranslate"><span class="pre">.bbl</span></code> i wklejamy go w miejsce wywołania makra
 <code class="docutils literal notranslate"><span class="pre">\bibliography{nazwa_pliku}</span></code>, dzięki temu plik źródłowy nie będzie zależny
 od pliku <code class="docutils literal notranslate"><span class="pre">.bib</span></code>.</p></li>
@@ -630,7 +637,7 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-08-21T13:16:21+0200.
+              Last updated on 2024-09-11T17:29:21+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

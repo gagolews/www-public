@@ -298,7 +298,7 @@
 Faculty of Mathematics and Information Science,
 Warsaw University of Technology</p>
 <blockquote>
-<div><p><em>The course covers methods for data analysis and mining, statistics,
+<div><p><em>This course covers methods for data analysis and mining, statistics,
 machine learning, and artificial intelligence from an algorithmic perspective.
 We will introduce, analyse, and implement key algorithms and data structures
 used for finding similar groups of objects, building decision trees,
@@ -312,8 +312,8 @@ shoulders of giants, appreciating the effort of the open-source community).
 As a by-product, we will better understand the implementation of statistical
 software packages (R, Python with <em>numpy</em> and <em>pandas</em>, etc.).</em></p>
 </div></blockquote>
-<section id="schedule-under-construction">
-<h2>Schedule (Under Construction)<a class="headerlink" href="#schedule-under-construction" title="Link to this heading">¶</a></h2>
+<section id="schedule">
+<h2>Schedule<a class="headerlink" href="#schedule" title="Link to this heading">¶</a></h2>
 <p>Winter semester 2024/2025:</p>
 <ul class="simple">
 <li><p>Lectures: Wednesdays, 16:15–18:00, 103 MiNI
@@ -321,7 +321,7 @@ software packages (R, Python with <em>numpy</em> and <em>pandas</em>, etc.).</e
 students are expected to participate actively in the classes,
 take notes,
 discuss/brainstorm all ideas,
-and overall happily enjoy the food for thought carefully prepared by yours truly)</em></p></li>
+and overall happily relish the food for thought carefully prepared by yours truly)</em></p></li>
 <li><p>Labs: Thursdays, 10:15–12:00, 219 MiNI
 <em>(practical implementation, testing, and application of the algorithms
 presented in the lectures or described in the literature;
@@ -358,10 +358,18 @@ discussion of the obtained results)</em></p></li>
 </td>
 <td><ul class="simple">
 <li><p>Introduction to our GNU/Linux environment</p></li>
-<li><p>Compiling our first program</p></li>
+<li><p>Compiling an example program, playing around with scalar functions</p></li>
 <li><p>Calling C from R</p>
 <ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">R</span> <span class="pre">CMD</span> <span class="pre">SHLIB</span></code></p></li>
 <li><p><a class="reference external" href="https://deepr.gagolewski.com/chapter/310-compiled.html"><em>Deep R Programming – Chapter 14: Interfacing compiled code</em></a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a></p></li>
+</ul>
+</li>
+<li><p>Calling C from Python (*)</p>
+<ul>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/index.html"><em>Extending and Embedding the Python Interpreter</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a></p></li>
 </ul>
 </li>
 </ul>
@@ -397,7 +405,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Programming Assignment 1</strong> (10 pts max.)</p></li>
 </ul>
 </td>
 </tr>
@@ -448,7 +456,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Programming Assignment 2</strong> (10 pts max.)</p></li>
 </ul>
 </td>
 </tr>
@@ -485,7 +493,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Written Assignment 1</strong> (20 pts max.)</p></li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="8">
@@ -544,7 +552,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Programming Assignment 3</strong>  (15 pts max.)</p></li>
 </ul>
 </td>
 </tr>
@@ -583,7 +591,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Programming Assignment 4</strong> (15 pts max.)</p></li>
 </ul>
 </td>
 </tr>
@@ -609,7 +617,7 @@ discussion of the obtained results)</em></p></li>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p><strong>Written Assignment 2</strong> (30 pts max.)</p></li>
 </ul>
 </td>
 <td><p>—</p></td>
@@ -636,11 +644,26 @@ discussion of the obtained results)</em></p></li>
 </section>
 <section id="assessment-methods-and-regulations-under-construction">
 <h2>Assessment Methods and Regulations (Under Construction)<a class="headerlink" href="#assessment-methods-and-regulations-under-construction" title="Link to this heading">¶</a></h2>
+<p>There are two written (à 20 and 30 pts)
+and four programming assignments (à 10, 10, 15, and 15 pts max, respectively).</p>
+<p>During the written assignments, electronic devices must not be used.
+However, a single A4-sized sheet of <em>hand-written</em> notes can be brought along.</p>
+<p>The programming assignments will be solved on the laboratory (not: own)
+devices. Only an <em>explicitly</em> specified list of online resources
+(e.g., official documentation of some APIs) can be accessed.
+In particular, the use of Gen-AI-based services (ChatGPT etc.) is strictly forbidden.
+The failure to comply with these rules is a breach of academic integrity (cheating)
+and results in a fail mark.</p>
+<p>Class attendance is compulsory. Five pts will be deducted from the final result
+for each unexcused absence.</p>
 <p>The final grade will reflect the extent to which your written and programming
-assessment tasks and reports meet the specified quality criteria;
-100 pts maximum in total:  ≤50 pts - 2,0; (50,60] – 3,0; (60,70] – 3,5;
-(70,80] – 4,0; (80,90] – 4,5; &gt;90 – 5,0.</p>
-<p>More details will be provided at the start of the semester.</p>
+assessment tasks meet the specified quality criteria.
+The final result of ≤50 pts in total – 2.0;
+(50,60] – 3.0;
+(60,70] – 3.5;
+(70,80] – 4.0;
+(80,90] – 4,5;
+and &gt;90 – 5.0.</p>
 </section>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">¶</a></h2>
@@ -695,7 +718,7 @@ assessment tasks and reports meet the specified quality criteria;
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-09-12T16:50:57+0200.
+              Last updated on 2024-09-23T14:43:20+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>
@@ -717,7 +740,7 @@ assessment tasks and reports meet the specified quality criteria;
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Advanced Algorithms and Data Structures for Data Science</a><ul>
-<li><a class="reference internal" href="#schedule-under-construction">Schedule (Under Construction)</a></li>
+<li><a class="reference internal" href="#schedule">Schedule</a></li>
 <li><a class="reference internal" href="#general-topics-covered">General Topics Covered</a></li>
 <li><a class="reference internal" href="#assessment-methods-and-regulations-under-construction">Assessment Methods and Regulations (Under Construction)</a></li>
 <li><a class="reference internal" href="#references">References</a></li>

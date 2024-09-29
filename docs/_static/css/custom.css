@@ -120,6 +120,10 @@ table.docutils p {
     vertical-align: top;
 }
 
+table.align-default td {
+    vertical-align: top;
+}
+
 /* -------------------------------------------------------------------------- */
 
 p code.notranslate, p code.literal, p tt.literal {

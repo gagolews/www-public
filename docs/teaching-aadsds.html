@@ -351,16 +351,26 @@ discussion of the obtained results)</em></p></li>
 <li><p>Introduction to the course</p></li>
 <li><p>Introduction to the C programming language (a minimalist subset of C11)</p>
 <ul>
+<li><p>Variable declarations, common scalar types</p></li>
+<li><p>Arithmetic, comparison, and logical operators</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">if</span></code>, <code class="docutils literal notranslate"><span class="pre">switch</span></code>, <code class="docutils literal notranslate"><span class="pre">while</span></code>, <code class="docutils literal notranslate"><span class="pre">do..while</span></code>, and <code class="docutils literal notranslate"><span class="pre">for</span></code> statements</p></li>
+<li><p>Defining own functions</p></li>
+<li><p>Record types (structures)</p></li>
+</ul>
+</li>
+<li><p>References:</p>
+<ul>
 <li><p>(!) T. Rothwell, J. Youngman, and others,
 <a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">The GNU C Reference Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
 <li><p>(!) <a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
 </ul>
 </li>
-<li><p>Further reading: e.g.,</p>
+<li><p>Further reading:</p>
 <ul>
 <li><p><a class="reference external" href="https://en.cppreference.com/w/c">The C Reference</a></p></li>
 <li><p><a class="reference external" href="https://c-faq.com">comp.lang.c Frequently Asked Questions</a></p></li>
 <li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
+<li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2023, draft</a></p></li>
 </ul>
 </li>
 </ul>
@@ -371,24 +381,15 @@ discussion of the obtained results)</em></p></li>
 <ul class="simple">
 <li><p>Introduction to our GNU/Linux environment</p></li>
 <li><p>Compiling an example program, playing around with scalar functions</p></li>
-<li><p>Dynamically linked shared libraries</p>
-<ul>
-<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html">gcc – options</a></p></li>
-</ul>
-</li>
+<li><p>Dynamically linked shared libraries</p></li>
 <li><p>R shared libraries in C</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">R</span> <span class="pre">CMD</span> <span class="pre">SHLIB</span></code></p></li>
-<li><p><a class="reference external" href="https://deepr.gagolewski.com/chapter/310-compiled.html"><em>Deep R Programming – Chapter 14: Interfacing compiled code</em></a></p></li>
-<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a>, Sec. 5 and Sec. 6</p></li>
-<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/r-release/R-ints.htm"><em>R Internals</em></a></p></li>
 </ul>
 </li>
-<li><p>Python modules in C</p>
+<li><p>Further reading:</p>
 <ul>
-<li><p><a class="reference external" href="https://docs.python.org/3/extending/index.html"><em>Extending and Embedding the Python Interpreter</em></a></p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3/extending/building.html"><em>Building C and C++ Extensions</em></a></p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html">gcc – options</a></p></li>
 </ul>
 </li>
 </ul>
@@ -398,8 +399,12 @@ discussion of the obtained results)</em></p></li>
 <li><p>2024-10-09</p></li>
 </ol>
 <ul class="simple">
+<li><p>Introduction to the C programming language (cont’d)</p>
+<ul>
 <li><p>(TBA)</p></li>
-<li><p>Principles of finite precision computation</p>
+</ul>
+</li>
+<li><p>Principles of finite precision computation (TBA–?)</p>
 <ul>
 <li><p>(!) D. Goldberg, <a class="reference external" href="https://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf">What every computer scientist should know about floating-point arithmetic</a>,
 <em>ACM Computing Surveys</em> <strong>21</strong>(1), 1991, 5–48</p></li>
@@ -412,7 +417,14 @@ discussion of the obtained results)</em></p></li>
 <li><p>2024-10-10</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p>Implementing basic algorithms for processing numerical arrays (C libraries for R)</p></li>
+<li><p>Further reading:</p>
+<ul>
+<li><p><a class="reference external" href="https://deepr.gagolewski.com/chapter/310-compiled.html"><em>Deep R Programming – Chapter 14: Interfacing compiled code</em></a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a>, Sec. 5 and Sec. 6</p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/r-release/R-ints.htm"><em>R Internals</em></a></p></li>
+</ul>
+</li>
 </ul>
 </td>
 </tr>
@@ -442,7 +454,8 @@ discussion of the obtained results)</em></p></li>
 <li><p>2024-10-24</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p>(TBA)</p>
+</li>
 </ul>
 </td>
 </tr>
@@ -679,6 +692,7 @@ Cambridge University Press, 2007</p></li>
 <li><p><a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
 <li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
 <li><p>(*) B.W. Kernighan, D.M. Ritchie, <em>The C Programming Language</em>, Prentice Hall, 1988</p></li>
+<li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2023, draft</a></p></li>
 </ol>
 <p>Source code of:</p>
 <ol class="arabic simple">
@@ -735,7 +749,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-02T15:22:11+0200.
+              Last updated on 2024-10-03T13:50:13+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

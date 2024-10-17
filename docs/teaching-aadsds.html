@@ -440,9 +440,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">static</span></code> functions and variables  </p></li>
 <li><p>Representation of characters and strings</p></li>
-<li><p>Representation of signed and unsigned integers. Bitwise operators in C</p></li>
-<li><p>(TBA)</p></li>
-<li><p>…</p></li>
+<li><p>Representation of signed and unsigned integers</p></li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="3">
@@ -451,7 +449,10 @@ mark the GNU extensions to the C language clearly enough):</p>
 <ul class="simple">
 <li><p>Implementing basic algorithms for processing numerical arrays using the R/C API (cont’d)</p>
 <ul>
-<li><p>…. (TBA)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mysum</span></code> for integer and logical vectors too</p></li>
+<li><p>writing unit tests (<code class="docutils literal notranslate"><span class="pre">stopifnot</span></code>)</p></li>
+<li><p>basic benchmarking (<code class="docutils literal notranslate"><span class="pre">microbenchmark</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mysqrt</span></code> using <code class="docutils literal notranslate"><span class="pre">Rf_allocVector</span></code> + <code class="docutils literal notranslate"><span class="pre">(UN)PROTECT</span></code></p></li>
 </ul>
 </li>
 </ul>
@@ -462,20 +463,17 @@ mark the GNU extensions to the C language clearly enough):</p>
 </ol>
 <ul class="simple">
 <li><p>(TBA)</p></li>
-<li><p>Principles of finite precision computation (TBA–?)</p>
-<ul>
-<li><p>(!) D. Goldberg, <a class="reference external" href="https://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf">What every computer scientist should know about floating-point arithmetic</a>,
-<em>ACM Computing Surveys</em> <strong>21</strong>(1), 1991, 5–48</p></li>
-<li><p>(!) N.J. Higham, <em>Accuracy and Stability of Numerical Algorithms</em>, SIAM, 2002, Chap. 1–3</p></li>
-</ul>
-</li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="4">
 <li><p>2024-10-24</p></li>
 </ol>
-<ul class="simple">
-<li><p><strong>Programming Assignment 1</strong> (10 pts max.)</p></li>
+<ul>
+<li><p><strong>Programming Assignment 1</strong> (10 pts max.)</p>
+<p>Practice by implementing the following functions (and similar ones):
+<code class="docutils literal notranslate"><span class="pre">abs</span></code>, <code class="docutils literal notranslate"><span class="pre">log</span></code>, <code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">==</span></code> (binary operators as two-argument functions <code class="docutils literal notranslate"><span class="pre">myadd</span></code>, <code class="docutils literal notranslate"><span class="pre">mymultiply</span></code>, <code class="docutils literal notranslate"><span class="pre">myequal</span></code>),
+<code class="docutils literal notranslate"><span class="pre">is.na</span></code>, <code class="docutils literal notranslate"><span class="pre">is.unsorted</span></code>, <code class="docutils literal notranslate"><span class="pre">all</span></code>, <code class="docutils literal notranslate"><span class="pre">any</span></code>, <code class="docutils literal notranslate"><span class="pre">mean</span></code>, <code class="docutils literal notranslate"><span class="pre">var</span></code>, <code class="docutils literal notranslate"><span class="pre">cumsum</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">rev</span></code>, <code class="docutils literal notranslate"><span class="pre">rep</span></code>, <code class="docutils literal notranslate"><span class="pre">seq</span></code>, etc.</p>
+</li>
 </ul>
 </td>
 </tr>
@@ -538,7 +536,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>2024-11-27</p></li>
 </ol>
 <ul class="simple">
-<li><p><strong>Written Assignment 1</strong> (20 pts max.)</p></li>
+<li><p><strong>Written Assignment 1</strong> (20 pts max.)  →→→ 11 December ???</p></li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="8">
@@ -568,7 +566,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>2024-12-11</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)  ???<a class="reference external" href="https://sm2024.mini.pw.edu.pl/">conference</a>!!!</p></li>
+<li><p>(TBA)  ???<a class="reference external" href="https://sm2024.mini.pw.edu.pl/">conference</a>!!!  Written Assignment 1 ???</p></li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="10">
@@ -771,7 +769,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-16T14:47:12+0200.
+              Last updated on 2024-10-17T15:08:17+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

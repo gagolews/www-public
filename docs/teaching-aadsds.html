@@ -310,14 +310,14 @@ R/Python prototype is too slow to run, or a customised modification thereof is
 required), but also calling methods from existing libraries (standing on the
 shoulders of giants, appreciating the effort of the open-source community).
 As a by-product, we will better understand the implementation of statistical
-software packages (R, Python with <em>numpy</em> and <em>pandas</em>, etc.).</em></p>
+software packages (R, Python with NumPy and Pandas, etc.).</em></p>
 </div></blockquote>
 <p>Prerequisites:</p>
 <ul class="simple">
-<li><p>Structured Data Processing (R and Python),</p></li>
-<li><p>Data Structures and Algorithms (sorting and searching),</p></li>
-<li><p>Numerical Methods,</p></li>
-<li><p>Introduction to Machine Learning</p></li>
+<li><p>Structured data processing (R and Python),</p></li>
+<li><p>Data structures and algorithms (sorting and searching),</p></li>
+<li><p>Numerical methods,</p></li>
+<li><p>Introduction to machine learning</p></li>
 </ul>
 <section id="schedule">
 <h2>Schedule<a class="headerlink" href="#schedule" title="Link to this heading">¶</a></h2>
@@ -386,6 +386,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>Introduction to our GNU/Linux environment</p></li>
 <li><p>Compiling an example program, playing around with scalar functions</p></li>
 <li><p>Dynamically linked shared libraries</p></li>
+<li><p>R basic types refresher (logical, integer, numeric, character vectors)</p></li>
 <li><p>R shared libraries in C:</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">R</span> <span class="pre">CMD</span> <span class="pre">SHLIB</span></code></p></li>
@@ -393,6 +394,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 </li>
 <li><p>Further reading:</p>
 <ul>
+<li><p><a class="reference external" href="https://deepr.gagolewski.com/"><em>Deep R Programming</em></a>, Chapters 1–8</p></li>
 <li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html">gcc – options</a></p></li>
 <li><p><a class="reference external" href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">How to run an Ubuntu Desktop virtual machine using VirtualBox</a></p></li>
 <li><p><a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a> – pick the one you find more appealing, it’s a matter of taste (I’m on <a class="reference external" href="https://get.opensuse.org/tumbleweed/#download">openSUSE Tumbleweed</a>, but it’s less beginner-friendly)</p></li>
@@ -510,23 +512,19 @@ Chapter 2</p></li>
 <li><p>Sorting algorithms (refresher):</p>
 <ul>
 <li><p>insertion, merge, quick, heap sort</p></li>
+<li><p>understanding memory management/access:
+sorting in-place vs O(log n) recursion depth aka <a class="reference external" href="https://en.wikipedia.org/wiki/Recursion_(computer_science)">what happens</a>
+on the <a class="reference external" href="https://en.wikipedia.org/wiki/Call_stack">call stack</a>,
+<a class="reference external" href="https://en.wikipedia.org/wiki/Tail_call">tail-call</a> recursion elimination,
+<a class="reference external" href="https://en.wikipedia.org/wiki/Locality_of_reference">locality of reference</a></p></li>
 <li><p>hybrid approaches (<a class="reference external" href="https://en.wikipedia.org/wiki/Introsort">introsort</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Timsort">timsort</a>, Shell sort)</p></li>
 <li><p>non-comparison sorting: the case of small integers (factors/categorical data): count and radix sort</p></li>
-<li><p>understanding memory management/access:
-sorting in-place vs O(log n) recursion depth aka what happens on the call stack,
-tail-call recursion elimination, locality of reference</p></li>
-</ul>
-</li>
-<li><p>Growable arrays</p>
-<ul>
-<li><p>(TBA)</p></li>
 </ul>
 </li>
 <li><p>References:</p>
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
 Chapters 2, 6–9</p></li>
-<li><p>(!) <a class="reference external" href="https://github.com/python/cpython/blob/3.7/Objects/listsort.txt">timsort</a></p></li>
 <li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
 <li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
 and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
@@ -534,11 +532,21 @@ and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/
 </li>
 <li><p>Further reading:</p>
 <ul>
+<li><p><a class="reference external" href="https://github.com/python/cpython/blob/3.7/Objects/listsort.txt"><code class="docutils literal notranslate"><span class="pre">list.sort</span></code> in Python 3.7</a></p></li>
 <li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c">https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c</a></p></li>
 <li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/sort.c">https://github.com/wch/r-source/blob/trunk/src/main/sort.c</a> – Shell sort; they claim they’ve made it stable(?) but I haven’t got time to check that</p></li>
 <li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort.c</a></p></li>
 <li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c</a></p></li>
 <li><p><a class="reference external" href="https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort">https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort</a></p></li>
+</ul>
+</li>
+<li><p>(*) Furthererer reading:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/python/cpython/issues/78742">Python 3.11’s switching to powersort</a></p></li>
+<li><p><a class="reference external" href="https://github.com/python/cpython/pull/28108/files"><code class="docutils literal notranslate"><span class="pre">list.sort</span></code>’s diff</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/pdf/1801.04641">Strategies for Stable Merge Sorting</a> by Buss and Knop</p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.1145/3664195">Adaptive Shivers Sort: An Alternative Sorting Algorithm</a> by V. Jugé</p></li>
+<li><p><a class="reference external" href="https://arxiv.org/pdf/1805.04154">Nearly-Optimal Mergesorts: Fast, Practical Sorting Methods That Optimally Adapt to Existing Runs</a> (Munro and Wild’s powersort and peeksort)</p></li>
 </ul>
 </li>
 <li><p>(*) Fix/new feature needed:</p>
@@ -559,7 +567,15 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <li><p>2024-10-31</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)</p>
+<li><p>Python modules in C</p></li>
+<li><p>References:</p>
+<ul>
+<li><p><a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, Chapters 4 and 5</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/index.html"><em>Extending and Embedding the Python Interpreter</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/building.html"><em>Building C and C++ Extensions</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a></p></li>
+<li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/c-api/index.html"><em>NumPy/C API</em></a></p></li>
+</ul>
 </li>
 </ul>
 </td>
@@ -574,8 +590,11 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <td><ol class="arabic simple" start="6">
 <li><p>2024-11-07</p></li>
 </ol>
-<ul class="simple">
-<li><p><strong>Programming Assignment 2</strong> (10 pts max.)</p></li>
+<ul>
+<li><p><strong>Programming Assignment 2</strong> (10 pts max.)</p>
+<p>This assignment will be similar to the previous one,
+except that we’ll be developing a Python (+NumPy) module.</p>
+</li>
 </ul>
 </td>
 </tr>
@@ -771,7 +790,8 @@ and &gt;90 – 5.0.</p>
 <a class="reference external" href="https://numerical.recipes/book.html"><em>Numerical Recipes. The Art of Scientific Computing</em></a>, 3rd ed.,
 Cambridge University Press, 2007</p></li>
 <li><p>S. Marsland, <em>Machine Learning: An Algorithmic Perspective</em>, Chapman&amp;Hall/CRC, 2015</p></li>
-<li><p>M. Gagolewski, <a class="reference external" href="https://deepr.gagolewski.com/"><em>Deep R Programming</em></a>, 2024 (Chapter 14)</p></li>
+<li><p>M. Gagolewski, <a class="reference external" href="https://deepr.gagolewski.com/"><em>Deep R Programming</em></a>, 2024</p></li>
+<li><p>M. Gagolewski, <a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, 2024</p></li>
 <li><p>D. Goldberg, <a class="reference external" href="https://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf">What every computer scientist should know about floating-point arithmetic</a>,
 <em>ACM Computing Surveys</em> <strong>21</strong>(1), 1991, 5–48</p></li>
 <li><p>N.J. Higham, <em>Accuracy and Stability of Numerical Algorithms</em>, SIAM, 2002</p></li>
@@ -789,9 +809,9 @@ Cambridge University Press, 2007</p></li>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://cran.r-project.org/src/base-prerelease/">R</a> (<a class="reference external" href="https://github.com/wch/r-source">mirror</a>)</p></li>
 <li><p><a class="reference external" href="https://github.com/python/cpython">Python</a></p></li>
-<li><p><a class="reference external" href="https://github.com/numpy/numpy">numpy</a></p></li>
-<li><p><a class="reference external" href="https://github.com/scipy/scipy">scipy</a></p></li>
-<li><p><a class="reference external" href="https://github.com/pandas-dev/pandas">pandas</a></p></li>
+<li><p><a class="reference external" href="https://github.com/numpy/numpy">NumPy</a></p></li>
+<li><p><a class="reference external" href="https://github.com/scipy/scipy">SciPy</a></p></li>
+<li><p><a class="reference external" href="https://github.com/pandas-dev/pandas">Pandas</a></p></li>
 <li><p><a class="reference external" href="https://github.com/scikit-learn/scikit-learn">scikit-learn</a></p></li>
 <li><p><a class="reference external" href="https://github.com/Rdatatable/data.table">data.table</a></p></li>
 <li><p><a class="reference external" href="https://github.com/tidyverse/dplyr">dplyr</a></p></li>
@@ -840,7 +860,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-28T13:59:47+0100.
+              Last updated on 2024-10-28T16:45:46+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

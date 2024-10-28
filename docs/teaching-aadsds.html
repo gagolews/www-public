@@ -463,39 +463,30 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>2024-10-23</p></li>
 </ol>
 <ul class="simple">
-<li><p>Sorting algorithms (refresher):</p>
+<li><p>Sorting algorithms at a glance:</p>
 <ul>
-<li><p>insertion, merge, quick, heap sort</p></li>
-<li><p>hybrid approaches (<a class="reference external" href="https://en.wikipedia.org/wiki/Introsort">introsort</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Timsort">timsort</a>)</p></li>
-<li><p>sorting small integers (count and radix sort)</p></li>
+<li><p>total preorders and the corresponding equivalence relations</p></li>
 <li><p>stability of algorithms</p></li>
-</ul>
-</li>
-<li><p>Example applications in data science:</p>
-<ul>
-<li><p>computing quantiles, ECDFs, mode(s), determining outliers,
+<li><p>example applications in data science – algorithms that benefit
+from knowing that data are sorted:
+computing quantiles, ECDFs, mode(s), determining outliers,
 implementing <code class="docutils literal notranslate"><span class="pre">unique</span></code>, <code class="docutils literal notranslate"><span class="pre">duplicated</span></code>, <code class="docutils literal notranslate"><span class="pre">findInterval</span></code>, <code class="docutils literal notranslate"><span class="pre">match</span></code>, <code class="docutils literal notranslate"><span class="pre">rank</span></code></p></li>
+<li><p>C’s <code class="docutils literal notranslate"><span class="pre">qsort</span></code></p></li>
 </ul>
 </li>
 <li><p>References:</p>
 <ul>
-<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
-Chapters 2, 6–9</p></li>
-<li><p>(!) <a class="reference external" href="https://github.com/python/cpython/blob/3.7/Objects/listsort.txt">timsort</a></p></li>
-<li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
-<li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
-and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
+<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Chapter 2</p></li>
 </ul>
 </li>
 <li><p>Further reading:</p>
 <ul>
 <li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, 50(4), 1996, 361–365. DOI: 10.2307/2684934.
 <a class="reference external" href="https://robjhyndman.com/publications/quantiles/">errata</a></p></li>
-<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c">https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c</a></p></li>
-<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/sort.c">https://github.com/wch/r-source/blob/trunk/src/main/sort.c</a> – Shell sort; they claim they’ve made it stable(?) but I haven’t got time to check that</p></li>
-<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort.c</a></p></li>
-<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c</a></p></li>
-<li><p><a class="reference external" href="https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort">https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort</a></p></li>
+<li><p><a class="reference external" href="https://pola.rs/"><code class="docutils literal notranslate"><span class="pre">polars</span></code></a>, <a class="reference external" href="https://dplyr.tidyverse.org/"><code class="docutils literal notranslate"><span class="pre">dplyr</span></code></a>, <a class="reference external" href="https://rdatatable.gitlab.io/data.table/"><code class="docutils literal notranslate"><span class="pre">data.table</span></code></a>
+(have fast-track algorithms for sorted data)</p></li>
 </ul>
 </li>
 </ul>
@@ -516,7 +507,52 @@ and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/
 <li><p>2024-10-30</p></li>
 </ol>
 <ul class="simple">
+<li><p>Sorting algorithms (refresher):</p>
+<ul>
+<li><p>insertion, merge, quick, heap sort</p></li>
+<li><p>hybrid approaches (<a class="reference external" href="https://en.wikipedia.org/wiki/Introsort">introsort</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Timsort">timsort</a>, Shell sort)</p></li>
+<li><p>non-comparison sorting: the case of small integers (factors/categorical data): count and radix sort</p></li>
+<li><p>understanding memory management/access:
+sorting in-place vs O(log n) recursion depth aka what happens on the call stack,
+tail-call recursion elimination, locality of reference</p></li>
+</ul>
+</li>
+<li><p>Growable arrays</p>
+<ul>
 <li><p>(TBA)</p></li>
+</ul>
+</li>
+<li><p>References:</p>
+<ul>
+<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Chapters 2, 6–9</p></li>
+<li><p>(!) <a class="reference external" href="https://github.com/python/cpython/blob/3.7/Objects/listsort.txt">timsort</a></p></li>
+<li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
+<li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
+and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
+</ul>
+</li>
+<li><p>Further reading:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c">https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c</a></p></li>
+<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/sort.c">https://github.com/wch/r-source/blob/trunk/src/main/sort.c</a> – Shell sort; they claim they’ve made it stable(?) but I haven’t got time to check that</p></li>
+<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort.c</a></p></li>
+<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c">https://github.com/wch/r-source/blob/trunk/src/main/qsort-body.c</a></p></li>
+<li><p><a class="reference external" href="https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort">https://github.com/numpy/numpy/tree/main/numpy/_core/src/npysort</a></p></li>
+</ul>
+</li>
+<li><p>(*) Fix/new feature needed:</p>
+<ul>
+<li><p>The manual of the <a class="reference external" href="https://www.gnu.org/software/gsl/doc/html/sort.html">GNU GSL</a> mentions that
+<em>The function qsort() should be used whenever possible, as it will be faster and can provide stable ordering of equal elements</em>
+and <em>unlike qsort() the heapsort algorithm cannot be made into a stable sort by pointer arithmetic</em>,
+but <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf">the C language standard – Annex J.1</a>
+mentions that <em>the order of two elements that compare as equal in an array sorted by the <code class="docutils literal notranslate"><span class="pre">qsort</span></code> function</em>
+is <em>unspecified</em> – we should submit a bug report</p></li>
+<li><p>The <a class="reference external" href="https://www.gnu.org/software/gsl/doc/html/sort.html">GNU GSL</a> only implements heapsort;
+it could benefit from the inclusion of a stable sorting algorithm – let’s fill this gap.</p></li>
+</ul>
+</li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="5">
@@ -804,7 +840,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-23T15:59:57+0200.
+              Last updated on 2024-10-28T13:59:47+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

@@ -472,7 +472,13 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>example applications in data science – algorithms that benefit
 from knowing that data are sorted:
 computing quantiles, ECDFs, mode(s), determining outliers,
-implementing <code class="docutils literal notranslate"><span class="pre">unique</span></code>, <code class="docutils literal notranslate"><span class="pre">duplicated</span></code>, <code class="docutils literal notranslate"><span class="pre">findInterval</span></code>, <code class="docutils literal notranslate"><span class="pre">match</span></code>, <code class="docutils literal notranslate"><span class="pre">rank</span></code></p></li>
+implementing
+<code class="docutils literal notranslate"><span class="pre">unique</span></code> (with elements sorted or in the order of appearance),
+<code class="docutils literal notranslate"><span class="pre">duplicated</span></code>,
+<code class="docutils literal notranslate"><span class="pre">findInterval</span></code> (binary search),
+<code class="docutils literal notranslate"><span class="pre">match</span></code> (and hence SQL-like joins, GROUP BYs – computing aggregates in groups),
+<code class="docutils literal notranslate"><span class="pre">rank</span></code> (with different tie breaking rules),
+finding the inverse of a permutation,</p></li>
 <li><p>C’s <code class="docutils literal notranslate"><span class="pre">qsort</span></code></p></li>
 </ul>
 </li>
@@ -488,7 +494,7 @@ Chapter 2</p></li>
 <li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, 50(4), 1996, 361–365. DOI: 10.2307/2684934.
 <a class="reference external" href="https://robjhyndman.com/publications/quantiles/">errata</a></p></li>
 <li><p><a class="reference external" href="https://pola.rs/"><code class="docutils literal notranslate"><span class="pre">polars</span></code></a>, <a class="reference external" href="https://dplyr.tidyverse.org/"><code class="docutils literal notranslate"><span class="pre">dplyr</span></code></a>, <a class="reference external" href="https://rdatatable.gitlab.io/data.table/"><code class="docutils literal notranslate"><span class="pre">data.table</span></code></a>
-(have fast-track algorithms for sorted data)</p></li>
+(they have fast-track algorithms for sorted data)</p></li>
 </ul>
 </li>
 </ul>
@@ -523,8 +529,8 @@ on the <a class="reference external" href="https://en.wikipedia.org/wiki/Call_st
 </li>
 <li><p>References:</p>
 <ul>
-<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
-Chapters 2, 6–9</p></li>
+<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022, Chapters 2, 6–9</p></li>
 <li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
 <li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
 and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
@@ -571,7 +577,7 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <li><p>References:</p>
 <ul>
 <li><p><a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, Chapters 4 and 5</p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3/extending/index.html"><em>Extending and Embedding the Python Interpreter</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/extending.html"><em>Extending Python with C or C++</em></a></p></li>
 <li><p><a class="reference external" href="https://docs.python.org/3/extending/building.html"><em>Building C and C++ Extensions</em></a></p></li>
 <li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a></p></li>
 <li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/c-api/index.html"><em>NumPy/C API</em></a></p></li>
@@ -593,7 +599,7 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <ul>
 <li><p><strong>Programming Assignment 2</strong> (10 pts max.)</p>
 <p>This assignment will be similar to the previous one,
-except that we’ll be developing a Python (+NumPy) module.</p>
+except that we’ll be developing a Python/C (+NumPy) module.</p>
 </li>
 </ul>
 </td>
@@ -860,7 +866,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-28T16:45:46+0100.
+              Last updated on 2024-10-31T14:58:02+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

@@ -491,9 +491,11 @@ Chapter 2</p></li>
 </li>
 <li><p>Further reading:</p>
 <ul>
-<li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, 50(4), 1996, 361–365. DOI: 10.2307/2684934.
+<li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages,
+<em>American Statistician</em>, 50(4), 1996, 361–365. DOI: 10.2307/2684934.
 <a class="reference external" href="https://robjhyndman.com/publications/quantiles/">errata</a></p></li>
-<li><p><a class="reference external" href="https://pola.rs/"><code class="docutils literal notranslate"><span class="pre">polars</span></code></a>, <a class="reference external" href="https://dplyr.tidyverse.org/"><code class="docutils literal notranslate"><span class="pre">dplyr</span></code></a>, <a class="reference external" href="https://rdatatable.gitlab.io/data.table/"><code class="docutils literal notranslate"><span class="pre">data.table</span></code></a>
+<li><p><a class="reference external" href="https://pola.rs/"><code class="docutils literal notranslate"><span class="pre">polars</span></code></a>, <a class="reference external" href="https://dplyr.tidyverse.org/"><code class="docutils literal notranslate"><span class="pre">dplyr</span></code></a>,
+<a class="reference external" href="https://rdatatable.gitlab.io/data.table/"><code class="docutils literal notranslate"><span class="pre">data.table</span></code></a>
 (they have fast-track algorithms for sorted data)</p></li>
 </ul>
 </li>
@@ -504,7 +506,7 @@ Chapter 2</p></li>
 </ol>
 <ul>
 <li><p><strong>Programming Assignment 1</strong> (10 pts max.)</p>
-<p>Practice by implementing the following functions (and similar ones):
+<p>Practice by implementing R/C versions of the following R functions (and similar ones):
 <code class="docutils literal notranslate"><span class="pre">abs</span></code>, <code class="docutils literal notranslate"><span class="pre">log</span></code>, <code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">==</span></code> (binary operators as two-argument functions <code class="docutils literal notranslate"><span class="pre">myadd</span></code>, <code class="docutils literal notranslate"><span class="pre">mymultiply</span></code>, <code class="docutils literal notranslate"><span class="pre">myequal</span></code>),
 <code class="docutils literal notranslate"><span class="pre">is.na</span></code>, <code class="docutils literal notranslate"><span class="pre">is.unsorted</span></code>, <code class="docutils literal notranslate"><span class="pre">all</span></code>, <code class="docutils literal notranslate"><span class="pre">any</span></code>, <code class="docutils literal notranslate"><span class="pre">mean</span></code>, <code class="docutils literal notranslate"><span class="pre">var</span></code>, <code class="docutils literal notranslate"><span class="pre">cumsum</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">rev</span></code>, <code class="docutils literal notranslate"><span class="pre">rep</span></code>, <code class="docutils literal notranslate"><span class="pre">seq</span></code>, etc.</p>
 </li>
@@ -573,7 +575,7 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <li><p>2024-10-31</p></li>
 </ol>
 <ul class="simple">
-<li><p>Python modules in C</p></li>
+<li><p>Python/C modules</p></li>
 <li><p>References:</p>
 <ul>
 <li><p><a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, Chapters 4 and 5</p></li>
@@ -598,8 +600,14 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 </ol>
 <ul>
 <li><p><strong>Programming Assignment 2</strong> (10 pts max.)</p>
-<p>This assignment will be similar to the previous one,
-except that we’ll be developing a Python/C (+NumPy) module.</p>
+<p>Practice by implementing Python/C versions of the following NumPy functions (and similar ones):
+<code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">==</span></code> (binary operators as two-argument functions <code class="docutils literal notranslate"><span class="pre">myadd</span></code>, <code class="docutils literal notranslate"><span class="pre">mymultiply</span></code>, <code class="docutils literal notranslate"><span class="pre">myequal</span></code>),
+<code class="docutils literal notranslate"><span class="pre">abs</span></code>, <code class="docutils literal notranslate"><span class="pre">log</span></code>,
+<code class="docutils literal notranslate"><span class="pre">repeat</span></code>, <code class="docutils literal notranslate"><span class="pre">tile</span></code>,
+<code class="docutils literal notranslate"><span class="pre">arange</span></code>, <code class="docutils literal notranslate"><span class="pre">linspace</span></code>, <code class="docutils literal notranslate"><span class="pre">logspace</span></code>,
+<code class="docutils literal notranslate"><span class="pre">mean</span></code>, <code class="docutils literal notranslate"><span class="pre">std</span></code>, <code class="docutils literal notranslate"><span class="pre">cumsum</span></code>, <code class="docutils literal notranslate"><span class="pre">diff</span></code>,
+<code class="docutils literal notranslate"><span class="pre">min</span></code>, <code class="docutils literal notranslate"><span class="pre">argmin</span></code>, <code class="docutils literal notranslate"><span class="pre">allclose</span></code>,
+<code class="docutils literal notranslate"><span class="pre">unique</span></code>, <code class="docutils literal notranslate"><span class="pre">sort</span></code>, <code class="docutils literal notranslate"><span class="pre">argsort</span></code>, and <code class="docutils literal notranslate"><span class="pre">scipy.stats.rankdata</span></code>.</p>
 </li>
 </ul>
 </td>
@@ -866,7 +874,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-10-31T14:58:02+0100.
+              Last updated on 2024-11-01T11:03:33+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

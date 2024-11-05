@@ -294,6 +294,8 @@
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="advanced-algorithms-and-data-structures-for-data-science">
 <h1>Advanced Algorithms and Data Structures for Data Science<a class="headerlink" href="#advanced-algorithms-and-data-structures-for-data-science" title="Link to this heading">¶</a></h1>
+<p><em>aka Data Science Computing</em></p>
+<hr class="docutils" />
 <p>MSc studies in Data Science,
 Faculty of Mathematics and Information Science,
 Warsaw University of Technology</p>
@@ -328,7 +330,8 @@ software packages (R, Python with NumPy and Pandas, etc.).</em></p>
 students are expected to participate actively in the classes,
 take notes,
 discuss/brainstorm all ideas,
-and overall happily relish the food for thought carefully prepared by yours truly)</em></p></li>
+and overall happily relish all the food for thought mindfully seasoned
+and served by yours truly)</em></p></li>
 <li><p>Pracs: Thursdays, 10:15–12:00, 219 MiNI
 <em>(practical implementation, testing, and application of the algorithms
 presented in the lectures or described in the literature;
@@ -526,7 +529,6 @@ on the <a class="reference external" href="https://en.wikipedia.org/wiki/Call_st
 <a class="reference external" href="https://en.wikipedia.org/wiki/Tail_call">tail-call</a> recursion elimination,
 <a class="reference external" href="https://en.wikipedia.org/wiki/Locality_of_reference">locality of reference</a></p></li>
 <li><p>hybrid approaches (<a class="reference external" href="https://en.wikipedia.org/wiki/Introsort">introsort</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Timsort">timsort</a>, Shell sort)</p></li>
-<li><p>non-comparison sorting: the case of small integers (factors/categorical data): count and radix sort</p></li>
 </ul>
 </li>
 <li><p>References:</p>
@@ -592,7 +594,35 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <li><p>2024-11-06</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p>Sorting algorithms (cont’d):</p>
+<ul>
+<li><p>non-comparison sorting: the case of small integers (factors/categorical data): count and radix sort</p></li>
+</ul>
+</li>
+<li><p>Beyond fixed-size arrays</p>
+<ul>
+<li><p>Allocating too much: Can you afford some wastefulness? If so, just do it and don’t bother</p></li>
+<li><p>Requirement analysis: what operations need to be performed quickly. Abstract data structures: queue, stack, etc.</p></li>
+<li><p>Example: implementing recursive algorithms iteratively, with the use of a stack (quicksort)</p></li>
+<li><p>Growable (dynamic) arrays. <code class="docutils literal notranslate"><span class="pre">realloc</span></code>. Amortised analysis</p></li>
+<li><p>Circular buffers</p></li>
+<li><p>Arrays of arrays</p></li>
+<li><p>(*) Bonus: Are contiguous arrays really contiguous and do they have to fit in memory?: Virtual vs physical addresses, paging, swapping, memory-mapped I/O</p></li>
+</ul>
+</li>
+<li><p>References:</p>
+<ul>
+<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Section 17.4 (Dynamic Tables),
+Section 8.4 (Bucket Sort)</p></li>
+</ul>
+</li>
+<li><p>Further reading:</p>
+<ul>
+<li><p><a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html#Memory">The GNU C Library – Virtual Memory Allocation And Paging</a></p></li>
+</ul>
+</li>
 </ul>
 </td>
 <td><ol class="arabic simple" start="6">
@@ -617,6 +647,14 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 </ol>
 <ul class="simple">
 <li><p>(TBA)</p></li>
+<li><p>References:</p>
+<ul>
+<li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Chapter 11 (Hash Tables),
+Chapter 10 (Elementary Data Structures), </p></li>
+</ul>
+</li>
 </ul>
 </td>
 <td><p>—</p></td>
@@ -814,6 +852,7 @@ Cambridge University Press, 2007</p></li>
 <li><p>T. Rothwell, J. Youngman, and others,
 <a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">The GNU C Reference Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
 <li><p><a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
+<li><p><a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html">The GNU C Library</a></p></li>
 <li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
 <li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, <strong>50</strong>(4), 1996, 361–365. DOI: 10.2307/2684934.</p></li>
 <li><p>(*) B.W. Kernighan, D.M. Ritchie, <em>The C Programming Language</em>, Prentice Hall, 1988</p></li>
@@ -874,7 +913,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-11-01T11:03:33+0100.
+              Last updated on 2024-11-05T16:04:30+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

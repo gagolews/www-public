@@ -534,7 +534,7 @@ on the <a class="reference external" href="https://en.wikipedia.org/wiki/Call_st
 <li><p>References:</p>
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
-<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022, Chapters 2, 6–9</p></li>
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022, Chapters 2, 6 (Heapsort), 7 (Quicksort), 9 (Medians and Order Statistics)</p></li>
 <li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
 <li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
 and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
@@ -602,11 +602,7 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <li><p>Beyond fixed-size arrays</p>
 <ul>
 <li><p>Allocating too much: Can you afford some wastefulness? If so, just do it and don’t bother</p></li>
-<li><p>Requirement analysis: what operations need to be performed quickly. Abstract data structures: queue, stack, etc.</p></li>
-<li><p>Example: implementing recursive algorithms iteratively, with the use of a stack (quicksort)</p></li>
 <li><p>Growable (dynamic) arrays. <code class="docutils literal notranslate"><span class="pre">realloc</span></code>. Amortised analysis</p></li>
-<li><p>Circular buffers</p></li>
-<li><p>Arrays of arrays</p></li>
 <li><p>(*) Bonus: Are contiguous arrays really contiguous and do they have to fit in memory?: Virtual vs physical addresses, paging, swapping, memory-mapped I/O</p></li>
 </ul>
 </li>
@@ -614,13 +610,13 @@ it could benefit from the inclusion of a stable sorting algorithm – let’s fi
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
 <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
-Section 17.4 (Dynamic Tables),
-Section 8.4 (Bucket Sort)</p></li>
+Chapter 8 (Sorting in Linear Time),
+Section 17.4 (Dynamic Tables)</p></li>
 </ul>
 </li>
 <li><p>Further reading:</p>
 <ul>
-<li><p><a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html#Memory">The GNU C Library – Virtual Memory Allocation And Paging</a></p></li>
+<li><p>(*) <a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html#Memory">The GNU C Library – Virtual Memory Allocation And Paging</a></p></li>
 </ul>
 </li>
 </ul>
@@ -646,11 +642,20 @@ Section 8.4 (Bucket Sort)</p></li>
 <li><p>2024-11-13</p></li>
 </ol>
 <ul class="simple">
+<li><p>Beyond fixed-size arrays (cont’d)</p>
+<ul>
+<li><p>Requirement analysis: Which operations need to be performed quickly? Abstract data structures: queue, stack, etc.</p></li>
+<li><p>Example: implementing recursive algorithms iteratively, with the use of a stack (quicksort)</p></li>
+<li><p>Circular buffers</p></li>
+<li><p>Arrays of arrays</p></li>
+</ul>
+</li>
 <li><p>(TBA)</p></li>
 <li><p>References:</p>
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
 <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Section 8.4 (Bucket Sort),
 Chapter 11 (Hash Tables),
 Chapter 10 (Elementary Data Structures), </p></li>
 </ul>
@@ -856,6 +861,8 @@ Cambridge University Press, 2007</p></li>
 <li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
 <li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, <strong>50</strong>(4), 1996, 361–365. DOI: 10.2307/2684934.</p></li>
 <li><p>(*) B.W. Kernighan, D.M. Ritchie, <em>The C Programming Language</em>, Prentice Hall, 1988</p></li>
+<li><p>(*) J. Arndt, <a class="reference external" href="https://www.jjj.de/fxt/fxtbook.pdf"><em>Matters Computational: Ideas, Algorithms, Source Code</em></a>,
+Springer, 2011</p></li>
 <li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2023, draft</a></p></li>
 </ol>
 <p>Source code of:</p>
@@ -913,7 +920,7 @@ Cambridge University Press, 2007</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-11-05T16:04:30+0100.
+              Last updated on 2024-11-12T11:26:00+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

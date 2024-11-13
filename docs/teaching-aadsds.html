@@ -534,7 +534,8 @@ on the <a class="reference external" href="https://en.wikipedia.org/wiki/Call_st
 <li><p>References:</p>
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
-<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022, Chapters 2, 6 (Heapsort), 7 (Quicksort), 9 (Medians and Order Statistics)</p></li>
+<em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
+Chapters 2 (Insertion sort, merge sort, etc.), 6 (Heapsort), 7 (Quicksort), 9 (Medians and Order Statistics)</p></li>
 <li><p>(!) <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html"><code class="docutils literal notranslate"><span class="pre">numpy.sort</span></code></a></p></li>
 <li><p>(!) R’s <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"><code class="docutils literal notranslate"><span class="pre">order</span></code></a>
 and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"><code class="docutils literal notranslate"><span class="pre">sort</span></code></a></p></li>
@@ -644,20 +645,28 @@ Section 17.4 (Dynamic Tables)</p></li>
 <ul class="simple">
 <li><p>Beyond fixed-size arrays (cont’d)</p>
 <ul>
-<li><p>Requirement analysis: Which operations need to be performed quickly? Abstract data structures: queue, stack, etc.</p></li>
-<li><p>Example: implementing recursive algorithms iteratively, with the use of a stack (quicksort)</p></li>
 <li><p>Circular buffers</p></li>
-<li><p>Arrays of arrays</p></li>
+<li><p>Linked lists, rooted trees, binary search trees</p></li>
+<li><p>Arrays of arrays (ragged arrays, e.g., data frames) or linked lists (e.g., directed graphs)</p></li>
+<li><p>Hash tables</p></li>
 </ul>
 </li>
-<li><p>(TBA)</p></li>
 <li><p>References:</p>
 <ul>
 <li><p>(!) T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein,
 <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022,
 Section 8.4 (Bucket Sort),
 Chapter 11 (Hash Tables),
-Chapter 10 (Elementary Data Structures), </p></li>
+Chapter 10 (Elementary Data Structures), Chapter 22 (Elementary Graph Algorithms)</p></li>
+</ul>
+</li>
+<li><p>(*) Further reading:</p>
+<ul>
+<li><p>Python’s <a class="reference external" href="https://github.com/python/cpython/blob/main/Objects/dictobject.c">dict</a>;
+see also <a class="reference external" href="https://morepypy.blogspot.com/2015/01/faster-more-memory-efficient-and-more.html">this</a></p></li>
+<li><p>PHP’s <a class="reference external" href="https://www.npopov.com/2014/12/22/PHPs-new-hashtable-implementation.html">hashtables</a></p></li>
+<li><p>R’s <a class="reference external" href="https://github.com/SurajGupta/r-source/blob/master/src/main/envir.c">environments</a></p></li>
+<li><p>D.E. Knuth, <em>The Art of Computer Programming</em>, Volume 3, Section 6.4 (Hashing)</p></li>
 </ul>
 </li>
 </ul>
@@ -920,7 +929,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-11-12T11:26:00+0100.
+              Last updated on 2024-11-13T16:07:49+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20221228-deepr-draft.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Hiking, (trail) running, and cycling maps" href="maps.html" /><link rel="prev" title="Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱" href="uwagi-latex.html" />
+        <link rel="canonical" href="https://www.gagolewski.com/notes/piszemy-po-polsku.html" />
 
-    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>Deep R Programming (First Draft) - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>        <title>Piszemy po polsku 🇵🇱 - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=387cc868" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
@@ -201,7 +201,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -224,7 +224,7 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
+  <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../index.html">About</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../research.html">Research</a></li>
@@ -241,12 +241,12 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../cv.html">CV</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../notes.html">Blog/Notes</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Blog/Notes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../notes/data-science-literature-undergraduate.html">Recommended literature for data science students (undergraduate)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../notes/data-science-literature-postgraduate.html">Recommended literature for data science students (postgraduate)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../notes/uwagi-latex.html">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../notes/piszemy-po-polsku.html">Piszemy po polsku 🇵🇱</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../notes/maps.html">Hiking, (trail) running, and cycling maps</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../notes.html">Blog/Notes</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Blog/Notes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="data-science-literature-undergraduate.html">Recommended literature for data science students (undergraduate)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data-science-literature-postgraduate.html">Recommended literature for data science students (postgraduate)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uwagi-latex.html">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Piszemy po polsku 🇵🇱</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maps.html">Hiking, (trail) running, and cycling maps</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../personal.html">Personal</a></li>
@@ -288,31 +288,126 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="deep-r-programming-first-draft">
-<h1>Deep R Programming (First Draft)<a class="headerlink" href="#deep-r-programming-first-draft" title="Link to this heading">¶</a></h1>
-<p>I’ve released an early draft of my new textbook
-<em>Deep R Programming</em> – the first 12 chapters.
-It is a comprehensive course on one of the most popular
-languages in data science (statistical computing, graphics,
-machine learning, data wrangling and analytics). It introduces
-the base language in-depth and is aimed at ambitious students,
-practitioners, and researchers who would like to become independent
-users of this powerful environment.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://deepr.gagolewski.com/">Browser-friendly version</a></p></li>
-<li><p><a class="reference external" href="https://deepr.gagolewski.com/deepr.pdf">PDF version</a></p></li>
-<li><p><a class="reference external" href="https://github.com/gagolews/deepr/issues">Bug reports</a></p></li>
-</ul>
-<p>Just like my recently completed
-<a class="reference external" href="https://datawranglingpy.gagolewski.com/">Minimalist Data Wrangling with Python</a>,
-this is an independent, open-access project.
-Any remarks and bug fixes are appreciated. Please spread the news. Thank you.</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="piszemy-po-polsku">
+<h1>Piszemy po polsku 🇵🇱<a class="headerlink" href="#piszemy-po-polsku" title="Link to this heading">¶</a></h1>
+<section id="polacy-nie-gesi">
+<h2>Polacy nie gęsi<a class="headerlink" href="#polacy-nie-gesi" title="Link to this heading">¶</a></h2>
+<p>machine learning → uczenie maszynowe</p>
+<p>accuracy → dokładność</p>
+<p>precision → precyzja</p>
+<p>sensitivity/recall → czułość</p>
+<p>clustering, cluster → analiza skupień, skupienie</p>
+<p>partition → podział</p>
+<p>state of the art → aktualny stan wiedzy</p>
+<p>immersive →</p>
+</section>
+<section id="typowe-bledy">
+<h2>Typowe błędy<a class="headerlink" href="#typowe-bledy" title="Link to this heading">¶</a></h2>
+<p>Typowe błędy/niezręczności językowe;
+zob. też <a class="reference external" href="https://pl.wikipedia.org/wiki/Pomoc:Powszechne_b%C5%82%C4%99dy_j%C4%99zykowe">https://pl.wikipedia.org/wiki/Pomoc:Powszechne_błędy_językowe</a>:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><s>źle</s></p></th>
+<th class="head"><p>dobrze</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><s>w konsoli</s></p></td>
+<td><p>na konsoli</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>pomiędzy</s></p></td>
+<td><p>między</p></td>
+</tr>
+<tr class="row-even"><td><p><s>poprzez</s></p></td>
+<td><p>przez</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>za pomocą</s></p></td>
+<td><p>przy użyciu</p></td>
+</tr>
+<tr class="row-even"><td><p><s>z użyciem</s></p></td>
+<td><p>przy użyciu</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dla przykładu</s></p></td>
+<td><p>na przykład</p></td>
+</tr>
+<tr class="row-even"><td><p><s>ilość elementów</s></p></td>
+<td><p>liczba elementów</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>oparty o</s>, <s>bazujący o</s></p></td>
+<td><p>oparty na</p></td>
+</tr>
+<tr class="row-even"><td><p><s>w oparciu o</s>, <s>na bazie</s></p></td>
+<td><p>na podstawie</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dwutysięczny osiemnasty</s></p></td>
+<td><p>dwa tysiące osiemnasty</p></td>
+</tr>
+<tr class="row-even"><td><p><s>Internet</s></p></td>
+<td><p>internet</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>dedykowane dla</s></p></td>
+<td><p>przeznaczone do</p></td>
+</tr>
+<tr class="row-even"><td><p><s>linia kodu</s></p></td>
+<td><p>wiersz</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>pod rząd</s></p></td>
+<td><p>z rzędu</p></td>
+</tr>
+<tr class="row-even"><td><p><s>odnośnie czegoś</s></p></td>
+<td><p>odnośnie do czegoś, w stosunku do czegoś, w odniesieniu do czegoś, wobec czegoś</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>przekonywujący</s></p></td>
+<td><p>przekonujący, przekonywający</p></td>
+</tr>
+<tr class="row-even"><td><p><s>wydaje się być lepszy</s></p></td>
+<td><p>wydaje się lepszy</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>najbardziej optymalny</s></p></td>
+<td><p>optymalny, najlepszy</p></td>
+</tr>
+<tr class="row-even"><td><p><s>bardziej optymalny</s></p></td>
+<td><p>lepszy</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>unikalny</s> (jako jedyny)</p></td>
+<td><p>unikatowy</p></td>
+</tr>
+<tr class="row-even"><td><p><s>w Linux’ie</s></p></td>
+<td><p>w systemie Linux</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>R’a</s></p></td>
+<td><p>języka R</p></td>
+</tr>
+<tr class="row-even"><td><p><s>w cudzysłowiu</s></p></td>
+<td><p>w cudzysłowie</p></td>
+</tr>
+<tr class="row-odd"><td><p><s>drugi największy</s></p></td>
+<td><p>drugi co do wielkości, drugi pod względem wielkości</p></td>
+</tr>
+<tr class="row-even"><td><p><s>stał się bardziej wpływowy</s></p></td>
+<td><p>zyskał na znaczeniu</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Odmiana nazwisk angielskich i francuskich: np. Disneya, Arrowa, Murphy’ego, Moore’a
+(zob. np. <a class="reference external" href="https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html">https://sjp.pwn.pl/zasady/Odmiana-nazwisk-angielskich-i-francuskich;629617.html</a>).</p>
+<p>Przymiotniki w języku polskim piszemy małą literą, np. metryka euklidesowa,
+język polski (ale w jęz. ang. mamy już <em>Euclidean metric</em>,
+<em>Polish language</em>).</p>
+</section>
+<section id="bibliografia">
+<h2>Bibliografia<a class="headerlink" href="#bibliografia" title="Link to this heading">¶</a></h2>
+<p>Rada Języka Polskiego przy Prezydium Polskiej Akademii Nauk, <a class="reference external" href="https://rjp.pan.pl/images/stories/2-za%C5%82acznik_do_komunikatu_04-11rev.pdf"><em>Zasady pisowni i interpunkcji polskiej</em></a>, 2024.</p>
+<p>PWN, <a class="reference external" href="https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html"><em>Zasady pisowni i interpunkcji</em></a>, 2024.</p>
+</section>
 </section>
 
         </article>
@@ -320,8 +415,26 @@ Any remarks and bug fixes are appreciated. Please spread the news. Thank you.</p
       <footer>
         
         <div class="related-pages">
-          
-          
+          <a class="next-page" href="maps.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Hiking, (trail) running, and cycling maps</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="uwagi-latex.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</div>
+                
+              </div>
+            </a>
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -341,8 +454,29 @@ Any remarks and bug fixes are appreciated. Please spread the news. Thank you.</p
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            In this section
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Piszemy po polsku 🇵🇱</a><ul>
+<li><a class="reference internal" href="#polacy-nie-gesi">Polacy nie gęsi</a></li>
+<li><a class="reference internal" href="#typowe-bledy">Typowe błędy</a></li>
+<li><a class="reference internal" href="#bibliografia">Bibliografia</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

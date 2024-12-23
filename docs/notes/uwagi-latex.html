@@ -296,7 +296,7 @@
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku">
 <h1>Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱<a class="headerlink" href="#czeste-uwagi-redakcyjne-jak-skladac-prace-doktorskie-i-dyplomowe-w-latex-u-po-polsku-i-angielsku" title="Link to this heading">¶</a></h1>
-<p>Wersja: 0.5.1 (2024-09-11)</p>
+<p>Wersja: 0.5.2 (2024-12-23)</p>
 <ol class="arabic">
 <li><p>Nie zostawiamy „samotnych” jednoliterowych przyimków, spójników
 itd. (w, z, i, …) na końcu wiersza. Należy wstawić niełamliwą spację,
@@ -443,10 +443,22 @@ czy podawania autorów metod będących wynikiem pracy zespołowej
 (np. twierdzenie Banacha–Steinhausa). Uwaga: tutaj nie ma odstępów.</p></li>
 <li><p>Łącznik <code class="docutils literal notranslate"><span class="pre">-</span></code> (-) stosujemy <em>tylko</em> w przypadku
 tzw. złożeń (czarno-biały, Bielko-Biała, Skłodowska-Curie).</p></li>
+<li><p>Kod w LaTeXu to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
+Bardzo nie lubię wcięć dokonywanych przy użyciu tabulatorów –
+sugeruję 4 spacje (spójnie w całym kodzie).
+Radzę zaprzyjaźnić się z <code class="docutils literal notranslate"><span class="pre">git</span></code>-em lub podobnym narzędziem do zarządzania
+wersjami.</p></li>
 <li><p>Używajmy edytora, który automatycznie sprawdza pisownię już podczas
-tworzenia dokumentu (i podkreśla błędy), np. <em>Kile</em>, <em>Texmaker</em>
-lub <em>VS Code</em> z różnymi wtyczkami.
-Ja używam <em>kate</em>.</p></li>
+tworzenia dokumentu (i podkreśla błędy), np. <em>VS Code</em> z różnymi wtyczkami,
+<em>Kile</em>, <em>Texmaker</em> itp. Ja używam <em>kate</em>. Niektórzy lubią
+bajać w chmurach, wtedy np. <a class="reference external" href="https://www.overleaf.com/"><em>Overleaf</em></a> może pomoże.</p></li>
+<li><p>Dobrym pomysłem może być tworzenie tekstu pracy przy użyciu
+pakietu <code class="docutils literal notranslate"><span class="pre">knitr</span></code>, <code class="docutils literal notranslate"><span class="pre">quarto</span></code> lub czegoś podobnego. Wówczas na bieżąco możemy
+generować tabele i wykresy w kodzie źródłowym (oczywiście
+nie przeprowadzamy tutaj żadnych czasochłonnych obliczeń – wyniki
+eksperymentów powinny być zapisane np. do plików .csv).
+Można także pisać w Markdownie i konwertować go do TeX-a (ale wtedy
+nie mamy pełnego pola do popisu).</p></li>
 <li><p>Podajemy (gdzie się da) angielskie odpowiedniki tłumaczonych
 na język polski terminów, np. ,,precyzja (ang. <em>precision</em>)’’.
 Wprowadzane terminy wyróżniamy np. pogrubieniem.</p></li>
@@ -455,18 +467,9 @@ Wprowadzane terminy wyróżniamy np. pogrubieniem.</p></li>
 to zdjęcia – wówczas zapisujemy je w odpowiednio wysokiej rozdzielczości
 (np. 300 dpi), pamiętając, by przypadkiem LaTeX ich nie przeskalował
 (będą rozmyte).</p></li>
-<li><p>Dobrym pomysłem jest tworzenie tekstu pracy przy użyciu
-pakietu <code class="docutils literal notranslate"><span class="pre">knitr</span></code>, <code class="docutils literal notranslate"><span class="pre">quarto</span></code> lub czegoś podobnego. Wówczas na bieżąco możemy
-generować tabele i wykresy w kodzie źródłowym (oczywiście
-nie przeprowadzamy tutaj żadnych czasochłonnych obliczeń – wyniki
-eksperymentów powinny być zapisane np. do plików .csv).</p></li>
-<li><p>Kod w LaTeXu to kod źródłowy – ręcznie łamiemy wiersze do max. 80 znaków.
-Bardzo nie lubię wcięć dokonywanych przy użyciu tabulatorów –
-sugeruję 4 spacje (spójnie w całym kodzie).
-Radzę zaprzyjaźnić się z <code class="docutils literal notranslate"><span class="pre">git</span></code>-em lub podobnym narzędziem do zarządzania
-wersjami.</p></li>
-<li><p>Pamiętamy o numerowaniu stron.</p></li>
-<li><p>Każdy rozdział pracy powinien zaczynać się na prawej stronie
+<li><p>Pamiętamy o numerowaniu stron i slajdów. Na slajdach lubię widzieć,
+ile jeszcze treści pozostało, np. że aktualnie patrzymy na część 7/30.</p></li>
+<li><p>Każdy rozdział większej pracy powinien zaczynać się na prawej stronie
 (<code class="docutils literal notranslate"><span class="pre">openright</span></code>). Oznacza to, że czasami strona poprzedzająca nowy rozdział
 będzie musiała być zupełnie pusta (nawet bez numerów stron).</p></li>
 <li><p>Bibliografię zawsze tworzymy w systemie <em>bibtex</em>, <em>biblatex</em> (<em>biber</em>)
@@ -485,10 +488,10 @@ od pliku <code class="docutils literal notranslate"><span class="pre">.bib</span
 </ol>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>[1] Kowalski J., Nowak B., *Tytuł książki*, Wydawnictwo, Warszawa, 2054.
 
-[2] Skłodowska M., Tytuł artykułu, *Czasopismo* **666**, 1999, s. 123--432.
+[2] Skłodowska M., Tytuł artykułu, *Czasopismo* **666**(42), 1999, s. 123--432.
 
-[3] Brzdąc I., *Tytuł konferencyjniaczka*,
-W: *Proc. Taka Ważna Konferencja*, 2019, s. 423--424.
+[3] Brzdąc I., *Tytuł komunikatu*, W: *Proc. Taka Ważna Konferencja*, 2019,
+s. 423--424.
 </pre></div>
 </div>
 <ol class="arabic" start="27">
@@ -516,6 +519,7 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
 <li><p>Rada Języka Polskiego przy Prezydium Polskiej Akademii Nauk, <a class="reference external" href="https://rjp.pan.pl/images/stories/2-za%C5%82acznik_do_komunikatu_04-11rev.pdf"><em>Zasady pisowni i interpunkcji polskiej</em></a>, 2024.</p></li>
 <li><p>PWN, <a class="reference external" href="https://sjp.pwn.pl/zasady/Zasady-pisowni-i-interpunkcji;713485.html"><em>Zasady pisowni i interpunkcji</em></a>, 2024.</p></li>
 <li><p>Oetiker T. i in., <a class="reference external" href="https://tobi.oetiker.ch/lshort/lshort.pdf"><em>The Not So Short Introduction to LaTeX 2ε</em></a>, 2021.</p></li>
+<li><p>Strunk W. Jr., <em>The Elements of Style</em>, Longman, 2000.</p></li>
 </ol>
 <p>Serdecznie dziękuję p. red. Izabeli Mika za wiele cennych uwag.</p>
 </section>
@@ -556,7 +560,7 @@ Sugerowane minimalne polskojęzyczne ustawienia w preambule dokumentu to:</p>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-12-17T09:30:36+0100.
+              Last updated on 2024-12-23T18:50:01+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

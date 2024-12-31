@@ -245,7 +245,7 @@
 <li class="toctree-l2"><a class="reference internal" href="notes/data-science-literature-undergraduate.html">Recommended literature for data science students (undergraduate)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notes/data-science-literature-postgraduate.html">Recommended literature for data science students (postgraduate)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notes/uwagi-latex.html">Częste uwagi redakcyjne: jak składać prace doktorskie i dyplomowe w LaTeX-u po polsku i angielsku 🇵🇱</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notes/piszemy-po-polsku.html">Piszemy po polsku 🇵🇱</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/piszemy-po-polsku.html">Piszemy i mówimy po polsku 🇵🇱</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notes/maps.html">Hiking, (trail) running, and cycling maps</a></li>
 </ul>
 </li>
@@ -840,7 +840,27 @@ Basic mastery of OpenMP will also be required.</p>
 <li><p>2025-01-02</p></li>
 </ol>
 <ul class="simple">
-<li><p>(TBA)</p></li>
+<li><p>Principles of finite precision computations</p></li>
+<li><p>Numerical computing/matrix algebra libraries:
+C’s <code class="docutils literal notranslate"><span class="pre">&lt;math.h&gt;</span></code>,
+<a class="reference external" href="https://www.gnu.org/software/gsl/">GNU GSL</a>,
+CBLAS,
+LAPACK</p></li>
+<li><p>References:</p>
+<ul>
+<li><p>(!) D. Goldberg, <a class="reference external" href="https://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf">What every computer scientist should know about floating-point arithmetic</a>, <em>ACM Computing Surveys</em> <strong>21</strong>(1), 1991, 5–48</p></li>
+<li><p>(!) G.H. Golub, C.F. Van Loan, <em>Matrix Computations</em>, The Johns Hopkins University Press, 2013, Section 2.7 (Finite Precision Matrix Computations)</p></li>
+<li><p>(!) N.J. Higham, <em>Accuracy and Stability of Numerical Algorithms</em>, SIAM, 2002, Chap. 1–3</p></li>
+</ul>
+</li>
+<li><p>Further reading:</p>
+<ul>
+<li><p>Section 28: <em>Floating Point in Depth</em> of the <a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html#Floating-Point-in-Depth"><em>GNU C Language Manual</em></a></p></li>
+<li><p>Section 20: <em>Arithmetic Functions</em> of the <a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html"><em>GNU C Library Reference Manual</em></a></p></li>
+<li><p>J.E. Gentle, <em>Matrix Algebra: Theory, Computations and Applications in Statistics</em>, Springer, 2024</p></li>
+<li><p>Curiosity: radix sort for floats, see <a class="reference external" href="https://www.codercorner.com/RadixSortRevisited.htm">https://www.codercorner.com/RadixSortRevisited.htm</a> and <a class="reference external" href="http://stereopsis.com/radix.html">http://stereopsis.com/radix.html</a>. R uses it; see <a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c">https://github.com/wch/r-source/blob/trunk/src/main/radixsort.c</a></p></li>
+</ul>
+</li>
 </ul>
 </td>
 </tr>
@@ -863,8 +883,12 @@ Basic mastery of OpenMP will also be required.</p>
 <td><ol class="arabic simple" start="14">
 <li><p>2025-01-16</p></li>
 </ol>
-<ul class="simple">
-<li><p><strong>Programming Assignment 4</strong> (15 pts max.)</p></li>
+<ul>
+<li><p><strong>Programming Assignment 4</strong> (15 pts max.)</p>
+<p>Practice by implementing matrix operations in NumPy/C and R/C.
+Basic mastery of OpenMP will also be required.</p>
+<p>Make sure you can solve the previous programming assignment in full.</p>
+</li>
 </ul>
 </td>
 </tr>
@@ -1017,7 +1041,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2024-12-23T18:50:01+0100.
+              Last updated on 2024-12-31T13:36:48+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

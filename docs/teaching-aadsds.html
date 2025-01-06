@@ -296,7 +296,7 @@
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="advanced-algorithms-and-data-structures-for-data-science">
 <h1>Advanced Algorithms and Data Structures for Data Science<a class="headerlink" href="#advanced-algorithms-and-data-structures-for-data-science" title="Link to this heading">¶</a></h1>
-<p><em>aka Data Science Computing</em></p>
+<p><em>aka Computational Data Science</em></p>
 <hr class="docutils" />
 <p>MSc studies in Data Science,
 Faculty of Mathematics and Information Science,
@@ -875,7 +875,7 @@ C’s <code class="docutils literal notranslate"><span class="pre">&lt;math.h&gt
 </ol>
 <ul class="simple">
 <li><p>Numerical computing/matrix algebra libraries (cont’d)</p></li>
-<li><p>Pseudorandom number generators</p></li>
+<li><p>Pseudorandom number generators: assuring reproducibility across different environments</p></li>
 <li><p>Further reading:</p>
 <ul>
 <li><p>(!) P. L’Ecuyer,
@@ -886,12 +886,10 @@ from <em>International Encyclopedia of Statistical Science</em>, draft, 2024</p>
 R.G. Brown’s <a class="reference external" href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php"><em>Dieharder</em></a>,
 L’Ecuyer and R. Simard’s <a class="reference external" href="https://simul.iro.umontreal.ca/testu01/tu01.html"><em>TestU01</em></a></p></li>
 <li><p>S.K. Park, K.W. Miller, Random number generators: Good ones are hard to find, <em>Communications of ACM</em> <strong>31</strong>(10), 1988, 1192–1201</p></li>
-<li><p>G. Marsaglia, Random numbers fall mainly in the planes, <em>Proc. National Academy of Sciences (PNAS)</em> <strong>61</strong>(1), 1968, 25–28, DOI:10.1073/pnas.61.1.25</p></li>
 <li><p>P. L’Ecuyer, <a class="reference external" href="https://www-labs.iro.umontreal.ca/~lecuyer/ift6561/book.pdf">Stochastic Simulation and Monte Carlo Methods</a>, book draft, 2024</p></li>
-<li><p>D.E. Knuth, <em>The Art of Computer Programming</em>, Addison-Wesley, 2023, Vol. 2, Chapter 3: <em>Seminumerical Algorithms</em></p></li>
-<li><p><a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/random.c">https://github.com/wch/r-source/blob/trunk/src/main/random.c</a></p></li>
-<li><p><a class="reference external" href="https://github.com/numpy/numpy/blob/main/numpy/random/_generator.pyx">https://github.com/numpy/numpy/blob/main/numpy/random/_generator.pyx</a></p></li>
-<li><p><a class="reference external" href="https://www.pcg-random.org/">https://www.pcg-random.org/</a></p></li>
+<li><p>(*) D.E. Knuth, <em>The Art of Computer Programming</em>, Addison-Wesley, 2023, Vol. 2, Chapter 3: <em>Seminumerical Algorithms</em></p></li>
+<li><p>(*) R and NumPy implementations: <a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/random.c">https://github.com/wch/r-source/blob/trunk/src/main/random.c</a>, <a class="reference external" href="https://github.com/wch/r-source/blob/trunk/src/main/RNG.c">https://github.com/wch/r-source/blob/trunk/src/main/RNG.c</a>, <a class="reference external" href="https://github.com/numpy/numpy/blob/main/numpy/random/_generator.pyx">https://github.com/numpy/numpy/blob/main/numpy/random/_generator.pyx</a></p></li>
+<li><p>(*) “Modern” generators: <a class="reference external" href="https://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/emt.html">https://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/emt.html</a>, <a class="reference external" href="https://www.pcg-random.org/">https://www.pcg-random.org/</a>, <a class="reference external" href="https://prng.di.unimi.it/">https://prng.di.unimi.it/</a></p></li>
 </ul>
 </li>
 </ul>
@@ -946,17 +944,21 @@ Basic mastery of OpenMP will also be required.</p>
 </section>
 <section id="general-topics-covered">
 <h2>General Topics Covered<a class="headerlink" href="#general-topics-covered" title="Link to this heading">¶</a></h2>
-<p>The list (and the order of items) is provisional.</p>
+<p>The initial list of topics (and the order of items) was provisional.
+In 2024/2025, we have covered the following.</p>
 <ol class="arabic simple">
 <li><p>Introduction to the C programming language. Calling C from R and Python.</p></li>
-<li><p>Working with arrays in C. Dynamic memory allocation. Sorting algorithms and hash tables refresher. File I/O. Processing (large) data streams. Pseudorandom number generation and Monte Carlo methods</p></li>
-<li><p>Dense and sparse representations of matrices. Calling functions from shared libraries: GNU GSL, LAPACK, BLAS, etc. Applications of the QR and SVD decompositions in data analysis.</p></li>
+<li><p>Working with arrays in C. Dynamic memory allocation. Sorting algorithms and hash tables refresher.
+<s>File I/O. Processing (large) data streams.</s>
+Pseudorandom number generation <s>and Monte Carlo methods</s>.</p></li>
+<li><p>Dense and sparse representations of matrices. Calling functions from shared libraries: GNU GSL, LAPACK, BLAS, etc.
+<s>Applications of the QR and SVD decompositions in data analysis.</s></p></li>
 <li><p>Minimum spanning trees, disjoint-sets data structures, implementing agglomerative hierarchical clustering algorithms.</p></li>
-<li><p>Implementing linked data structures in C (linked lists, binary search trees, B-trees, etc.). Decision trees (ID3, CART, boosting, bagging, random forests).</p></li>
+<li><p>Implementing linked data structures in C (linked lists, binary search trees, B-trees, etc.). <s>Decision trees (ID3, CART, boosting, bagging, random forests).</s></p></li>
 <li><p>Exact and approximate near-neighbour/spatial search (kd-, vp-trees, LSH) with applications in k-nn classification and regression and DBSCAN clustering.</p></li>
 <li><p>One (NP-hard) objective function and many heuristic solvers: the within-cluster sum of squares and many variants of the K-means, Ward linkage, hill climbing, tabu search, evolutionary algorithms etc.</p></li>
-<li><p>Logistic regression and other feed-forward artificial neural networks: parameter learning via gradient descent and other optimisers, back-propagation, automatic differentiation (autograd).</p></li>
-<li><p>Fourier transforms of time series with FFT.</p></li>
+<li><p><s>Logistic regression and other feed-forward artificial neural networks: parameter learning via gradient descent and other optimisers, back-propagation, automatic differentiation (autograd).</s></p></li>
+<li><p><s>Fourier transforms of time series with FFT.</s></p></li>
 </ol>
 </section>
 <section id="assessment-methods-and-regulations">
@@ -1065,7 +1067,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2025-01-05T20:00:12+0100.
+              Last updated on 2025-01-06T18:51:33+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

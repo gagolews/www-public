@@ -313,12 +313,11 @@ Politechniki Warszawskiej</p>
 <ul>
 <li><p>dr hab. inż. <em>Marek Gągolewski</em>, prof. uczelni (grupa “zaawansowana”), s. 218 MiNI</p></li>
 <li><p>inż. <em>Szymon Maksymiuk</em>, s. 217 MiNI</p></li>
-<li><p>dr <em>Barbara Żogała-Siudem</em> (grupa “ponadpodstawowa”), s. 203 MiNI</p></li>
+<li><p>dr <em>Barbara Żogała-Siudem</em>, s. 203 MiNI</p></li>
 <li><p>mgr inż. <em>Łukasz Brzozowski</em> (grupa “podstawowa”), s. 219 MiNI</p></li>
 </ul>
 </li>
 </ul>
-<p>TODO: Teams…</p>
 <div class="table-wrapper colwidths-given docutils container">
 <table class="docutils align-default">
 <colgroup>
@@ -338,17 +337,49 @@ Politechniki Warszawskiej</p>
 </ol>
 </td>
 <td><ul class="simple">
-<li><p>…to do…</p></li>
-</ul>
-</td>
-<td><ul class="simple">
-<li><p>Wprowadzenie do programowanie w Pythonie w VSCode pod Linuxem</p></li>
-<li><p>System <em>Fairgo</em>, czyli każdy ma równe szanse</p></li>
-<li></li>
+<li><p>Sprawy organizacyjne</p></li>
+<li><p>Wektory w <em>numpy</em> cz. I</p></li>
 <li><p>Lektura obowiązkowa:</p>
 <ul>
 <li><p>Gągolewski M., <a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, 2025,
-rozdziały 1. <em>Getting started with Python</em>, 2. <em>Scalar types and control structures in Python</em>, 3. <em>Sequential and other types in Python</em></p></li>
+rozdziały:
+4. Unidimensional numeric data and their empirical distribution</p></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>System <em>Fairgo</em>, czyli każdy ma równe szanse</p></li>
+<li><p>Konfiguracja środowiska:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">~/.virtualenvs/python3-default</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'export</span> <span class="pre">PYTHONNOUSERSITE=1'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.bashrc</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'VIRTUAL_ENV_DISABLE_PROMPT=1</span> <span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.bashrc</span></code></p></li>
+</ul>
+</li>
+<li><p>Wprowadzenie do programowania w Pythonie w VSCode pod Linuxem:</p>
+<ul>
+<li><p>wymagane wtyczki VSCode: <code class="docutils literal notranslate"><span class="pre">python</span></code>, <code class="docutils literal notranslate"><span class="pre">jupyter</span></code></p></li>
+<li><p>skrypty <code class="docutils literal notranslate"><span class="pre">.py</span></code>, wysyłanie poleceń na konsolę</p></li>
+<li><p>własne moduły (<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">module</span></code>)</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/python/jupyter-support-py">Jupyterowopodobne bloki kodu w skryptach <code class="docutils literal notranslate"><span class="pre">.py</span></code> (<code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span></code>)</a></p></li>
+<li><p><a class="reference external" href="https://daringfireball.net/projects/markdown/basics">Markdown</a> (bloki <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span> <span class="pre">[markdown]</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupytext</span> <span class="pre">--to</span> <span class="pre">notebook</span> <span class="pre">hello.py</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupyter-nbconvert</span> <span class="pre">hello.ipynb</span> <span class="pre">--to</span> <span class="pre">html</span> <span class="pre">--execute</span></code></p></li>
+<li><p>edytowanie <a class="reference external" href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">notatników Jupytera w VSCode</a> (pliki <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>)</p></li>
+</ul>
+</li>
+<li><p>Lektura obowiązkowa:</p>
+<ul>
+<li><p>Gągolewski M., <a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, 2025,
+rozdziały:</p>
+<ol class="arabic simple">
+<li><p><em>Getting started with Python</em>,</p></li>
+<li><p><em>Scalar types and control structures in Python</em>,</p></li>
+<li><p><em>Sequential and other types in Python</em></p></li>
+</ol>
+</li>
 </ul>
 </li>
 </ul>
@@ -629,7 +660,7 @@ wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5; (70, 80] 
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2025-02-11T16:14:29+0100.
+              Last updated on 2025-02-12T16:00:48+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

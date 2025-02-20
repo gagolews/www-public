@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2025-02-17T11:34:38.439481+00:00</updated>
+  <updated>2025-02-20T11:01:59.344341+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
@@ -268,7 +268,7 @@ and CRAN.</summary>
     <updated>2022-08-24T00:00:00+02:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A printed version of my open-access textbook
 &lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/"&gt;Minimalist Data Wrangling with Python&lt;/a&gt;
-can now be ordered from &lt;a class="reference external" href="https://www.amazon.com/dp/0645571911"&gt;Amazon&lt;/a&gt;.
+can now be ordered from &lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/order-paper-copy.html"&gt;Amazon&lt;/a&gt;.
 It is exactly the same as the freely available
 &lt;a class="reference external" href="https://datawranglingpy.gagolewski.com/datawranglingpy.pdf"&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;

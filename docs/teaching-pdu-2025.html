@@ -7,7 +7,7 @@
         <link rel="canonical" href="https://www.gagolewski.com/teaching-pdu-2025.html" />
 
     <link rel="shortcut icon" href="_static/favicon.png"/>        <title>Przetwarzanie danych ustrukturyzowanych 🇵🇱 - Marek Gagolewski — Home Page</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
     <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=0d7c5ce7" />
@@ -359,17 +359,38 @@ rozdziały:
 <li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'VIRTUAL_ENV_DISABLE_PROMPT=1</span> <span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.bashrc</span></code></p></li>
 </ul>
 </li>
-<li><p>System <em>Fairgo</em>, czyli każdy ma równe szanse</p>
+<li><p>System <em>Fairgo</em>, czyli każdy ma równe szanse:</p>
 <ul>
-<li><p>Instalacja dodatkowych pakietów: <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">&lt;pakiet&gt;</span></code></p></li>
+<li><p>Instalacja dodatkowych pakietów: <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">ewmh</span> <span class="pre">mss</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">o-rw</span> <span class="pre">~</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">g-rw</span> <span class="pre">~</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">~/pdu/lab01</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~/pdu/lab01</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">/home2/samba/gagolewskim/.../fairgo.py</span> <span class="pre">X</span></code></p></li>
+<li><p><em>Fairgo</em> przesyła prowadzącym m.in. następujące dane:</p>
+<ul>
+<li><p>to, co się dzieje na ekranie (zrzuty),</p></li>
+<li><p>wszystkie uruchomione aplikacje, tytuły otwartych okien,</p></li>
+<li><p>uprawnienia dostępu do plików (inni nie mogą czytać),</p></li>
+<li><p>zainstalowane wtyczki VSCode,</p></li>
+<li><p>zainstalowane pakiety Pythona i R,</p></li>
+<li><p>pliki, nad którymi pracujemy.</p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p>Wprowadzenie do programowania w Pythonie w VSCode pod Linuxem:</p>
 <ul>
-<li><p>VSCode uruchamiamy z folderu roboczego! <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code></p></li>
-<li><p>wymagane wtyczki VSCode: <code class="docutils literal notranslate"><span class="pre">python</span></code>, <code class="docutils literal notranslate"><span class="pre">jupyter</span></code></p></li>
+<li><p>VSCode uruchamiamy z folderu roboczego!</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~/pdu/lab01</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code></p></li>
+</ul>
+</li>
+<li><p>wymagane wtyczki VSCode: <code class="docutils literal notranslate"><span class="pre">python</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-python.python</span></code>), <code class="docutils literal notranslate"><span class="pre">jupyter</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-toolsai.jupyter</span></code>)</p></li>
 <li><p>skrypty <code class="docutils literal notranslate"><span class="pre">.py</span></code>, <a class="reference external" href="https://code.visualstudio.com/docs/python/python-tutorial">uruchamianie skryptów na konsoli</a></p></li>
-<li><p>własne moduły (<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">module</span></code>)</p></li>
+<li><p>dostęp do dokumentacji: <code class="docutils literal notranslate"><span class="pre">?funkcja</span></code> lub <code class="docutils literal notranslate"><span class="pre">help(funkcja)</span></code></p></li>
+<li><p>własne moduły (<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">modul</span></code>)</p></li>
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/python/jupyter-support-py">Jupyteropodobne bloki kodu w skryptach <code class="docutils literal notranslate"><span class="pre">.py</span></code> (<code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span></code>)</a></p></li>
 <li><p><a class="reference external" href="https://daringfireball.net/projects/markdown/basics">Markdown</a> (bloki <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span> <span class="pre">[markdown]</span></code>)</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">jupytext</span> <span class="pre">--to</span> <span class="pre">notebook</span> <span class="pre">hello.py</span></code></p></li>
@@ -693,7 +714,7 @@ wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5;
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2025-02-20T13:18:10+0100.
+              Last updated on 2025-02-20T20:45:42+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

@@ -351,61 +351,22 @@ rozdziały:
 </ul>
 </td>
 <td><ul class="simple">
-<li><p>Konfiguracja środowiska:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">~/.virtualenvs/python3-default</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'export</span> <span class="pre">PYTHONNOUSERSITE=1'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.bashrc</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'VIRTUAL_ENV_DISABLE_PROMPT=1</span> <span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.bashrc</span></code></p></li>
-</ul>
-</li>
-<li><p>System <em>Fairgo</em>, czyli każdy ma równe szanse:</p>
-<ul>
-<li><p>Instalacja dodatkowych pakietów: <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ewmh</span> <span class="pre">mss</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">o-rw</span> <span class="pre">~</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">g-rw</span> <span class="pre">~</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">~/pdu/lab01</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~/pdu/lab01</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">/home2/samba/gagolewskim/.../fairgo.py</span> <span class="pre">X</span></code></p></li>
-<li><p><em>Fairgo</em> przesyła prowadzącym m.in. następujące dane:</p>
-<ul>
-<li><p>to, co się dzieje na ekranie (zrzuty),</p></li>
-<li><p>wszystkie uruchomione aplikacje, tytuły otwartych okien,</p></li>
-<li><p>uprawnienia dostępu do plików (inni nie mogą czytać),</p></li>
-<li><p>zainstalowane wtyczki Code-OSS,</p></li>
-<li><p>zainstalowane pakiety Pythona i R,</p></li>
-<li><p>pliki, nad którymi pracujemy.</p></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><p>Konfiguracja środowiska: zob. <a class="reference internal" href="#sec-pdu-2025-config"><span class="std std-ref">Oprogramowanie</span></a> poniżej</p></li>
 <li><p>Wprowadzenie do programowania w Pythonie w Code-OSS pod Linuxem:</p>
 <ul>
-<li><p>Code-OSS uruchamiamy z folderu roboczego!</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~/pdu/lab01</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code></p></li>
-</ul>
-</li>
-<li><p>wymagane wtyczki Code: <code class="docutils literal notranslate"><span class="pre">python</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-python.python</span></code>), <code class="docutils literal notranslate"><span class="pre">jupyter</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-toolsai.jupyter</span></code>)</p></li>
 <li><p>skrypty <code class="docutils literal notranslate"><span class="pre">.py</span></code>, <a class="reference external" href="https://code.visualstudio.com/docs/python/python-tutorial">uruchamianie skryptów na konsoli</a></p></li>
 <li><p>dostęp do dokumentacji: <code class="docutils literal notranslate"><span class="pre">?funkcja</span></code> lub <code class="docutils literal notranslate"><span class="pre">help(funkcja)</span></code></p></li>
 <li><p>własne moduły (<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">modul</span></code>)</p></li>
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/python/jupyter-support-py">Jupyteropodobne bloki kodu w skryptach <code class="docutils literal notranslate"><span class="pre">.py</span></code> (<code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span></code>)</a></p></li>
 <li><p><a class="reference external" href="https://daringfireball.net/projects/markdown/basics">Markdown</a> (bloki <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">%%</span> <span class="pre">[markdown]</span></code>)</p></li>
+<li><p>zadanie: funkcja <code class="docutils literal notranslate"><span class="pre">gini</span></code> (<a class="reference external" href="https://genieclust.gagolewski.com/genieclust_inequality.html#genieclust.inequality.gini_index">wzór</a>)</p></li>
+</ul>
+</li>
+<li><p>(*) Dodatkowo:</p>
+<ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">jupytext</span> <span class="pre">--to</span> <span class="pre">notebook</span> <span class="pre">hello.py</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">jupyter-nbconvert</span> <span class="pre">hello.ipynb</span> <span class="pre">--to</span> <span class="pre">html</span> <span class="pre">--execute</span></code></p></li>
 <li><p>edytowanie <a class="reference external" href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">notatników Jupytera w Code-OSS</a> (pliki <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>)</p></li>
-</ul>
-</li>
-<li><p>Na komputerach laboratoryjnych musimy zainstalować nowszą wersję Code
-(VSCodium będzie najłatwiej):</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">https://github.com/VSCodium/vscodium/releases/download/1.97.2.25045/VSCodium-1.97.2.25045.glibc2.25-x86_64.AppImage</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">u+x</span> <span class="pre">VSCodium-1.97.2.25045.glibc2.25-x86_64.AppImage</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">./VSCodium-1.97.2.25045.glibc2.25-x86_64.AppImage</span> <span class="pre">.</span></code></p></li>
-<li><p>CTRL+SHIFT+P → Python: Select Interpreter → <em>python3-default</em></p></li>
-<li><p>CTRL+SHIFT+P → Jupyter: Select Interpreter to Start Jupyter Server → <em>python3-default</em></p></li>
 </ul>
 </li>
 <li><p>Lektura obowiązkowa:</p>
@@ -679,13 +640,75 @@ wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5;
 </ol>
 </section>
 <section id="oprogramowanie">
-<h2>Oprogramowanie<a class="headerlink" href="#oprogramowanie" title="Link to this heading">¶</a></h2>
+<span id="sec-pdu-2025-config"></span><h2>Oprogramowanie<a class="headerlink" href="#oprogramowanie" title="Link to this heading">¶</a></h2>
 <ol class="arabic simple">
 <li><p>GNU/Linux</p></li>
 <li><p>Python + pakiety <em>numpy</em>, <em>scipy</em>, <em>pandas</em>, <em>matplotlib</em>, <em>seaborn</em>, <em>scikit-learn</em>, …</p></li>
 <li><p>R + pakiety <em>knitr</em>, <em>stringi</em>, …</p></li>
-<li><p>Code-OSS (VSCodium) oraz JupyterLab lub Jupyter-Notebook</p></li>
+<li><p>Code-OSS (VSCodium) oraz Jupyter</p></li>
 </ol>
+<section id="konfiguracja-srodowiska-wirtualnego">
+<h3>Konfiguracja środowiska wirtualnego<a class="headerlink" href="#konfiguracja-srodowiska-wirtualnego" title="Link to this heading">¶</a></h3>
+<p>Utworzenie środowiska wirtualnego (lokalnego repozytorium pakietów, ang. <a class="reference external" href="https://docs.python.org/3/tutorial/venv.html"><em>virtual environment</em></a>)
+o nazwie <em>python3-default</em> oraz ustawienie jego automatycznej aktywacji:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>~/.virtualenvs/python3-default
+<span class="nb">source</span><span class="w"> </span>~/.virtualenvs/python3-default/bin/activate
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export PYTHONNOUSERSITE=1&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;VIRTUAL_ENV_DISABLE_PROMPT=1 source ~/.virtualenvs/python3-default/bin/activate&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+</pre></div>
+</div>
+<p>Instalacja wymaganych pakietów:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ewmh<span class="w"> </span>mss<span class="w">  </span><span class="c1"># dla Fairgo, zob. niżej</span>
+python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ipykernel
+python3<span class="w"> </span>-m<span class="w"> </span>ipykernel<span class="w"> </span>install<span class="w"> </span>--user
+</pre></div>
+</div>
+</section>
+<section id="fairgo">
+<h3>Fairgo<a class="headerlink" href="#fairgo" title="Link to this heading">¶</a></h3>
+<p>System <em>Fairgo</em> (czyli każdy ma równe szanse) przesyła prowadzącym
+podczas zadań punktowanych m.in. następujące dane:</p>
+<ul class="simple">
+<li><p>to, co się dzieje na ekranie (zrzuty),</p></li>
+<li><p>wszystkie uruchomione aplikacje, tytuły otwartych okien,</p></li>
+<li><p>uprawnienia dostępu do plików (inni nie mogą czytać),</p></li>
+<li><p>zainstalowane wtyczki Code-OSS,</p></li>
+<li><p>zainstalowane pakiety Pythona i R,</p></li>
+<li><p>pliki, nad którymi pracujemy.</p></li>
+</ul>
+<p>Uruchomienie skryptu (ścieżka będzie się zmieniać):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># przykładowo</span>
+<span class="nb">cd</span><span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># to musi być pusty katalog</span>
+python3<span class="w"> </span>/home2/samba/gagolewskim/pdu/fairgo.py<span class="w"> </span>X
+</pre></div>
+</div>
+<p>Skrypt utworzy w katalogu bieżącym kilka plików, które możemy edytować.
+Będą one automatycznie przesyłane prowadzącemu.</p>
+</section>
+<section id="code-oss-vscodium-vscode">
+<h3>Code-OSS (VSCodium, VSCode)<a class="headerlink" href="#code-oss-vscodium-vscode" title="Link to this heading">¶</a></h3>
+<p>Na komputerach laboratoryjnych mamy zbyt starą wersję Code.
+Nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span>-s<span class="w"> </span>/home2/samba/gagolewskim/pdu/VSCodium.AppImage<span class="w"> </span>~/Desktop/VSCodium
+</pre></div>
+</div>
+<p>Teraz VSCodium startujemy albo z odpowiedniego katalogu:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># przykładowy katalog na laboratoria</span>
+~/Desktop/VSCodium<span class="w"> </span>.<span class="w">  </span><span class="c1"># startujemy z katalogu bieżącego</span>
+</pre></div>
+</div>
+<p>albo klikamy VSCodium na pulpicie i wybieramy <em>File → Open Folder</em> (katalog, w którym będziemy pracować).</p>
+<p>Instalujemy wymagane wtyczki (<em>extensions</em>) (takie i żadne inne!):</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-python.python</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupyter</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-toolsai.jupyter</span></code>)</p></li>
+</ul>
+<p>Konfigurujemy Code:</p>
+<ul class="simple">
+<li><p>CTRL+SHIFT+P → Python: Select Interpreter → <em>python3-default</em></p></li>
+<li><p>CTRL+SHIFT+P → Jupyter: Select Interpreter to Start Jupyter Server → <em>python3-default</em></p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -724,7 +747,7 @@ wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5;
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2025-02-24T18:03:30+0100.
+              Last updated on 2025-02-25T10:48:19+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>
@@ -749,7 +772,12 @@ wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5;
 <li><a class="reference internal" href="#plan-zajec-i-program-przedmiotu">Plan zajęć i program przedmiotu</a></li>
 <li><a class="reference internal" href="#regulamin-i-zasady-zaliczenia">Regulamin i zasady zaliczenia</a></li>
 <li><a class="reference internal" href="#literatura">Literatura</a></li>
-<li><a class="reference internal" href="#oprogramowanie">Oprogramowanie</a></li>
+<li><a class="reference internal" href="#oprogramowanie">Oprogramowanie</a><ul>
+<li><a class="reference internal" href="#konfiguracja-srodowiska-wirtualnego">Konfiguracja środowiska wirtualnego</a></li>
+<li><a class="reference internal" href="#fairgo">Fairgo</a></li>
+<li><a class="reference internal" href="#code-oss-vscodium-vscode">Code-OSS (VSCodium, VSCode)</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

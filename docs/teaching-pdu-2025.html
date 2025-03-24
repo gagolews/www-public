@@ -696,9 +696,34 @@ o nazwie <em>python3-default</em> oraz ustawienie jego automatycznej aktywacji:<
 <span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;VIRTUAL_ENV_DISABLE_PROMPT=1 source ~/.virtualenvs/python3-default/bin/activate&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
 </pre></div>
 </div>
-<p>Instalacja wymaganych pakietów:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ewmh<span class="w"> </span>mss<span class="w">  </span><span class="c1"># dla Fairgo, zob. niżej</span>
-python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ipykernel
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Oto alternatywne rozwiązanie (jeszcze nie zostało dobrze przetestowane).</p>
+<p>Sprzątamy po sobie:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rm<span class="w"> </span>-rf<span class="w"> </span>~/.virtualenvs
+rm<span class="w"> </span>-rf<span class="w"> </span>~/.local/share/jupyter
+rm<span class="w"> </span>-rf<span class="w"> </span>~/.ipython
+rm<span class="w"> </span>-rf<span class="w"> </span>~/.vscode-oss
+rm<span class="w"> </span>-rf<span class="w"> </span>~/.config/VSCodium
+rm<span class="w"> </span>-rf<span class="w"> </span>~/.config/Code<span class="se">\ </span>-<span class="se">\ </span>OSS
+</pre></div>
+</div>
+<p>Następnie edytujemy plik <code class="file docutils literal notranslate"><span class="pre">~/.bashrc</span></code> i usuwamy z niego wiersze
+<code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">PYTHONNOUSERSITE=1</span></code>
+oraz <code class="docutils literal notranslate"><span class="pre">VIRTUAL_ENV_DISABLE_PROMPT=1</span> <span class="pre">source</span> <span class="pre">~/.virtualenvs/python3-default/bin/activate</span></code>.</p>
+<p>I teraz:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;PATH=~/.local/bin:/opt/anaconda/bin:$PATH&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;source /opt/anaconda/bin/activate&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+</pre></div>
+</div>
+</div>
+<p>Po tych czynnościach należy zamknąć i uruchomić ponownie terminal.</p>
+</section>
+<section id="instalacja-wymaganych-pakietow">
+<h3>Instalacja wymaganych pakietów<a class="headerlink" href="#instalacja-wymaganych-pakietow" title="Link to this heading">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>numpy<span class="w"> </span>scipy<span class="w"> </span>pandas<span class="w"> </span>matplotlib<span class="w"> </span>seaborn
+python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ewmh<span class="w"> </span>mss<span class="w">  </span><span class="c1"># dla Fairgo, zob. niżej</span>
+python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>jupyter<span class="w"> </span>notebook<span class="w"> </span>ipykernel
 python3<span class="w"> </span>-m<span class="w"> </span>ipykernel<span class="w"> </span>install<span class="w"> </span>--user
 </pre></div>
 </div>
@@ -718,7 +743,7 @@ podczas zadań punktowanych m.in. następujące dane:</p>
 <p>Uruchomienie skryptu (ścieżka będzie się zmieniać):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># przykładowo</span>
 <span class="nb">cd</span><span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># to musi być pusty katalog</span>
-python3<span class="w"> </span>/home2/samba/gagolewskim/pdu/fairgo.py<span class="w"> </span>X
+python3<span class="w"> </span>/home2/samba/gagolewskim/pdu/fairgo.py<span class="w"> </span>X<span class="w">  </span><span class="c1"># dostępne tylko w I tyg. zajęć</span>
 </pre></div>
 </div>
 <p>Skrypt utworzy w katalogu bieżącym kilka plików, które możemy edytować.
@@ -726,8 +751,26 @@ Będą one automatycznie przesyłane prowadzącemu.</p>
 </section>
 <section id="code-oss-vscodium-vscode">
 <h3>Code-OSS (VSCodium, VSCode)<a class="headerlink" href="#code-oss-vscodium-vscode" title="Link to this heading">¶</a></h3>
-<p>Na komputerach laboratoryjnych mamy zbyt starą wersję Code.
-Nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
+<p>Code OSS (VSCode) uruchamiamy z odpowiedniego katalogu:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/Desktop/pdu/lab01<span class="w">  </span><span class="c1"># przykładowy katalog na laboratoria</span>
+code<span class="w"> </span>.<span class="w">  </span><span class="c1"># startujemy z katalogu bieżącego</span>
+</pre></div>
+</div>
+<p>albo startujemy je z Menu Start i wybieramy <em>File → Open Folder</em> (katalog, w którym będziemy pracować).</p>
+<p>Instalujemy wymagane wtyczki (<em>extensions</em>) (takie i żadne inne!):</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-python.python</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupyter</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-toolsai.jupyter</span></code>)</p></li>
+</ul>
+<p>Konfigurujemy Code:</p>
+<ul class="simple">
+<li><p>CTRL+SHIFT+P → Python: Select Interpreter → <em>python3-default</em> lub <em>…TODO anaconda…</em></p></li>
+<li><p>CTRL+SHIFT+P → Jupyter: Select Interpreter to Start Jupyter Server → <em>python3-default</em> lub <em>…TODO anaconda…</em></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Jeśli na komputerach laboratoryjnych mamy zbyt starą wersję Code i nie chcą nam działać wtyczki,
+nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ln<span class="w"> </span>-s<span class="w"> </span>/home2/samba/gagolewskim/pdu/VSCodium.AppImage<span class="w"> </span>~/Desktop/VSCodium
 </pre></div>
 </div>
@@ -737,16 +780,7 @@ Nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
 </pre></div>
 </div>
 <p>albo klikamy VSCodium na pulpicie i wybieramy <em>File → Open Folder</em> (katalog, w którym będziemy pracować).</p>
-<p>Instalujemy wymagane wtyczki (<em>extensions</em>) (takie i żadne inne!):</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">python</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-python.python</span></code>)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">jupyter</span></code> (<code class="docutils literal notranslate"><span class="pre">ms-toolsai.jupyter</span></code>)</p></li>
-</ul>
-<p>Konfigurujemy Code:</p>
-<ul class="simple">
-<li><p>CTRL+SHIFT+P → Python: Select Interpreter → <em>python3-default</em></p></li>
-<li><p>CTRL+SHIFT+P → Jupyter: Select Interpreter to Start Jupyter Server → <em>python3-default</em></p></li>
-</ul>
+</div>
 </section>
 </section>
 </section>
@@ -786,7 +820,7 @@ Nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2025-03-24T10:07:47+0100.
+              Last updated on 2025-03-24T10:51:59+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>
@@ -813,6 +847,7 @@ Nowe VSCodium będzie najłatwiej zdobyć w ten sposób:</p>
 <li><a class="reference internal" href="#literatura">Literatura</a></li>
 <li><a class="reference internal" href="#oprogramowanie">Oprogramowanie</a><ul>
 <li><a class="reference internal" href="#konfiguracja-srodowiska-wirtualnego">Konfiguracja środowiska wirtualnego</a></li>
+<li><a class="reference internal" href="#instalacja-wymaganych-pakietow">Instalacja wymaganych pakietów</a></li>
 <li><a class="reference internal" href="#fairgo">Fairgo</a></li>
 <li><a class="reference internal" href="#code-oss-vscodium-vscode">Code-OSS (VSCodium, VSCode)</a></li>
 </ul>

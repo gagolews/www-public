@@ -2,10 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2025-10-15T09:27:30.589309+00:00</updated>
+  <updated>2025-10-16T08:55:45.092283+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html</id>
+    <title>Submitted: The Price-Pareto growth model of networks with community structure</title>
+    <updated>2025-10-16T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+&lt;em&gt;The Price-Pareto growth model of networks with community structure&lt;/em&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2510.13392"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html"/>
+    <summary>An early version of my most recent paper
+The Price-Pareto growth model of networks with community structure
+is now available on arXiv.</summary>
+    <category term="submitted-paper" label="submitted-paper"/>
+    <published>2025-10-16T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20250725-software-genieclust.html</id>
     <title>genieclust 1.2.0 on CRAN and PyPI</title>

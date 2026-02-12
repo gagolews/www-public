@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20260211-software-quitefastmst-0-9-1.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>genieclust 1.0.1 on PyPI and CRAN - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>quitefastmst 0.9.1 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -283,19 +283,25 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="genieclust-1-0-1-on-pypi-and-cran">
-<h1><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong> 1.0.1 on PyPI and CRAN<a class="headerlink" href="#genieclust-1-0-1-on-pypi-and-cran" title="Link to this heading">¶</a></h1>
-<p>A new release of <a class="reference external" href="https://genieclust.gagolewski.com"><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong></a>
-has been published on <a class="reference external" href="https://pypi.org/project/genieclust/">PyPI</a>
-and <a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/">CRAN</a>.</p>
-<p>Changes since v1.0.0:</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="quitefastmst-0-9-1-on-cran-and-pypi">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code></strong> 0.9.1 on CRAN and PyPI<a class="headerlink" href="#quitefastmst-0-9-1-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
+<p>A new release of <a class="reference external" href="https://quitefastmst.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code></strong></a>
+is now available
+<a class="reference external" href="https://cran.r-project.org/package=quitefastmst">CRAN</a> and
+<a class="reference external" href="https://pypi.org/project/quitefastmst">PyPI</a>.</p>
+<p>Changelog:</p>
 <ul class="simple">
-<li><p>[GENERAL] A paper on the <code class="docutils literal notranslate"><span class="pre">genieclust</span></code> package
-has <a class="reference external" href="https://doi.org/10.1016/j.softx.2021.100722">appeared</a> in <em>SoftwareX</em>.</p></li>
-<li><p>[Python] <code class="docutils literal notranslate"><span class="pre">plot_scatter</span></code> now uses a more accessible default palette
-(from R 4.0.0).</p></li>
-<li><p>[Python] New function: <code class="docutils literal notranslate"><span class="pre">inequity.devergottini_index</span></code>.</p></li>
-<li><p>[R] New function: <code class="docutils literal notranslate"><span class="pre">devergottini_index</span></code>.</p></li>
+<li><p>[NEW FEATURE]  The <code class="docutils literal notranslate"><span class="pre">mutreach_leaves</span></code> argument to <code class="docutils literal notranslate"><span class="pre">mst_euclid</span></code>
+controls the postprocessing of tree leaves.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  The definition of the mutual reachability
+distance has changed (for notational prudence).  Unlike in
+Campello et al.’s 2013 paper, now the core distance is the distance
+to the M-th nearest neighbour, not the (M-1)-th one (not including self).</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  The <code class="docutils literal notranslate"><span class="pre">mutreach_adj</span></code> argument to <code class="docutils literal notranslate"><span class="pre">mst_euclid</span></code>
+was removed.  Instead, the <code class="docutils literal notranslate"><span class="pre">mutreach_ties</span></code> argument is now available.
+It defaults to <code class="docutils literal notranslate"><span class="pre">&quot;dist_min&quot;</span></code> for (rough) compatibility with other packages.</p></li>
+<li><p>[BUGFIX]  #3: SIGSEGV on duplicated inputs in <code class="docutils literal notranslate"><span class="pre">mst_euclid</span></code>
+with <code class="docutils literal notranslate"><span class="pre">algorithm=&quot;brute&quot;</span></code> was fixed.</p></li>
 </ul>
 </section>
 

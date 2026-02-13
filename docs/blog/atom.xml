@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-02-12T10:33:35.170266+00:00</updated>
+  <updated>2026-02-13T13:59:50.547521+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html</id>
+    <title>deadwood: Outlier Detection via Trimming of Mutual Reachability Minimum Spanning Trees</title>
+    <updated>2026-02-13T00:00:00+01:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;deadwood&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+is now available
+&lt;a class="reference external" href="https://cran.r-project.org/package=deadwood"&gt;CRAN&lt;/a&gt; and
+&lt;a class="reference external" href="https://pypi.org/project/deadwood"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html"/>
+    <summary>A new package deadwood
+is now available
+CRAN and
+PyPI.</summary>
+    <category term="deadwood" label="deadwood"/>
+    <category term="software" label="software"/>
+    <published>2026-02-13T00:00:00+01:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260211-software-quitefastmst-0-9-1.html</id>
     <title>quitefastmst 0.9.1 on CRAN and PyPI</title>

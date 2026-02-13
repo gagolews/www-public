@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20220226-paper-joi-validcit.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>Validating Citation Models by Proxy Indices - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>deadwood: Outlier Detection via Trimming of Mutual Reachability Minimum Spanning Trees - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -284,27 +284,20 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="validating-citation-models-by-proxy-indices">
-<h1>Validating Citation Models by Proxy Indices<a class="headerlink" href="#validating-citation-models-by-proxy-indices" title="Link to this heading">¶</a></h1>
-<p>Accepted for publication in
-<em>Journal of Informetrics</em>: a new paper by Ania Cena, Basia Żogała-Siudem,
-Grzesiek Siudem, and yours truly
-(DOI: <a class="reference external" href="https://doi.org/10.1016/j.joi.2022.101267">10.1016/j.joi.2022.101267</a>).</p>
-<blockquote>
-<div><p><strong>Abstract.</strong>
-There are many approaches to the modelling of citation vectors
-of individual authors. Models may serve different purposes, but usually
-they are evaluated with regards to how well they align to citation
-distributions in large networks of papers. Here we compare a few
-leading models in terms of their ability to correctly reproduce
-the values of selected bibliometric indices of individual authors.
-Our recently-proposed three-dimensional model of scientific impact
-serves this purpose equally well as the discrete generalised beta
-distribution and the log-normal models, but has fewer parameters which
-additionally are all easy to interpret. We also indicate which indices
-can be predicted with high accuracy and which are more difficult to
-model.</p>
-</div></blockquote>
+          <section class="tex2jax_ignore mathjax_ignore" id="deadwood-outlier-detection-via-trimming-of-mutual-reachability-minimum-spanning-trees">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></strong>: Outlier Detection via Trimming of Mutual Reachability Minimum Spanning Trees<a class="headerlink" href="#deadwood-outlier-detection-via-trimming-of-mutual-reachability-minimum-spanning-trees" title="Link to this heading">¶</a></h1>
+<p>A new package <a class="reference external" href="https://deadwood.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></strong></a>
+is now available
+<a class="reference external" href="https://cran.r-project.org/package=deadwood">CRAN</a> and
+<a class="reference external" href="https://pypi.org/project/deadwood">PyPI</a>.</p>
+<p><em>Deadwood</em> is an anomaly detection algorithm based on Mutual Reachability
+Minimum Spanning Trees. It trims protruding tree segments and marks small debris as outliers.</p>
+<p>More precisely:</p>
+<ul class="simple">
+<li><p>the use of a mutual reachability distance pulls peripheral points farther away from each other,</p></li>
+<li><p>tree edges with weights beyond the detected elbow point are removed,</p></li>
+<li><p>all the resulting connected components whose sizes are smaller than a given threshold are deemed anomalous.</p></li>
+</ul>
 </section>
 
         </article>

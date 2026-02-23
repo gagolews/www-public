@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20211006-paper-cvi.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>Are Cluster Validity Measures (In)valid? - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>genieclust 1.3.0 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -286,25 +286,53 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="are-cluster-validity-measures-in-valid">
-<h1>Are Cluster Validity Measures (In)valid?<a class="headerlink" href="#are-cluster-validity-measures-in-valid" title="Link to this heading">¶</a></h1>
-<p>To appear in
-<em>Information Sciences</em> — a paper
-coauthored by Maciek Bartoszuk and Ania Cena
-(doi:<a class="reference external" href="https://dx.doi.org/10.1016/j.ins.2021.10.004">10.1016/j.ins.2021.10.004</a>).</p>
-<blockquote>
-<div><p><strong>Abstract.</strong>
-Internal cluster validity measures (such as the Caliski–Harabasz, Dunn,
-or Davies–Bouldin indices) are frequently used for selecting the appropriate
-number of partitions a dataset should be split into. In this paper we consider
-what happens if we treat such indices as objective functions in unsupervised
-learning activities. Is the optimal grouping with regards to, say, the
-Silhouette index really meaningful? It turns out that many cluster (in)validity
-indices promote clusterings that match expert knowledge quite poorly. We also
-introduce a new, well-performing variant of the Dunn index that is built upon
-OWA operators and the near-neighbour graph so that subspaces of higher density,
-regardless of their shapes, can be separated from each other better.</p>
-</div></blockquote>
+          <section class="tex2jax_ignore mathjax_ignore" id="genieclust-1-3-0-on-cran-and-pypi">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong> 1.3.0 on CRAN and PyPI<a class="headerlink" href="#genieclust-1-3-0-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
+<p>A new version of <a class="reference external" href="https://genieclust.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong></a>
+is now available on
+<a class="reference external" href="https://cran.r-project.org/package=genieclust">CRAN</a> and
+<a class="reference external" href="https://pypi.org/project/genieclust">PyPI</a>.</p>
+<p>Changelog:</p>
+<ul class="simple">
+<li><p>The package was heavily refactored; common MST-related functions and classes
+as well as functions from the <code class="docutils literal notranslate"><span class="pre">tools</span></code> and <code class="docutils literal notranslate"><span class="pre">plots</span></code> modules were moved to
+the new <a class="reference external" href="https://deadwood.gagolewski.com/"><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></a> package, which is
+now required.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  Outlier detection based solely on whether
+a node is a leaf of a minimum spanning tree w.r.t. some mutual reachability
+distance turned out to be subpar in more detailed experiments,
+especially for smaller smoothing factors.  Note that in the previous
+versions of the package, this feature was deemed merely experimental;
+Hence, <code class="docutils literal notranslate"><span class="pre">detect_noise</span></code> in <code class="docutils literal notranslate"><span class="pre">genie.default</span></code> and <code class="docutils literal notranslate"><span class="pre">skip_leaves</span></code>, <code class="docutils literal notranslate"><span class="pre">preprocess</span></code>,
+and <code class="docutils literal notranslate"><span class="pre">postprocess</span></code> elsewhere are no longer available.  Instead, use the more
+universal <code class="docutils literal notranslate"><span class="pre">deadwood</span></code> package now.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code> version &gt;= 0.9.1 is now required;
+the introduced backward-incompatible changes have been addressed.
+In particular, the definition of mutual reachability distances has changed.
+Unlike in Campello et al.’s 2013 paper, now the core distance is the
+distance to the <em>M</em>-th nearest neighbour, not the <em>(M-1)</em>-th one
+(not including self).</p></li>
+<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">internal</span></code> module was renamed <code class="docutils literal notranslate"><span class="pre">core</span></code>.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  Deprecated functions such as <code class="docutils literal notranslate"><span class="pre">mst_from_nn</span></code>
+have been removed.</p></li>
+<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">compute_full_tree</span></code> is now always True.</p></li>
+<li><p>[BUGFIX]  #92: Passing a non-square confusion matrix to
+<code class="docutils literal notranslate"><span class="pre">normalized_pivoted_accuracy</span></code> and <code class="docutils literal notranslate"><span class="pre">normalized_clustering_accuracy</span></code>
+yields an error as such objects are yet to be supported.</p></li>
+<li><p>[R]  <code class="docutils literal notranslate"><span class="pre">gclust</span></code> and <code class="docutils literal notranslate"><span class="pre">genie</span></code> now return the computed MST via the <code class="docutils literal notranslate"><span class="pre">mst</span></code>
+object attribute.  <code class="docutils literal notranslate"><span class="pre">genie</span></code> returns an object of the class <code class="docutils literal notranslate"><span class="pre">mstclust</span></code>.
+This makes it operable with <code class="docutils literal notranslate"><span class="pre">deadwood</span></code>.</p></li>
+<li><p>[Python] [BUGFIX]  Modifying <code class="docutils literal notranslate"><span class="pre">quitefastmst_params</span></code> via <code class="docutils literal notranslate"><span class="pre">set_state</span></code>
+now invalidates the cached MST.</p></li>
+<li><p>[Python] [NEW FEATURE]  <code class="docutils literal notranslate"><span class="pre">plots.plot_scatter</span></code> has new arguments:
+<code class="docutils literal notranslate"><span class="pre">asp</span></code>, <code class="docutils literal notranslate"><span class="pre">markers</span></code>, and <code class="docutils literal notranslate"><span class="pre">colours</span></code>.  The module globals <code class="docutils literal notranslate"><span class="pre">mrk</span></code> and <code class="docutils literal notranslate"><span class="pre">col</span></code> were
+renamed accordingly.  However, as mentioned above, <code class="docutils literal notranslate"><span class="pre">plots</span></code> was
+moved to <code class="docutils literal notranslate"><span class="pre">deadwood</span></code>.</p></li>
+<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">compute_all_cuts</span></code> in <code class="docutils literal notranslate"><span class="pre">Genie</span></code> was
+renamed <code class="docutils literal notranslate"><span class="pre">coarser</span></code>.  If <code class="docutils literal notranslate"><span class="pre">True</span></code>, <code class="docutils literal notranslate"><span class="pre">labels_</span></code> is still a vector representing
+the requested <code class="docutils literal notranslate"><span class="pre">n_clusters</span></code>.  The coarser-grained labels are now stored
+in <code class="docutils literal notranslate"><span class="pre">labels_matrix_</span></code> whose <code class="docutils literal notranslate"><span class="pre">i</span></code>-th row represents an <code class="docutils literal notranslate"><span class="pre">(i+1)</span></code>-partition.</p></li>
+</ul>
 </section>
 
         </article>

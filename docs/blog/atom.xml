@@ -2,23 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-02-19T15:39:00.872066+00:00</updated>
+  <updated>2026-02-23T16:40:08.054433+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html</id>
+    <title>genieclust 1.3.0 on CRAN and PyPI</title>
+    <updated>2026-02-23T00:00:00+01:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new version of &lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+is now available on
+&lt;a class="reference external" href="https://cran.r-project.org/package=genieclust"&gt;CRAN&lt;/a&gt; and
+&lt;a class="reference external" href="https://pypi.org/project/genieclust"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html"/>
+    <summary>A new version of genieclust
+is now available on
+CRAN and
+PyPI.</summary>
+    <category term="genieclust" label="genieclust"/>
+    <category term="software" label="software"/>
+    <published>2026-02-23T00:00:00+01:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html</id>
     <title>deadwood: Outlier Detection via Trimming of Mutual Reachability Minimum Spanning Trees</title>
     <updated>2026-02-13T00:00:00+01:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;deadwood&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
-is now available
+is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=deadwood"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/deadwood"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html"/>
     <summary>A new package deadwood
-is now available
+is now available on
 CRAN and
 PyPI.</summary>
     <category term="deadwood" label="deadwood"/>
@@ -30,14 +49,14 @@ PyPI.</summary>
     <title>quitefastmst 0.9.1 on CRAN and PyPI</title>
     <updated>2026-02-11T00:00:00+01:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;quitefastmst&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
-is now available
+is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=quitefastmst"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/quitefastmst"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20260211-software-quitefastmst-0-9-1.html"/>
     <summary>A new release of quitefastmst
-is now available
+is now available on
 CRAN and
 PyPI.</summary>
     <category term="quitefastmst" label="quitefastmst"/>
@@ -48,15 +67,17 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html</id>
     <title>Submitted: The Price-Pareto growth model of networks with community structure</title>
     <updated>2025-10-16T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of my most recent paper
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of our most recent paper
 &lt;em&gt;The Price-Pareto growth model of networks with community structure&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2510.13392"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2510.13392"&gt;arXiv&lt;/a&gt;.
+Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html"/>
-    <summary>An early version of my most recent paper
+    <summary>An early version of our most recent paper
 The Price-Pareto growth model of networks with community structure
-is now available on arXiv.</summary>
+is now available on arXiv.
+Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.</summary>
     <category term="submitted-paper" label="submitted-paper"/>
     <published>2025-10-16T00:00:00+02:00</published>
   </entry>

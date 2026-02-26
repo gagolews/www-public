@@ -297,39 +297,294 @@ Politechniki Warszawskiej</p>
 <blockquote>
 <div><p><em>Kurs omawia w jaki sposób implementować efektywnie i zgodnie z zasadami sztuki wybrane metody przetwarzania i analizy danych. Nacisk położony jest na tworzenie wysokiej jakości kodu (dobrze udokumentowanego i przetestowanego) i udostępnienie go w postaci bibliotek języka C oraz pakietów R i Python. Poruszane są także zagadnienia związane z przyspieszaniem obliczeń (optymalne wykorzystanie pamięci podręcznej, istniejących bibliotek, programowanie wielowątkowe przy użyciu OpenMP itp.). Dzięki uczestnictwie w kursie, studenci będą także lepiej rozumieć wady i zalety istniejących pakietów analizy danych (NumPy, SciPy, R, MATLAB itd.).</em></p>
 </div></blockquote>
-<p>Wymagania wstępne:</p>
-<ul class="simple">
-<li><p>Przetwarzanie danych ustrukturyzowanych (R i Python),</p></li>
-<li><p>Algorytmy i struktury danych,</p></li>
-<li><p>Metody numeryczne.</p></li>
-</ul>
+<p>Wymagania wstępne:
+Przetwarzanie danych ustrukturyzowanych (R i Python),
+Algorytmy i struktury danych,
+Metody numeryczne.</p>
 <section id="harmonogram-semestr-letni-2026">
 <h2>Harmonogram – Semestr letni 2026<a class="headerlink" href="#harmonogram-semestr-letni-2026" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>Wykład+Laboratoria+Projekt („warsztaty”): czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p></li>
+<li><p>Wykład+Laboratoria+Projekt („warsztaty”):
+czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p></li>
 <li><p>Konsultacje: MiNI pok. 550; jestem prawie codziennie</p></li>
 <li><p>Kolokwia: VIII i XIV tydzień</p></li>
 <li><p>Oddanie projektów+prezentacja: XV tydzień</p></li>
 </ul>
-<p>TBA</p>
+<section id="id1">
+<h3>1. 2026-02-26<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><ul class="simple">
+<li><p>Wprowadzenie do kursu: O tym, dlaczego umiejętność programowania niskopoziomowego jest ważna w naszej dziedzinie</p></li>
+<li><p>Wprowadzenie do języka C (podzbiór C17; C23 jeszcze nie jest dobrze wspierany):</p>
+<ul>
+<li><p>deklaracja zmiennych, typowe typy skalarne</p></li>
+<li><p>operatory arytmetyczne, relacyjne i logiczne</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">if</span></code>, <code class="docutils literal notranslate"><span class="pre">switch</span></code>, <code class="docutils literal notranslate"><span class="pre">goto</span></code></p></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt>📚 Literatura</dt><dd><ul class="simple">
+<li><p>Zalecana (jedno wystarczy; uwaga na „GNU extensions”, które nie są częścią standardu języka C):</p>
+<ul>
+<li><p>(!) T. Rothwell, J. Youngman i in.
+<a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">The GNU C Reference Manual</a> <em>albo</em></p></li>
+<li><p>(!) <a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> – rozszerza powyższe</p></li>
+</ul>
+</li>
+<li><p>Dodatkowa:</p>
+<ul>
+<li><p><a class="reference external" href="https://en.cppreference.com/w/c">The C Reference</a></p></li>
+<li><p><a class="reference external" href="https://c-faq.com">comp.lang.c Frequently Asked Questions</a></p></li>
+<li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
+<li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2018</a></p></li>
+</ul>
+</li>
+<li><p>Bonus:</p>
+<ul>
+<li><p><a class="reference external" href="https://www.freaktakes.com/p/how-did-places-like-bell-labs-know">How did places like Bell Labs know how to ask the right questions?</a></p></li>
+<li><p><a class="reference external" href="https://news.ycombinator.com/">Hacker News</a></p></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><ul class="simple">
+<li><p>Zainstaluj Linuxa, gcc, Pythona, i R; zob. sekcję <a class="reference internal" href="#pakiety-2026-software">Oprogramowanie</a> poniżej</p></li>
+<li><p>Przypomnij sobie następujące polecenia:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>, <code class="docutils literal notranslate"><span class="pre">pwd</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code>, <code class="docutils literal notranslate"><span class="pre">mkdir</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span> <span class="pre">-i</span></code>, <code class="docutils literal notranslate"><span class="pre">mv</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">-rf</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">--help</span></code>, <code class="docutils literal notranslate"><span class="pre">man</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code>, <code class="docutils literal notranslate"><span class="pre">less</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">tail</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>, jak wyjść z <code class="docutils literal notranslate"><span class="pre">vi</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>, <code class="docutils literal notranslate"><span class="pre">chown</span></code>, <code class="docutils literal notranslate"><span class="pre">whereis</span></code>, <code class="docutils literal notranslate"><span class="pre">ln</span></code>, <code class="docutils literal notranslate"><span class="pre">top</span></code>/<code class="docutils literal notranslate"><span class="pre">htop</span></code>, <code class="docutils literal notranslate"><span class="pre">df</span></code>, <code class="docutils literal notranslate"><span class="pre">du</span></code>, <code class="docutils literal notranslate"><span class="pre">tar</span></code>, <code class="docutils literal notranslate"><span class="pre">zip</span></code>/<code class="docutils literal notranslate"><span class="pre">gzip</span></code>/<code class="docutils literal notranslate"><span class="pre">bzip2</span></code>/<code class="docutils literal notranslate"><span class="pre">xz</span></code>,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">time</span></code>, <code class="docutils literal notranslate"><span class="pre">sleep</span></code>, <code class="docutils literal notranslate"><span class="pre">bg</span></code>, <code class="docutils literal notranslate"><span class="pre">fg</span></code>, <code class="docutils literal notranslate"><span class="pre">ps</span></code>, <code class="docutils literal notranslate"><span class="pre">kill</span></code>, <code class="docutils literal notranslate"><span class="pre">nice</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">diff</span></code>, <code class="docutils literal notranslate"><span class="pre">grep</span></code> (także: <code class="docutils literal notranslate"><span class="pre">rg</span></code>–ripgrep), <code class="docutils literal notranslate"><span class="pre">find</span></code>, <code class="docutils literal notranslate"><span class="pre">sed</span></code>, <code class="docutils literal notranslate"><span class="pre">rename</span></code>, <code class="docutils literal notranslate"><span class="pre">uniq</span></code>, <code class="docutils literal notranslate"><span class="pre">sort</span></code></p></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id2">
+<h3>2. 2026-03-05<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>zob. Tydzień I</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id3">
+<h3>3. 2026-03-12<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id4">
+<h3>4. 2026-03-19<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id5">
+<h3>5. 2026-03-26<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id6">
+<h3>6. 2026-04-02<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id7">
+<h3>7. 2026-04-09<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id8">
+<h3>8. 2026-04-16<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤯 Kolokwium I</dt><dd><p>TBA</p>
+</dd>
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id9">
+<h3>9. 2026-04-23<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id10">
+<h3>10. 2026-04-30<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id11">
+<h3>11. 2026-05-07<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id12">
+<h3>12. 2026-05-14<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id13">
+<h3>13. 2026-05-21<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id14">
+<h3>14. 2026-05-28<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤯 Kolokwium II</dt><dd><p>TBA</p>
+</dd>
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
+<section id="id15">
+<h3>15. 2026-06-11<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<div class="toggle docutils container">
+<dl class="simple myst">
+<dt>🤯 Oddanie projektów</dt><dd><p>TBA</p>
+</dd>
+<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+</dd>
+<dt>📚 Literatura</dt><dd><p>TBA</p>
+</dd>
+<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
+</dd>
+</dl>
+</div>
+</section>
 </section>
 <section id="regulamin-zaliczenia">
 <h2>Regulamin zaliczenia<a class="headerlink" href="#regulamin-zaliczenia" title="Link to this heading">¶</a></h2>
-<p>Na zaliczenie składają się oceny zdobyte za rozwiązanie dwóch prac pisemnych (33+33 p.) oraz projekt programistyczny z prezentacją wyników pod koniec semestru (33 p.).</p>
+<p>Na zaliczenie składają się oceny zdobyte za rozwiązanie dwóch prac pisemnych (33+33 p.) oraz indywidualny projekt programistyczny z prezentacją wyników pod koniec semestru (33 p.).</p>
 <p>W trakcie kolokwiów można mieć przy sobie tylko jedną kartkę A4 z własnymi odręcznymi zapiskami.</p>
 <p>Podczas zadania projektowego nie można korzystać z żadnych narzędzi AI (ChatGPT, Copilot, Claude Code itp.).</p>
 <p>Zgodnie z Regulaminem Studiów w Politechnice Warszawskiej (par. 19 ust. 4), jeżeli podczas weryfikacji osiągnięcia efektów uczenia się zostanie stwierdzona niesamodzielność pracy studenta lub korzystanie przez niego z materiałów lub urządzeń innych niż dozwolone w regulaminie przedmiotu, student uzyskuje ocenę niedostateczną i traci prawo do zaliczenia przedmiotu w jego bieżącej realizacji.</p>
 <p>Obecność na zajęciach laboratoryjnych i projektowych jest obowiązkowa. Za każdą nieusprawiedliwioną nieobecność (np. formalnym zaświadczeniem lekarskim) obniża się wynik końcowy o 5 p.</p>
 <p>Nie ma możliwości poprawy ocen. Ocena końcowa jest funkcją sumy uzyskanych punktów: wynik ≤50 p. oznacza ocenę 2,0; (50, 60] – 3,0; (60, 70] – 3,5; (70, 80] – 4,0; (80, 90] – 4,5; &gt;90 – 5,0.</p>
 </section>
+<section id="oprogramowanie">
+<span id="pakiety-2026-software"></span><h2>Oprogramowanie<a class="headerlink" href="#oprogramowanie" title="Link to this heading">¶</a></h2>
+<p>System operacyjny GNU/Linux (może być na wirtualnej maszynie, np. <a class="reference external" href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">VirtualBox</a>), np. <a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a>.</p>
+<p>Języki programowania: C, C++ (gcc/clang), R, Python (CPython, Cython), Fortran.  W systemie Ubuntu wystarczy uruchomić:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>upgrade
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>r-base-dev<span class="w"> </span>python3-dev<span class="w"> </span>pandoc
+</pre></div>
+</div>
+</section>
 <section id="literatura">
-<h2>Literatura<a class="headerlink" href="#literatura" title="Link to this heading">¶</a></h2>
+<span id="pakiety-2026-references"></span><h2>Literatura<a class="headerlink" href="#literatura" title="Link to this heading">¶</a></h2>
 <ol class="arabic simple">
 <li><p>T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, <em>Introduction to Algorithms</em>, MIT Press and McGraw-Hill, 2022</p></li>
 <li><p>W.H. Press, S.A. Teukolsky, W.T. Vetterling, B.P. Flannery,
 <a class="reference external" href="https://numerical.recipes/book.html"><em>Numerical Recipes. The Art of Scientific Computing</em></a>, 3rd ed.,
 Cambridge University Press, 2007</p></li>
 <li><p>S. Marsland, <em>Machine Learning: An Algorithmic Perspective</em>, Chapman&amp;Hall/CRC, 2015</p></li>
+<li><p>A. Blum, J. Hopcroft, R. Kannan, <a class="reference external" href="https://www.cs.cornell.edu/jeh/book.pdf"><em>Foundations of Data Science</em></a>, 2018</p></li>
+<li><p>R.A. van de Geijn, E.S. Quintana-Orti, <a class="reference external" href="https://www.cs.utexas.edu/~rvdg/tmp/TSoPMC.pdf"><em>The Science of Programming Matrix Computations</em></a></p></li>
+<li><p>V. Eijkhout, <a class="reference external" href="https://theartofhpc.com/"><em>The Art of HPC</em></a>, 2026</p></li>
+<li><p>J.E. Gentle, <em>Matrix Algebra: Theory, Computations and Applications in Statistics</em>, Springer, 2024</p></li>
 <li><p>M. Gagolewski, <a class="reference external" href="https://deepr.gagolewski.com/"><em>Deep R Programming</em></a>, 2026</p></li>
 <li><p>M. Gagolewski, <a class="reference external" href="https://datawranglingpy.gagolewski.com/"><em>Minimalist Data Wrangling with Python</em></a>, 2026</p></li>
 <li><p>D. Goldberg, <a class="reference external" href="https://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf">What every computer scientist should know about floating-point arithmetic</a>,
@@ -338,16 +593,19 @@ Cambridge University Press, 2007</p></li>
 <li><p>G.H. Golub, C.F. Van Loan, <em>Matrix Computations</em>, The Johns Hopkins University Press, 2013</p></li>
 <li><p><a class="reference external" href="https://dlmf.nist.gov/">NIST Digital Library of Mathematical Functions</a></p></li>
 <li><p>(*) D.E. Knuth, <em>The Art of Computer Programming</em>, Vols. 1–4B, Addison-Wesley, 2023</p></li>
+<li><p>(*) B.W. Kernighan, D.M. Ritchie, <em>The C Programming Language</em>, Prentice Hall, 1988</p></li>
+<li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
+<li><p>G. Barlas, <em>Multicore and GPU Programming</em>, MK, 2022</p></li>
+<li><p>N. Matloff, <em>Parallel Computing for Data Science: With Examples in R, C++ and CUDA</em>, CRC Press, 2016</p></li>
 <li><p>T. Rothwell, J. Youngman, and others,
 <a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">The GNU C Reference Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
-<li><p><a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
-<li><p><a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html">The GNU C Library</a></p></li>
-<li><p>J. Gustedt, <a class="reference external" href="https://inria.hal.science/hal-02383654v1/file/ModernC.pdf"><em>Modern C</em></a>, Manning, 2019</p></li>
-<li><p>R.J. Hyndman, Y. Fan, Sample quantiles in statistical packages, <em>American Statistician</em>, <strong>50</strong>(4), 1996, 361–365. DOI: 10.2307/2684934.</p></li>
-<li><p>(*) B.W. Kernighan, D.M. Ritchie, <em>The C Programming Language</em>, Prentice Hall, 1988</p></li>
 <li><p>(*) J. Arndt, <a class="reference external" href="https://www.jjj.de/fxt/fxtbook.pdf"><em>Matters Computational: Ideas, Algorithms, Source Code</em></a>,
 Springer, 2011</p></li>
-<li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2023, draft</a></p></li>
+<li><p><a class="reference external" href="https://www.gnu.org/software/c-intro-and-ref/manual/c-intro-and-ref.html">The GNU C Language Manual</a> (skip the parts devoted to the “GNU extensions”)</p></li>
+<li><p><a class="reference external" href="https://sourceware.org/glibc/manual/latest/html_mono/libc.html">The GNU C Library</a></p></li>
+<li><p>(*) <a class="reference external" href="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf">Programming Languages – C. International Standard ISO/IEC 9899:2018</a></p></li>
+<li><p>R Core Team, <a class="reference external" href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a>, 2026</p></li>
+<li><p>R Core Team,  <a class="reference external" href="https://cran.r-project.org/doc/manuals/r-release/R-ints.htm"><em>R Internals</em></a>, 2026</p></li>
 </ol>
 <p>Kody źródłowe:</p>
 <ol class="arabic simple">
@@ -361,11 +619,6 @@ Springer, 2011</p></li>
 <li><p><a class="reference external" href="https://github.com/tidyverse/dplyr">dplyr</a></p></li>
 <li><p><a class="reference external" href="https://www.gnu.org/software/gsl/">GNU GSL</a></p></li>
 </ol>
-</section>
-<section id="oprogramowanie">
-<h2>Oprogramowanie<a class="headerlink" href="#oprogramowanie" title="Link to this heading">¶</a></h2>
-<p>Języki programowania: C, C++ (gcc/clang), R, Python (CPython, Cython), Fortran</p>
-<p>System operacyjny GNU/Linux (może być na wirtualnej maszynie, np. VirtualBox), np. Ubuntu/Kubuntu.</p>
 </section>
 </section>
 
@@ -404,7 +657,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-02-24T16:05:34+0100.
+              Last updated on 2026-02-26T13:57:23+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>
@@ -426,10 +679,27 @@ Springer, 2011</p></li>
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Implementacja bibliotek i pakietów do analizy danych 2026</a><ul>
-<li><a class="reference internal" href="#harmonogram-semestr-letni-2026">Harmonogram – Semestr letni 2026</a></li>
+<li><a class="reference internal" href="#harmonogram-semestr-letni-2026">Harmonogram – Semestr letni 2026</a><ul>
+<li><a class="reference internal" href="#id1">1. 2026-02-26</a></li>
+<li><a class="reference internal" href="#id2">2. 2026-03-05</a></li>
+<li><a class="reference internal" href="#id3">3. 2026-03-12</a></li>
+<li><a class="reference internal" href="#id4">4. 2026-03-19</a></li>
+<li><a class="reference internal" href="#id5">5. 2026-03-26</a></li>
+<li><a class="reference internal" href="#id6">6. 2026-04-02</a></li>
+<li><a class="reference internal" href="#id7">7. 2026-04-09</a></li>
+<li><a class="reference internal" href="#id8">8. 2026-04-16</a></li>
+<li><a class="reference internal" href="#id9">9. 2026-04-23</a></li>
+<li><a class="reference internal" href="#id10">10. 2026-04-30</a></li>
+<li><a class="reference internal" href="#id11">11. 2026-05-07</a></li>
+<li><a class="reference internal" href="#id12">12. 2026-05-14</a></li>
+<li><a class="reference internal" href="#id13">13. 2026-05-21</a></li>
+<li><a class="reference internal" href="#id14">14. 2026-05-28</a></li>
+<li><a class="reference internal" href="#id15">15. 2026-06-11</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#regulamin-zaliczenia">Regulamin zaliczenia</a></li>
-<li><a class="reference internal" href="#literatura">Literatura</a></li>
 <li><a class="reference internal" href="#oprogramowanie">Oprogramowanie</a></li>
+<li><a class="reference internal" href="#literatura">Literatura</a></li>
 </ul>
 </li>
 </ul>

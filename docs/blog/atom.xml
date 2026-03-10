@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-03-09T11:09:48.366339+00:00</updated>
+  <updated>2026-03-10T10:22:53.021376+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20260309-software-lumbermark-0-9-0.html</id>
+    <title>lumbermark: Resistant clustering via chopping up mutual reachability minimum spanning trees</title>
+    <updated>2026-03-09T00:00:00+01:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://lumbermark.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;lumbermark&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+is now available on
+&lt;a class="reference external" href="https://cran.r-project.org/package=lumbermark"&gt;CRAN&lt;/a&gt; and
+&lt;a class="reference external" href="https://pypi.org/project/lumbermark"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260309-software-lumbermark-0-9-0.html"/>
+    <summary>A new package lumbermark
+is now available on
+CRAN and
+PyPI.</summary>
+    <category term="lumbermark" label="lumbermark"/>
+    <category term="software" label="software"/>
+    <published>2026-03-09T00:00:00+01:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html</id>
     <title>genieclust 1.3.0 on CRAN and PyPI</title>
@@ -27,7 +46,7 @@ PyPI.</summary>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html</id>
-    <title>deadwood: Outlier Detection via Trimming of Mutual Reachability Minimum Spanning Trees</title>
+    <title>deadwood: Outlier detection via pruning mutual reachability minimum spanning trees</title>
     <updated>2026-02-13T00:00:00+01:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;deadwood&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
 is now available on

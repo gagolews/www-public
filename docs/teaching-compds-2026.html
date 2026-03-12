@@ -365,7 +365,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>Recall the following terminal/Bash commands:</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>, <code class="docutils literal notranslate"><span class="pre">pwd</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code>, <code class="docutils literal notranslate"><span class="pre">mkdir</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span> <span class="pre">-i</span></code>, <code class="docutils literal notranslate"><span class="pre">mv</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">-rf</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">--help</span></code>, <code class="docutils literal notranslate"><span class="pre">man</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code>, <code class="docutils literal notranslate"><span class="pre">less</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">tail</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>, how to quit <code class="docutils literal notranslate"><span class="pre">vi</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span> <span class="pre">&gt;</span> <span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">less</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">tail</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>, how to quit <code class="docutils literal notranslate"><span class="pre">vi</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>, <code class="docutils literal notranslate"><span class="pre">chown</span></code>, <code class="docutils literal notranslate"><span class="pre">whereis</span></code>, <code class="docutils literal notranslate"><span class="pre">ln</span></code>, <code class="docutils literal notranslate"><span class="pre">top</span></code>/<code class="docutils literal notranslate"><span class="pre">htop</span></code>, <code class="docutils literal notranslate"><span class="pre">df</span></code>, <code class="docutils literal notranslate"><span class="pre">du</span></code>, <code class="docutils literal notranslate"><span class="pre">tar</span></code>, <code class="docutils literal notranslate"><span class="pre">zip</span></code>/<code class="docutils literal notranslate"><span class="pre">gzip</span></code>/<code class="docutils literal notranslate"><span class="pre">bzip2</span></code>/<code class="docutils literal notranslate"><span class="pre">xz</span></code>,</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">time</span></code>, <code class="docutils literal notranslate"><span class="pre">sleep</span></code>, <code class="docutils literal notranslate"><span class="pre">bg</span></code>, <code class="docutils literal notranslate"><span class="pre">fg</span></code>, <code class="docutils literal notranslate"><span class="pre">ps</span></code>, <code class="docutils literal notranslate"><span class="pre">kill</span></code>, <code class="docutils literal notranslate"><span class="pre">nice</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">diff</span></code>, <code class="docutils literal notranslate"><span class="pre">grep</span></code> (also: <code class="docutils literal notranslate"><span class="pre">rg</span></code>–ripgrep), <code class="docutils literal notranslate"><span class="pre">find</span></code>, <code class="docutils literal notranslate"><span class="pre">sed</span></code>, <code class="docutils literal notranslate"><span class="pre">rename</span></code>, <code class="docutils literal notranslate"><span class="pre">uniq</span></code>, <code class="docutils literal notranslate"><span class="pre">sort</span></code></p></li>
@@ -428,6 +428,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <ul>
 <li><p><a class="reference external" href="https://peps.python.org/pep-0659/">PEP 659 – Specializing Adaptive Interpreter</a></p></li>
 <li><p><a class="reference external" href="https://peps.python.org/pep-0744/">PEP 744 – JIT Compilation</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Optimizing_compiler">Optimising compiler</a></p></li>
 </ul>
 </li>
 </ul>
@@ -631,14 +632,16 @@ and &gt;90 – 5.0.</p>
 </section>
 <section id="software">
 <span id="compds-2026-software"></span><h2>Software<a class="headerlink" href="#software" title="Link to this heading">¶</a></h2>
-<p>A GNU/Linux operating system with root access, e.g.,
-<a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a> – pick the one you find more appealing, it’s a matter of taste (I’m on <a class="reference external" href="https://get.opensuse.org/tumbleweed/#download">openSUSE Tumbleweed</a>, but it’s less beginner-friendly)</p>
+<p>We’ll need a GNU/Linux operating system with root access, e.g.,
+<a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a> – pick the one you find more appealing, it’s a matter of taste (I’m on <a class="reference external" href="https://get.opensuse.org/tumbleweed/#download">openSUSE Tumbleweed</a>, but it’s less beginner-friendly).</p>
 <p>If you use a different operating system family, you can run Linux on a virtual machine; see, e.g.,
 <a class="reference external" href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">how to run Ubuntu using VirtualBox</a>.</p>
-<p>Programming languages: C, C++ (gcc/clang), R, Python (CPython, Cython), Fortran;  on Ubuntu, run:</p>
+<p>Programming languages: C, C++ (gcc/clang), R, Python (CPython, Cython), Fortran;  on Ubuntu, run in the terminal:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
 sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>upgrade
 sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>r-base-dev<span class="w"> </span>python3-dev<span class="w"> </span>pandoc
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>cython
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>jupyter-notebook
 </pre></div>
 </div>
 </section>
@@ -727,7 +730,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-03-10T19:50:27+0100.
+              Last updated on 2026-03-12T17:55:14+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

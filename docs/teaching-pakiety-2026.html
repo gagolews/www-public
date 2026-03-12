@@ -355,7 +355,7 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <li><p>Przypomnij sobie następujące polecenia:</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>, <code class="docutils literal notranslate"><span class="pre">pwd</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span></code>, <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code>, <code class="docutils literal notranslate"><span class="pre">mkdir</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span> <span class="pre">-i</span></code>, <code class="docutils literal notranslate"><span class="pre">mv</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">-rf</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">--help</span></code>, <code class="docutils literal notranslate"><span class="pre">man</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code>, <code class="docutils literal notranslate"><span class="pre">less</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">tail</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>, jak wyjść z <code class="docutils literal notranslate"><span class="pre">vi</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span> <span class="pre">&gt;</span> <span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">less</span></code>, <code class="docutils literal notranslate"><span class="pre">head</span></code>, <code class="docutils literal notranslate"><span class="pre">tail</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>, jak wyjść z <code class="docutils literal notranslate"><span class="pre">vi</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>, <code class="docutils literal notranslate"><span class="pre">chown</span></code>, <code class="docutils literal notranslate"><span class="pre">whereis</span></code>, <code class="docutils literal notranslate"><span class="pre">ln</span></code>, <code class="docutils literal notranslate"><span class="pre">top</span></code>/<code class="docutils literal notranslate"><span class="pre">htop</span></code>, <code class="docutils literal notranslate"><span class="pre">df</span></code>, <code class="docutils literal notranslate"><span class="pre">du</span></code>, <code class="docutils literal notranslate"><span class="pre">tar</span></code>, <code class="docutils literal notranslate"><span class="pre">zip</span></code>/<code class="docutils literal notranslate"><span class="pre">gzip</span></code>/<code class="docutils literal notranslate"><span class="pre">bzip2</span></code>/<code class="docutils literal notranslate"><span class="pre">xz</span></code>,</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">time</span></code>, <code class="docutils literal notranslate"><span class="pre">sleep</span></code>, <code class="docutils literal notranslate"><span class="pre">bg</span></code>, <code class="docutils literal notranslate"><span class="pre">fg</span></code>, <code class="docutils literal notranslate"><span class="pre">ps</span></code>, <code class="docutils literal notranslate"><span class="pre">kill</span></code>, <code class="docutils literal notranslate"><span class="pre">nice</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">diff</span></code>, <code class="docutils literal notranslate"><span class="pre">grep</span></code> (także: <code class="docutils literal notranslate"><span class="pre">rg</span></code>–ripgrep), <code class="docutils literal notranslate"><span class="pre">find</span></code>, <code class="docutils literal notranslate"><span class="pre">sed</span></code>, <code class="docutils literal notranslate"><span class="pre">rename</span></code>, <code class="docutils literal notranslate"><span class="pre">uniq</span></code>, <code class="docutils literal notranslate"><span class="pre">sort</span></code></p></li>
@@ -378,7 +378,7 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <li><p><a class="reference external" href="https://cython.org/">Cython</a> i <a class="reference external" href="https://numba.pydata.org/">numba</a></p></li>
 <li><p>definiowanie własnych funkcji</p></li>
 <li><p>‘hello world’ jako aplikacja terminalowa</p></li>
-<li><p>rzut oka na assembler x86</p></li>
+<li><p>rzut oka na asembler x86</p></li>
 </ul>
 </li>
 </ul>
@@ -405,13 +405,7 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <li><p>Wprowadzenie do języka C (cd.)</p>
 <ul>
 <li><p>zadanie: benchmarki Python, Cython vs C raz jeszcze</p></li>
-<li><p>funkcje i zmienne statyczne (<code class="docutils literal notranslate"><span class="pre">static</span></code>)</p></li>
 <li><p>preprocesor języka C</p></li>
-<li><p>…TBA…</p></li>
-<li><p>jeden program – wiele plików źródłowych i nagłówkowych; linker</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">struct</span></code>, <code class="docutils literal notranslate"><span class="pre">typedef</span></code>, <code class="docutils literal notranslate"><span class="pre">union</span></code>, <code class="docutils literal notranslate"><span class="pre">enum</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">goto</span></code></p></li>
-<li><p>tablice statyczne</p></li>
 </ul>
 </li>
 </ul>
@@ -422,6 +416,7 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <ul>
 <li><p><a class="reference external" href="https://peps.python.org/pep-0659/">PEP 659 – Specializing Adaptive Interpreter</a></p></li>
 <li><p><a class="reference external" href="https://peps.python.org/pep-0744/">PEP 744 – JIT Compilation</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Optimizing_compiler">Optimising compiler</a></p></li>
 </ul>
 </li>
 </ul>
@@ -435,9 +430,15 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <h3>4. 2026-03-19<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <div class="toggle docutils container">
 <dl class="simple myst">
-<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+<dt>🤔 Zagadnienia</dt><dd><p>Wprowadzenie do języka C (cd.)
+* jeden program – wiele plików źródłowych i nagłówkowych; linker
+* <code class="docutils literal notranslate"><span class="pre">struct</span></code>, <code class="docutils literal notranslate"><span class="pre">typedef</span></code>, <code class="docutils literal notranslate"><span class="pre">union</span></code>, <code class="docutils literal notranslate"><span class="pre">enum</span></code>
+* funkcje i zmienne statyczne (<code class="docutils literal notranslate"><span class="pre">static</span></code>)
+* <code class="docutils literal notranslate"><span class="pre">goto</span></code>
+* tablice statyczne
+* …TBA…</p>
 </dd>
-<dt>📚 Literatura</dt><dd><p>TBA</p>
+<dt>📚 Literatura</dt><dd><p>zob. Tydzień I</p>
 </dd>
 <dt>🏠 Praca domowa</dt><dd><p>TBA</p>
 </dd>
@@ -605,11 +606,13 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 </section>
 <section id="oprogramowanie">
 <span id="pakiety-2026-software"></span><h2>Oprogramowanie<a class="headerlink" href="#oprogramowanie" title="Link to this heading">¶</a></h2>
-<p>System operacyjny GNU/Linux (może być na wirtualnej maszynie, np. <a class="reference external" href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">VirtualBox</a>), np. <a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a>.</p>
+<p>System operacyjny: GNU/Linux (może być na wirtualnej maszynie, np. <a class="reference external" href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">VirtualBox</a>), np. <a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu</a>, <a class="reference external" href="https://kubuntu.org/getkubuntu/">Kubuntu</a>, <a class="reference external" href="https://lubuntu.me/downloads/">Lubuntu</a>, <a class="reference external" href="https://www.linuxmint.com/">Linux Mint</a>.</p>
 <p>Języki programowania: C, C++ (gcc/clang), R, Python (CPython, Cython), Fortran.  W systemie Ubuntu wystarczy uruchomić:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
 sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>upgrade
 sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>r-base-dev<span class="w"> </span>python3-dev<span class="w"> </span>pandoc
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>cython
+sudo<span class="w"> </span>apt-get<span class="w"> </span>-y<span class="w"> </span>install<span class="w"> </span>jupyter-notebook
 </pre></div>
 </div>
 </section>
@@ -697,7 +700,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-03-10T19:50:27+0100.
+              Last updated on 2026-03-12T17:55:14+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

@@ -384,7 +384,6 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>Introduction to the C programming language (cont’d):</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">while</span></code>, <code class="docutils literal notranslate"><span class="pre">do..while</span></code>, and <code class="docutils literal notranslate"><span class="pre">for</span></code> loops</p></li>
-<li><p><a class="reference external" href="https://cython.org/">Cython</a> and <a class="reference external" href="https://numba.pydata.org/">numba</a></p></li>
 <li><p>defining own functions</p></li>
 <li><p>‘hello world’ as a terminal app</p></li>
 <li><p>x86 assembly basics</p></li>
@@ -392,6 +391,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>the C preprocessor basics</p></li>
 </ul>
 </li>
+<li><p><a class="reference external" href="https://cython.org/">Cython</a> and <a class="reference external" href="https://numba.pydata.org/">numba</a></p></li>
 </ul>
 </dd>
 <dt>📚 References</dt><dd><p>see <em>Week 1</em></p>
@@ -403,8 +403,6 @@ mark the GNU extensions to the C language clearly enough):</p>
 </li>
 </ul>
 </dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
-</dd>
 </dl>
 </div>
 </section>
@@ -413,9 +411,9 @@ mark the GNU extensions to the C language clearly enough):</p>
 <div class="toggle docutils container">
 <dl class="simple myst">
 <dt>🤔 Topics</dt><dd><ul class="simple">
+<li><p>benchmarking Python, Cython vs C cont’d</p></li>
 <li><p>Introduction to the C programming language (cont’d):</p>
 <ul>
-<li><p>benchmarking Python, Cython vs C cont’d</p></li>
 <li><p>the C preprocessor cont’d</p></li>
 <li><p>one program, many source and header files; the linker</p></li>
 </ul>
@@ -433,8 +431,6 @@ mark the GNU extensions to the C language clearly enough):</p>
 </li>
 </ul>
 </dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
-</dd>
 </dl>
 </div>
 </section>
@@ -449,15 +445,13 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>static arrays</p></li>
 <li><p>pointers, addresses</p></li>
 <li><p>function pointers</p></li>
-<li><p>building dynamic shared libraries</p></li>
-<li><p>calling shared libraries from R with <code class="docutils literal notranslate"><span class="pre">dyn.load</span></code> and <code class="docutils literal notranslate"><span class="pre">.Call</span></code></p></li>
 </ul>
 </li>
+<li><p>building dynamic shared libraries: dynamic linking and dynamic loading</p></li>
+<li><p>calling functions from shared libraries in R with <code class="docutils literal notranslate"><span class="pre">dyn.load</span></code> and <code class="docutils literal notranslate"><span class="pre">.Call</span></code></p></li>
 </ul>
 </dd>
-<dt>📚 References</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
+<dt>📚 References</dt><dd><p>see <em>Week 1</em></p>
 </dd>
 </dl>
 </div>
@@ -466,21 +460,18 @@ mark the GNU extensions to the C language clearly enough):</p>
 <h3>5. 2026-03-24<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
 <div class="toggle docutils container">
 <dl class="simple myst">
-<dt>🤔 Topics</dt><dd><p>TBA</p>
-<ul class="simple">
-<li><p>Calling C functions from Cython</p></li>
+<dt>🤔 Topics</dt><dd><ul class="simple">
+<li><p>Introduction to the C programming language (cont’d):</p>
+<ul>
 <li><p>arrays as pointers</p></li>
 <li><p>dynamic memory allocation</p></li>
-<li><p>record types (structures), <code class="docutils literal notranslate"><span class="pre">typedef</span></code>, unions, and enums</p></li>
-<li><p>integers as bit sequences</p></li>
-<li><p>ASCII strings</p></li>
-<li><p>R/C API</p></li>
-<li><p>…</p></li>
+<li><p>record types (structures), <code class="docutils literal notranslate"><span class="pre">typedef</span></code></p></li>
+<li><p>example: implementing linked lists in C</p></li>
+</ul>
+</li>
 </ul>
 </dd>
-<dt>📚 References</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
+<dt>📚 References</dt><dd><p>see <em>Week 1</em></p>
 </dd>
 </dl>
 </div>
@@ -489,11 +480,26 @@ mark the GNU extensions to the C language clearly enough):</p>
 <h3>6. 2026-03-31<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
 <div class="toggle docutils container">
 <dl class="simple myst">
-<dt>🤔 Topics</dt><dd><p>TBA</p>
+<dt>🤔 Topics</dt><dd><ul class="simple">
+<li><p>Introduction to the C programming language (cont’d):</p>
+<ul>
+<li><p>unions and enums</p></li>
+<li><p>integers as bit sequences</p></li>
+<li><p>ASCII strings</p></li>
+</ul>
+</li>
+<li><p>Using the R/C and Python/C API</p>
+<ul>
+<li><p>functions taking vectors in R</p></li>
+<li><p>vector allocation in R</p></li>
+<li><p>Calling C functions from Cython</p></li>
+<li><p>accessing numpy from Cython</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+</ul>
 </dd>
-<dt>📚 References</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
+<dt>📚 References</dt><dd><p>TODO - Writing R Extensions etc.</p>
 </dd>
 </dl>
 </div>
@@ -741,7 +747,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-03-19T13:02:29+0100.
+              Last updated on 2026-03-24T19:50:06+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

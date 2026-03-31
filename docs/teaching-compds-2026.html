@@ -399,6 +399,7 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>Extras:</p>
 <ul>
 <li><p><a class="reference external" href="https://github.com/FFmpeg/asm-lessons">FFmpeg Assembly Language Lessons</a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html">gcc – options</a></p></li>
 </ul>
 </li>
 </ul>
@@ -481,6 +482,12 @@ mark the GNU extensions to the C language clearly enough):</p>
 <div class="toggle docutils container">
 <dl class="simple myst">
 <dt>🤔 Topics</dt><dd><ul class="simple">
+<li><p>Cython cont’d</p>
+<ul>
+<li><p>calling C functions from Cython</p></li>
+<li><p>accessing <strong>numpy</strong> from Cython</p></li>
+</ul>
+</li>
 <li><p>Introduction to the C programming language (cont’d):</p>
 <ul>
 <li><p>unions and enums</p></li>
@@ -488,18 +495,23 @@ mark the GNU extensions to the C language clearly enough):</p>
 <li><p>ASCII strings</p></li>
 </ul>
 </li>
-<li><p>Using the R/C and Python/C API</p>
+<li><p>Using the R/C API</p>
 <ul>
 <li><p>functions taking vectors in R</p></li>
-<li><p>vector allocation in R</p></li>
-<li><p>Calling C functions from Cython</p></li>
-<li><p>accessing numpy from Cython</p></li>
-<li><p>…</p></li>
+<li><p>‘missing value’ (NA) handling</p></li>
 </ul>
 </li>
 </ul>
 </dd>
-<dt>📚 References</dt><dd><p>TODO - Writing R Extensions etc.</p>
+<dt>📚 References</dt><dd><ul class="simple">
+<li><p>Manuals:</p>
+<ul>
+<li><p><a class="reference external" href="https://deepr.gagolewski.com/chapter/310-compiled.html"><em>Deep R Programming – Chapter 14: Interfacing compiled code</em></a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/R-exts.html"><em>Writing R Extensions</em></a>, Sec. 5 and Sec. 6</p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/doc/manuals/r-release/R-ints.htm"><em>R Internals</em></a></p></li>
+</ul>
+</li>
+</ul>
 </dd>
 </dl>
 </div>
@@ -508,11 +520,18 @@ mark the GNU extensions to the C language clearly enough):</p>
 <h3>7. 2026-04-14<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
 <div class="toggle docutils container">
 <dl class="simple myst">
-<dt>🤔 Topics</dt><dd><p>TBA</p>
+<dt>🤔 Topics</dt><dd><ul class="simple">
+<li><p>Using the R/C API (cont’d)</p>
+<ul>
+<li><p>vector allocation in R, R’s garbage collector (PROTECT macro)</p></li>
+<li><p>external pointers</p></li>
+</ul>
+</li>
+<li><p>Writing R packages</p></li>
+<li><p>‘Exception’ handling: error codes, signals, long jumps</p></li>
+</ul>
 </dd>
-<dt>📚 References</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Homework</dt><dd><p>TBA</p>
+<dt>📚 References</dt><dd><p>see <em>Week 6</em></p>
 </dd>
 </dl>
 </div>
@@ -747,7 +766,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-03-26T11:34:25+0100.
+              Last updated on 2026-03-31T19:45:36+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

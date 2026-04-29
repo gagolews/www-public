@@ -551,10 +551,16 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <li><p>Makevars</p></li>
 </ul>
 </li>
-<li><p>Tworzenie pakietów Pythona</p></li>
+<li><p>Tworzenie pakietów Pythona</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">pyproject.toml</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pakiet/__init__.py</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pakiet/funkcje.py</span></code></p></li>
+</ul>
+</li>
 </ul>
 </dd>
-<dt>📚 Literatura</dt><dd><p>zob. Tydzień VI</p>
+<dt>📚 Literatura</dt><dd><p>zob. Tydzień VI i IX</p>
 </dd>
 </dl>
 </div>
@@ -566,16 +572,25 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <dt>🤔 Zagadnienia</dt><dd><ul class="simple">
 <li><p>Tworzenie pakietów Pythona (cd.)</p>
 <ul>
-<li><p>TBA</p></li>
+<li><p>Python/C API</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">setup.py</span></code></p></li>
+<li><p>NumPy/C API</p></li>
 </ul>
 </li>
 </ul>
 </dd>
-<dt>📚 Literatura</dt><dd><p>Dokumentacja:
-* <a class="reference external" href="https://docs.python.org/3/extending/extending.html"><em>Extending Python with C or C++</em></a>
-* <a class="reference external" href="https://docs.python.org/3/extending/building.html"><em>Building C and C++ Extensions</em></a>
-* <a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a>
-* <a class="reference external" href="https://numpy.org/doc/stable/reference/c-api/index.html"><em>NumPy/C API</em></a></p>
+<dt>📚 Literatura</dt><dd><ul class="simple">
+<li><p>Dokumentacja</p>
+<ul>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/extending.html"><em>Extending Python with C or C++</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/building.html"><em>Building C and C++ Extensions</em></a></p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html"><em>Python/C API Reference Manual</em></a></p></li>
+<li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/c-api/index.html"><em>NumPy/C API</em></a></p></li>
+<li><p><a class="reference external" href="https://setuptools.pypa.io/en/latest/setuptools.html"><em>setuptools</em></a></p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/en/latest/"><em>Python packaging user guide</em></a></p></li>
+</ul>
+</li>
+</ul>
 </dd>
 </dl>
 </div>
@@ -584,11 +599,17 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <h3>10. 2026-04-30<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
 <div class="toggle docutils container">
 <dl class="simple myst">
-<dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
+<dt>🤔 Zagadnienia</dt><dd><ul class="simple">
+<li><p>Macierze</p>
+<ul>
+<li><p>C/Fortran contiguous</p></li>
+<li><p>GNU GSL i BLAS</p></li>
+<li><p>TBA</p></li>
+</ul>
+</li>
+</ul>
 </dd>
 <dt>📚 Literatura</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
 </dd>
 </dl>
 </div>
@@ -601,8 +622,6 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 </dd>
 <dt>📚 Literatura</dt><dd><p>TBA</p>
 </dd>
-<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
-</dd>
 </dl>
 </div>
 </section>
@@ -614,8 +633,6 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 </dd>
 <dt>📚 Literatura</dt><dd><p>TBA</p>
 </dd>
-<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
-</dd>
 </dl>
 </div>
 </section>
@@ -626,8 +643,6 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <dt>🤔 Zagadnienia</dt><dd><p>TBA</p>
 </dd>
 <dt>📚 Literatura</dt><dd><p>TBA</p>
-</dd>
-<dt>🏠 Praca domowa</dt><dd><p>TBA</p>
 </dd>
 </dl>
 </div>
@@ -657,7 +672,7 @@ czwartki 14:15-18:00, MiNI s. 105 — należy przynieść własnego laptopa</p><
 <section id="regulamin-zaliczenia">
 <h2>Regulamin zaliczenia<a class="headerlink" href="#regulamin-zaliczenia" title="Link to this heading">¶</a></h2>
 <p>Na zaliczenie składają się oceny zdobyte za rozwiązanie dwóch prac pisemnych (33+33 p.) oraz indywidualny projekt programistyczny z prezentacją wyników pod koniec semestru (33 p.).</p>
-<p>W trakcie kolokwiów można mieć przy sobie tylko jedną kartkę A4 z własnymi odręcznymi zapiskami.</p>
+<p>W trakcie kolokwiów można mieć przy sobie tylko jedną kartkę A4 z własnymi odręcznymi zapiskami (ściągawka ze składni i funkcji bibliotecznych, ale nie gotowe rozwiązania zadań).</p>
 <p>Podczas zadania projektowego nie można korzystać z żadnych narzędzi AI (ChatGPT, Copilot, Claude Code itp.).</p>
 <p>Zgodnie z Regulaminem Studiów w Politechnice Warszawskiej (par. 19 ust. 4), jeżeli podczas weryfikacji osiągnięcia efektów uczenia się zostanie stwierdzona niesamodzielność pracy studenta lub korzystanie przez niego z materiałów lub urządzeń innych niż dozwolone w regulaminie przedmiotu, student uzyskuje ocenę niedostateczną i traci prawo do zaliczenia przedmiotu w jego bieżącej realizacji.</p>
 <p>Obecność na zajęciach laboratoryjnych i projektowych jest obowiązkowa. Za każdą nieusprawiedliwioną nieobecność (np. formalnym zaświadczeniem lekarskim) obniża się wynik końcowy o 5 p.</p>
@@ -759,7 +774,7 @@ Springer, 2011</p></li>
               Some rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-04-22T13:08:38+0200.
+              Last updated on 2026-04-29T12:29:40+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

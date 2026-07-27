@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-07-24T08:08:59.209367+00:00</updated>
+  <updated>2026-07-27T13:18:53.530988+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
   <entry>
+    <id>https://www.gagolewski.com/_news/20260722-paper-3dsi-community.html</id>
+    <title>The Price-Pareto growth model of networks with community structure</title>
+    <updated>2026-07-22T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;The Price-Pareto growth model of networks with community structure&lt;/em&gt;
+was &lt;a class="reference external" href="https://doi.org/10.1016/j.joi.2026.101850"&gt;accepted&lt;/a&gt; for publication in &lt;em&gt;Journal of Informetrics&lt;/em&gt;.
+Preprint available on &lt;a class="reference external" href="https://arxiv.org/abs/2510.13392"&gt;arXiv&lt;/a&gt;.
+Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260722-paper-3dsi-community.html"/>
+    <summary>The Price-Pareto growth model of networks with community structure
+was accepted for publication in Journal of Informetrics.
+Preprint available on arXiv.
+Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2026-07-22T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>https://www.gagolewski.com/_news/20260428-submitted-citation-seeder.html</id>
-    <title>Submitted: Generating Synthetic Citation Networks with Communities</title>
+    <title>Submitted: Generating synthetic citation networks with communities</title>
     <updated>2026-04-28T00:00:00+02:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Łukasz Brzozowski, Grzegorz Siudem, and I wrote a preprint entitled &lt;em&gt;Generating Synthetic Citation Networks with Communities&lt;/em&gt;. It is available on &lt;a class="reference external" href="https://arxiv.org/abs/2604.25597"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -20,7 +38,7 @@
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260408-submitted-lumbermark.html</id>
-    <title>Submitted: Lumbermark: Resistant Clustering by Chopping Up Mutual Reachability Minimum Spanning Trees</title>
+    <title>Submitted: Lumbermark: Resistant clustering by chopping up Mutual reachability minimum spanning trees</title>
     <updated>2026-04-08T00:00:00+02:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A preprint of &lt;em&gt;Lumbermark: Resistant Clustering by Chopping Up Mutual Reachability Minimum Spanning Trees&lt;/em&gt;
 is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2604.07143"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
@@ -107,24 +125,6 @@ PyPI.</summary>
     <category term="quitefastmst" label="quitefastmst"/>
     <category term="software" label="software"/>
     <published>2026-02-11T00:00:00+01:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html</id>
-    <title>Submitted: The Price-Pareto growth model of networks with community structure</title>
-    <updated>2025-10-16T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An early version of our most recent paper
-&lt;em&gt;The Price-Pareto growth model of networks with community structure&lt;/em&gt;
-is now available on &lt;a class="reference external" href="https://arxiv.org/abs/2510.13392"&gt;arXiv&lt;/a&gt;.
-Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20251016-submitted-3dsi-community.html"/>
-    <summary>An early version of our most recent paper
-The Price-Pareto growth model of networks with community structure
-is now available on arXiv.
-Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2025-10-16T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20250725-software-genieclust.html</id>

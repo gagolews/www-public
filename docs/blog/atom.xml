@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-09-22T15:39:01.322611+00:00</updated>
+  <updated>2026-09-23T08:37:46.965634+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20260923-paper-citation-seeder.html</id>
+    <title>Generating synthetic citation networks with communities</title>
+    <updated>2026-09-23T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Łukasz Brzozowski, Grzegorz Siudem, and I wrote a paper entitled &lt;em&gt;Generating Synthetic Citation Networks with Communities&lt;/em&gt;
+which has been accepted for publication in &lt;em&gt;Information Sciences&lt;/em&gt;, see &lt;a class="reference external" href="https://doi.org/10.1016/j.ins.2026.124196"&gt;DOI:10.1016/j.ins.2026.124196&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260923-paper-citation-seeder.html"/>
+    <summary>Łukasz Brzozowski, Grzegorz Siudem, and I wrote a paper entitled Generating Synthetic Citation Networks with Communities
+which has been accepted for publication in Information Sciences, see DOI:10.1016/j.ins.2026.124196.</summary>
+    <category term="new-paper" label="new-paper"/>
+    <published>2026-09-23T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260722-paper-3dsi-community.html</id>
     <title>The Price-Pareto growth model of networks with community structure</title>
@@ -23,18 +37,6 @@ Preprint available on arXiv.
 Joint work with Łukasz Brzozowski, Grzegorz Siudem, and Barbara Żogała-Siudem.</summary>
     <category term="new-paper" label="new-paper"/>
     <published>2026-07-22T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>https://www.gagolewski.com/_news/20260428-submitted-citation-seeder.html</id>
-    <title>Submitted: Generating synthetic citation networks with communities</title>
-    <updated>2026-04-28T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Łukasz Brzozowski, Grzegorz Siudem, and I wrote a preprint entitled &lt;em&gt;Generating Synthetic Citation Networks with Communities&lt;/em&gt;. It is available on &lt;a class="reference external" href="https://arxiv.org/abs/2604.25597"&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://www.gagolewski.com/_news/20260428-submitted-citation-seeder.html"/>
-    <summary>Łukasz Brzozowski, Grzegorz Siudem, and I wrote a preprint entitled Generating Synthetic Citation Networks with Communities. It is available on arXiv.</summary>
-    <category term="submitted-paper" label="submitted-paper"/>
-    <published>2026-04-28T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260408-submitted-lumbermark.html</id>

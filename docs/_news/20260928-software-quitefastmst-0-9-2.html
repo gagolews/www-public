@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20260928-software-quitefastmst-0-9-2.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>genieclust 1.3.0 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>quitefastmst 0.9.2 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
@@ -287,52 +287,19 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="genieclust-1-3-0-on-cran-and-pypi">
-<h1><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong> 1.3.0 on CRAN and PyPI<a class="headerlink" href="#genieclust-1-3-0-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
-<p>A new version of <a class="reference external" href="https://genieclust.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">genieclust</span></code></strong></a>
+          <section class="tex2jax_ignore mathjax_ignore" id="quitefastmst-0-9-2-on-cran-and-pypi">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code></strong> 0.9.2 on CRAN and PyPI<a class="headerlink" href="#quitefastmst-0-9-2-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
+<p>A new release of <a class="reference external" href="https://quitefastmst.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code></strong></a>
 is now available on
-<a class="reference external" href="https://cran.r-project.org/package=genieclust">CRAN</a> and
-<a class="reference external" href="https://pypi.org/project/genieclust">PyPI</a>.</p>
+<a class="reference external" href="https://cran.r-project.org/package=quitefastmst">CRAN</a> and
+<a class="reference external" href="https://pypi.org/project/quitefastmst">PyPI</a>.</p>
 <p>Changelog:</p>
 <ul class="simple">
-<li><p>The package was heavily refactored; common MST-related functions and classes
-as well as functions from the <code class="docutils literal notranslate"><span class="pre">tools</span></code> and <code class="docutils literal notranslate"><span class="pre">plots</span></code> modules were moved to
-the new <a class="reference external" href="https://deadwood.gagolewski.com/"><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></a> package, which is
-now required.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY]  Outlier detection based solely on whether
-a node is a leaf of a minimum spanning tree w.r.t. some mutual reachability
-distance turned out to be subpar in more detailed experiments,
-especially for smaller smoothing factors.  Note that in the previous
-versions of the package, this feature was deemed merely experimental;
-Hence, <code class="docutils literal notranslate"><span class="pre">detect_noise</span></code> in <code class="docutils literal notranslate"><span class="pre">genie.default</span></code> and <code class="docutils literal notranslate"><span class="pre">skip_leaves</span></code>, <code class="docutils literal notranslate"><span class="pre">preprocess</span></code>,
-and <code class="docutils literal notranslate"><span class="pre">postprocess</span></code> elsewhere are no longer available.  Instead, use the more
-universal <code class="docutils literal notranslate"><span class="pre">deadwood</span></code> package now.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">quitefastmst</span></code> version &gt;= 0.9.1 is now required;
-the introduced backward-incompatible changes have been addressed.
-In particular, the definition of mutual reachability distances has changed.
-Unlike in Campello et al.’s 2013 paper, now the core distance is the
-distance to the <em>M</em>-th nearest neighbour, not the <em>(M-1)</em>-th one
-(not including self).</p></li>
-<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">internal</span></code> module was renamed <code class="docutils literal notranslate"><span class="pre">core</span></code>.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY]  Deprecated functions such as <code class="docutils literal notranslate"><span class="pre">mst_from_nn</span></code>
-have been removed.</p></li>
-<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">compute_full_tree</span></code> is now always True.</p></li>
-<li><p>[BUGFIX]  #92: Passing a non-square confusion matrix to
-<code class="docutils literal notranslate"><span class="pre">normalized_pivoted_accuracy</span></code> and <code class="docutils literal notranslate"><span class="pre">normalized_clustering_accuracy</span></code>
-yields an error as such objects are yet to be supported.</p></li>
-<li><p>[R]  <code class="docutils literal notranslate"><span class="pre">gclust</span></code> and <code class="docutils literal notranslate"><span class="pre">genie</span></code> now return the computed MST via the <code class="docutils literal notranslate"><span class="pre">mst</span></code>
-object attribute.  <code class="docutils literal notranslate"><span class="pre">genie</span></code> returns an object of the class <code class="docutils literal notranslate"><span class="pre">mstclust</span></code>.
-This makes it operable with <code class="docutils literal notranslate"><span class="pre">deadwood</span></code>.</p></li>
-<li><p>[Python] [BUGFIX]  Modifying <code class="docutils literal notranslate"><span class="pre">quitefastmst_params</span></code> via <code class="docutils literal notranslate"><span class="pre">set_state</span></code>
-now invalidates the cached MST.</p></li>
-<li><p>[Python] [NEW FEATURE]  <code class="docutils literal notranslate"><span class="pre">plots.plot_scatter</span></code> has new arguments:
-<code class="docutils literal notranslate"><span class="pre">asp</span></code>, <code class="docutils literal notranslate"><span class="pre">markers</span></code>, and <code class="docutils literal notranslate"><span class="pre">colours</span></code>.  The module globals <code class="docutils literal notranslate"><span class="pre">mrk</span></code> and <code class="docutils literal notranslate"><span class="pre">col</span></code> were
-renamed accordingly.  However, as mentioned above, <code class="docutils literal notranslate"><span class="pre">plots</span></code> was
-moved to <code class="docutils literal notranslate"><span class="pre">deadwood</span></code>.</p></li>
-<li><p>[Python] [BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">compute_all_cuts</span></code> in <code class="docutils literal notranslate"><span class="pre">Genie</span></code> was
-renamed <code class="docutils literal notranslate"><span class="pre">coarser</span></code>.  If <code class="docutils literal notranslate"><span class="pre">True</span></code>, <code class="docutils literal notranslate"><span class="pre">labels_</span></code> is still a vector representing
-the requested <code class="docutils literal notranslate"><span class="pre">n_clusters</span></code>.  The coarser-grained labels are now stored
-in <code class="docutils literal notranslate"><span class="pre">labels_matrix_</span></code> whose <code class="docutils literal notranslate"><span class="pre">i</span></code>-th row represents an <code class="docutils literal notranslate"><span class="pre">(i+1)</span></code>-partition.</p></li>
+<li><p>[PERFORMANCE]  <code class="docutils literal notranslate"><span class="pre">mst_euclid</span></code> asks for the OpenMP lock less frequently.</p></li>
+<li><p>[BACKWARD INCOMPATIBILITY]  <code class="docutils literal notranslate"><span class="pre">mutreach_ties</span></code> is now available only for
+the brute-force algorithm.</p></li>
+<li><p>[BUGFIX]  genieclust/#94: Assertion <code class="docutils literal notranslate"><span class="pre">_leafnum</span> <span class="pre">==</span> <span class="pre">this-&gt;nleaves</span></code> failed in
+<code class="docutils literal notranslate"><span class="pre">c_kdtree_boruvka.h:399</span></code> (thanks to &#64;drobertsicl for the report).</p></li>
 </ul>
 </section>
 

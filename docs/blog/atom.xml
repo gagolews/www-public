@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-09-25T13:36:23.806507+00:00</updated>
+  <updated>2026-09-28T15:43:07.946945+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>https://www.gagolewski.com/_news/20260928-software-quitefastmst-0-9-2.html</id>
+    <title>quitefastmst 0.9.2 on CRAN and PyPI</title>
+    <updated>2026-09-28T00:00:00+02:00</updated>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;quitefastmst&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+is now available on
+&lt;a class="reference external" href="https://cran.r-project.org/package=quitefastmst"&gt;CRAN&lt;/a&gt; and
+&lt;a class="reference external" href="https://pypi.org/project/quitefastmst"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://www.gagolewski.com/_news/20260928-software-quitefastmst-0-9-2.html"/>
+    <summary>A new release of quitefastmst
+is now available on
+CRAN and
+PyPI.</summary>
+    <category term="quitefastmst" label="quitefastmst"/>
+    <category term="software" label="software"/>
+    <published>2026-09-28T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>https://www.gagolewski.com/_news/20260923-paper-citation-seeder.html</id>
     <title>Generating synthetic citation networks with communities</title>

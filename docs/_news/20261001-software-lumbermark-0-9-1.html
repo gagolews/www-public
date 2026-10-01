@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20260929-software-deadwood-0-9-1.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20261001-software-lumbermark-0-9-1.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>deadwood 0.9.1 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>lumbermark 0.9.1 on CRAN and PyPI - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
@@ -287,20 +287,19 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="deadwood-0-9-1-on-cran-and-pypi">
-<h1><strong><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></strong> 0.9.1 on CRAN and PyPI<a class="headerlink" href="#deadwood-0-9-1-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
-<p>A new release of <a class="reference external" href="https://deadwood.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">deadwood</span></code></strong></a>
+          <section class="tex2jax_ignore mathjax_ignore" id="lumbermark-0-9-1-on-cran-and-pypi">
+<h1><strong><code class="docutils literal notranslate"><span class="pre">lumbermark</span></code></strong> 0.9.1 on CRAN and PyPI<a class="headerlink" href="#lumbermark-0-9-1-on-cran-and-pypi" title="Link to this heading">¶</a></h1>
+<p>A new release of <a class="reference external" href="https://lumbermark.gagolewski.com/"><strong><code class="docutils literal notranslate"><span class="pre">lumbermark</span></code></strong></a>
 is now available on
-<a class="reference external" href="https://cran.r-project.org/package=deadwood">CRAN</a> and
-<a class="reference external" href="https://pypi.org/project/deadwood">PyPI</a>.</p>
+<a class="reference external" href="https://cran.r-project.org/package=lumbermark">CRAN</a> and
+<a class="reference external" href="https://pypi.org/project/lumbermark">PyPI</a>.</p>
 <p>Changelog:</p>
 <ul class="simple">
-<li><p>[NEW FEATURE]  If the dataset is comprised of well-separated clusters
-of heterogeneous densities, an attempt to split the dataset and refine
-the outlierness markers will be made.</p></li>
-<li><p>[BACKWARD INCOMPATIBILITY] <code class="docutils literal notranslate"><span class="pre">kneedle_increasing</span></code> now returns
-the index of the last element of a vector if a knee/elbow point could
-not be identified.</p></li>
+<li><p>[Python, R] [BACKWARD INCOMPATIBILITY]  Lumbermark is now equipped with
+the <code class="docutils literal notranslate"><span class="pre">nested</span></code> parameter, which defaults to <code class="docutils literal notranslate"><span class="pre">True</span></code>, resulting in the same
+partition hierarchy regardless of <code class="docutils literal notranslate"><span class="pre">n_clusters</span></code> selected.  For the previous
+behaviour (a quasi-hierarchical algorithm which might be slightly faster),
+select <code class="docutils literal notranslate"><span class="pre">nested=False</span></code>.</p></li>
 </ul>
 </section>
 
@@ -321,7 +320,7 @@ not be identified.</p></li>
               All rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-09-29T15:52:13+0200.
+              Last updated on 2026-10-01T12:32:23+0200.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

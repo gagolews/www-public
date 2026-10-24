@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-10-22T08:24:58.963305+00:00</updated>
+  <updated>2026-10-24T12:36:09.635832+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>

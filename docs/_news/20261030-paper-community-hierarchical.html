@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html">
-        <link rel="canonical" href="https://www.gagolewski.com/_news/20230323-submitted-genie-graphs.html">
+        <link rel="canonical" href="https://www.gagolewski.com/_news/20261030-paper-community-hierarchical.html">
 
-    <link rel="shortcut icon" href="../_static/favicon.png">        <title>Submitted: Community Detection in Complex Networks - Marek Gagolewski — Home Page</title>
+    <link rel="shortcut icon" href="../_static/favicon.png">        <title>Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering - Marek Gagolewski — Home Page</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
@@ -287,14 +287,14 @@
           </label>
         </div>
         <article role="main">
-          <section class="tex2jax_ignore mathjax_ignore" id="submitted-community-detection-in-complex-networks">
-<h1>Submitted: Community Detection in Complex Networks<a class="headerlink" href="#submitted-community-detection-in-complex-networks" title="Link to this heading">¶</a></h1>
-<p>An early version of my most recent paper
-<em>Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering</em>
-is now available on <a class="reference external" href="https://arxiv.org/abs/2303.12212">arXiv</a>.</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="community-detection-in-complex-networks-via-node-similarity-graph-representation-learning-and-hierarchical-clustering">
+<h1>Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering<a class="headerlink" href="#community-detection-in-complex-networks-via-node-similarity-graph-representation-learning-and-hierarchical-clustering" title="Link to this heading">¶</a></h1>
+<p>Łukasz Brzozowski, Grzegorz Siudem, and I
+have a new paper accepted for publication in <em>Information Systems</em> entitled
+<em>Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering</em>, <a class="reference external" href="https://doi.org/10.1016/j.is.2026.102824">DOI:10.1016/j.is.2026.102824</a>.</p>
 <blockquote>
 <div><p><strong>Abstract.</strong>
-Community detection is a critical challenge in the analysis of real-world graphs and complex networks, including social, transportation, citation, cybersecurity networks, and food webs. Motivated by many similarities between community detection and clustering in Euclidean spaces, we propose three algorithm frameworks to apply hierarchical clustering methods for community detection in graphs. We show that using our methods, it is possible to apply various linkage-based (single-, complete-, average- linkage, Ward, Genie) clustering algorithms to find communities based on vertex similarity matrices, eigenvector matrices thereof, and Euclidean vector representations of nodes. We convey a comprehensive analysis of choices for each framework, including state-of-the-art graph representation learning algorithms, such as Deep Neural Graph Representation, and a vertex proximity matrix known to yield high-quality results in machine learning – Positive Pointwise Mutual Information. Overall, we test over a hundred combinations of framework components and show that some – including Wasserman–Faust and PPMI proximity, DNGR representation – can compete with algorithms such as state-of-the-art Leiden and Louvain and easily outperform other known community detection algorithms. Notably, our algorithms remain hierarchical and allow the user to specify any number of clusters a priori.</p>
+Community detection is a significant challenge in analysing real graphs, including social, citation, biological, and many other networks. This article proposes three new, general, hierarchical frameworks to deal with this task. The introduced approach supports various linkage-based clustering algorithms, vertex proximity matrices, and graph representation learning models. We compare 364 module combinations on Stochastic Block Model graphs and real-life datasets. We observe that our best pipelines (Wasserman-Faust and the mutual information-based PPMI proximity, as well as the deep learning-based DNGR representations) perform competitively with the state-of-the-art Leiden and Louvain algorithms. At the same time, unlike the latter, they remain hierarchical. Thus, they output a series of nested partitions of all possible cardinalities which are compatible with each other. This feature is crucial when the number of correct partitions is unknown in advance, and we show that it is obtained at near-zero practical cost in terms of partition quality. On graphs composed of many small communities, our pipelines are more accurate than the reference solutions. Nevertheless, the downside of our approach is its time complexity, which confines the framework to networks of some 10000 vertices on personal machines.</p>
 </div></blockquote>
 </section>
 
@@ -315,7 +315,7 @@ Community detection is a critical challenge in the analysis of real-world graphs
               All rights reserved. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
               Built with <a href="https://sphinx-doc.org/">Sphinx</a>
               and a customised <a href="https://github.com/pradyunsg/furo">Furo</a> theme.
-              Last updated on 2026-10-27T19:45:16+0100.
+              Last updated on 2026-10-30T11:11:20+0100.
               This site will never display any ads: it is a non-profit project.
               It does not collect any data.
             </div>

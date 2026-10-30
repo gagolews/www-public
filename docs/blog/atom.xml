@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.gagolewski.com</id>
   <title>Blog</title>
-  <updated>2026-10-30T10:11:22.354916+00:00</updated>
+  <updated>2026-10-30T10:18:17.274586+00:00</updated>
   <link href="https://www.gagolewski.com"/>
   <link href="https://www.gagolewski.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
@@ -26,7 +26,7 @@ Community detection in complex networks via node similarity, graph representatio
     <id>https://www.gagolewski.com/_news/20261001-software-lumbermark-0-9-1.html</id>
     <title>lumbermark 0.9.1 on CRAN and PyPI</title>
     <updated>2026-10-01T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://lumbermark.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;lumbermark&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://lumbermark.gagolewski.com/"&gt;&lt;strong&gt;lumbermark&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=lumbermark"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/lumbermark"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -45,7 +45,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20261001-software-deadwood-0-9-2.html</id>
     <title>deadwood 0.9.2 on CRAN and PyPI</title>
     <updated>2026-10-01T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;deadwood&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;deadwood&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=deadwood"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/deadwood"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -64,7 +64,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20260928-software-quitefastmst-0-9-2.html</id>
     <title>quitefastmst 0.9.2 on CRAN and PyPI</title>
     <updated>2026-09-28T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;quitefastmst&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;quitefastmst&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=quitefastmst"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/quitefastmst"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -129,7 +129,7 @@ is now available on arXiv.</summary>
     <id>https://www.gagolewski.com/_news/20260309-software-lumbermark-0-9-0.html</id>
     <title>lumbermark: Resistant clustering via chopping up mutual reachability minimum spanning trees</title>
     <updated>2026-03-09T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://lumbermark.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;lumbermark&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://lumbermark.gagolewski.com/"&gt;&lt;strong&gt;lumbermark&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=lumbermark"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/lumbermark"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -148,7 +148,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20260223-software-genieclust-1-3-0.html</id>
     <title>genieclust 1.3.0 on CRAN and PyPI</title>
     <updated>2026-02-23T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new version of &lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new version of &lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;&lt;strong&gt;genieclust&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=genieclust"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/genieclust"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -167,7 +167,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20260213-software-deadwood-0-9-0.html</id>
     <title>deadwood: Outlier detection via pruning mutual reachability minimum spanning trees</title>
     <updated>2026-02-13T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;deadwood&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new package &lt;a class="reference external" href="https://deadwood.gagolewski.com/"&gt;&lt;strong&gt;deadwood&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=deadwood"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/deadwood"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -186,7 +186,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20260211-software-quitefastmst-0-9-1.html</id>
     <title>quitefastmst 0.9.1 on CRAN and PyPI</title>
     <updated>2026-02-11T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;quitefastmst&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;quitefastmst&lt;/strong&gt;&lt;/a&gt;
 is now available on
 &lt;a class="reference external" href="https://cran.r-project.org/package=quitefastmst"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/quitefastmst"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
@@ -205,7 +205,7 @@ PyPI.</summary>
     <id>https://www.gagolewski.com/_news/20250725-software-genieclust.html</id>
     <title>genieclust 1.2.0 on CRAN and PyPI</title>
     <updated>2025-07-25T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;: &lt;em&gt;Fast and robust
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com/"&gt;&lt;strong&gt;genieclust&lt;/strong&gt;&lt;/a&gt;: &lt;em&gt;Fast and robust
 hierarchical clustering with noise point detection&lt;/em&gt; was published on
 &lt;a class="reference external" href="https://cran.r-project.org/package=genieclust"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/genieclust"&gt;PyPI&lt;/a&gt;.
@@ -226,7 +226,7 @@ See the package homepage for more details.</summary>
     <id>https://www.gagolewski.com/_news/20250724-software-quitefastmst.html</id>
     <title>quitefastmst 0.9.0 on CRAN and PyPI</title>
     <updated>2025-07-24T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;quitefastmst&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;: &lt;em&gt;Euclidean and Mutual
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://quitefastmst.gagolewski.com/"&gt;&lt;strong&gt;quitefastmst&lt;/strong&gt;&lt;/a&gt;: &lt;em&gt;Euclidean and Mutual
 Reachability Minimum Spanning Trees&lt;/em&gt; was published on
 &lt;a class="reference external" href="https://cran.r-project.org/package=quitefastmst"&gt;CRAN&lt;/a&gt; and
 &lt;a class="reference external" href="https://pypi.org/project/quitefastmst"&gt;PyPI&lt;/a&gt;.
@@ -327,7 +327,7 @@ by Lucio Bertoli-Barsotti, Grzegorz Siudem, Barbara Żogała-Siudem, and yours t
     <id>https://www.gagolewski.com/_news/20231109-software-stringi-1-8-1.html</id>
     <title>stringi 1.8.1 on CRAN</title>
     <updated>2023-11-09T00:00:00+01:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new major release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new major release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;stringi&lt;/strong&gt;&lt;/a&gt;
 was submitted to &lt;a class="reference external" href="https://cran.r-project.org/package=stringi"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
@@ -470,7 +470,7 @@ the Journal of Informetrics
     <id>https://www.gagolewski.com/_news/20220905-software-genieclust-1-1-0.html</id>
     <title>genieclust 1.1.0 on PyPI and CRAN</title>
     <updated>2022-09-05T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of the &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;genieclust&lt;/strong&gt;&lt;/a&gt;
 package is available on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
 and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -525,7 +525,7 @@ will appear in Physica A: Statistical Mechanics and its Applications
     <id>https://www.gagolewski.com/_news/20220808-software-genieclust-1-0-1.html</id>
     <title>genieclust 1.0.1 on PyPI and CRAN</title>
     <updated>2022-08-08T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;genieclust&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A new release of &lt;a class="reference external" href="https://genieclust.gagolewski.com"&gt;&lt;strong&gt;genieclust&lt;/strong&gt;&lt;/a&gt;
 has been published on &lt;a class="reference external" href="https://pypi.org/project/genieclust/"&gt;PyPI&lt;/a&gt;
 and &lt;a class="reference external" href="https://cran.r-project.org/web/packages/genieclust/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -566,7 +566,7 @@ are urgently needed. Free == independent == higher quality.</summary>
     <id>https://www.gagolewski.com/_news/20220711-software-stringi-1-7-8.html</id>
     <title>stringi 1.7.8 on CRAN</title>
     <updated>2022-07-11T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A maintenance release of &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;stringi&lt;/strong&gt;&lt;/a&gt;
 is now available on &lt;a class="reference external" href="https://cran.r-project.org/web/packages/stringi/"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
@@ -728,7 +728,7 @@ coauthored by Maciek Bartoszuk and Ania Cena
     <id>https://www.gagolewski.com/_news/20210927-paper-stringi.html</id>
     <title>Paper on stringi</title>
     <updated>2021-09-27T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A paper on my &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;stringi&lt;/strong&gt;&lt;/a&gt;
 package has been accepted for publication in
 &lt;em&gt;Journal of Statistical Software&lt;/em&gt;
 (&lt;a class="reference external" href="https://dx.doi.org/10.18637/jss.v103.i02"&gt;doi:10.18637/jss.v103.i02&lt;/a&gt;.&lt;/p&gt;
@@ -767,13 +767,13 @@ is the main one for merely 36% of the total. The early computer era, now a
 very long time ago, was dominated by the US. Due to the proliferation of
 the internet, smartphones, social media, and other technologies and
 communication platforms, this is no longer the case.
-The &lt;a class="reference external" href="https://stringx.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringx&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+The &lt;a class="reference external" href="https://stringx.gagolewski.com"&gt;&lt;strong&gt;stringx&lt;/strong&gt;&lt;/a&gt;
 package replaces base R string functions (such as &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;grep()&lt;/span&gt;&lt;/code&gt;, &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;tolower()&lt;/span&gt;&lt;/code&gt;,
 and &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;sprintf()&lt;/span&gt;&lt;/code&gt;) with ones that fully support the Unicode standards related
 to natural language processing, fixes some long-standing inconsistencies,
 and introduces some new, useful features. Thanks to
 &lt;a class="reference external" href="http://site.icu-project.org"&gt;ICU&lt;/a&gt; (International Components for Unicode)
-and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;,
+and &lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;stringi&lt;/strong&gt;&lt;/a&gt;,
 they are fast, reliable, and portable across different platforms.
 Now available from &lt;a class="reference external" href="https://CRAN.R-project.org/package=stringx"&gt;CRAN&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -804,7 +804,7 @@ Now available from CRAN.</summary>
     <title>stringi 1.7.2</title>
     <updated>2021-07-14T00:00:00+02:00</updated>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Another major update of
-&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stringi&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+&lt;a class="reference external" href="https://stringi.gagolewski.com"&gt;&lt;strong&gt;stringi&lt;/strong&gt;&lt;/a&gt;
 brings a rewritten version of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;stri_sprintf&lt;/span&gt;&lt;/code&gt;,
 support for custom rule-based transliteration,
 extraction of named regex capture groups,
@@ -826,7 +826,7 @@ and many other enhancements.</summary>
     <id>https://www.gagolewski.com/_news/20210617-software-realtest-0-2-1.html</id>
     <title>realtest 0.2.1 on CRAN</title>
     <updated>2021-06-17T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;realtest&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;An update to &lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;realtest&lt;/strong&gt;&lt;/a&gt;
 is now available.&lt;/p&gt;
 &lt;/p&gt;
 </content>
@@ -841,7 +841,7 @@ is now available.</summary>
     <id>https://www.gagolewski.com/_news/20210604-software-realtest.html</id>
     <title>realtest: When Expectations Meet Reality: Realistic Unit Testing in R</title>
     <updated>2021-06-04T00:00:00+02:00</updated>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;realtest&lt;/span&gt;&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;a class="reference external" href="https://realtest.gagolewski.com"&gt;&lt;strong&gt;realtest&lt;/strong&gt;&lt;/a&gt;
 is a framework for unit testing for realistic minimalists, where we distinguish
 between expected, acceptable, current, fallback, ideal, or regressive behaviour.
 It can also be used for monitoring other software projects for changes.
